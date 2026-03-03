@@ -2,8 +2,8 @@
 
 import os
 import json
-from src.fetch_news import fetch_by_category, fetch_everything
-from src.embed_rank import get_embedding
+from fetch_news import fetch_by_category, fetch_everything
+from embed_rank import get_embedding
 
 CATEGORY_LIST = [
     "business", "entertainment", "general",
