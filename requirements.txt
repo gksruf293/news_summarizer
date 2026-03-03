@@ -1,0 +1,6 @@
+requests
+numpy
+newspaper3k
+lxml[html_clean]
+transformers
+torch
