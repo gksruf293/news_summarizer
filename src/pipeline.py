@@ -3,7 +3,7 @@ import json
 import time
 import requests
 import openai
-from src.fetch_news import fetch_by_category, fetch_everything, get_full_text
+from fetch_news import fetch_by_category, fetch_everything, get_full_text
 
 # API 키 설정 (GitHub Secrets에서 자동 주입)
 openai.api_key = os.getenv("OPENAI_API_KEY")
