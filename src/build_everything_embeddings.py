@@ -2,27 +2,32 @@
 
 import os
 import json
-import requests
 from typing import List, Dict
-from fetch_news import fetch_everything
-from embed_rank import get_embedding
+from newspaper import Article
+from src.fetch_news import fetch_everything
+from src.embed_rank import get_embedding
 
 OUTPUT_PATH = "docs/data/everything_embeddings.json"
 TARGET_ARTICLE_COUNT = 500
 
+def extract_full_text(url: str) -> str:
+    try:
+        article = Article(url)
+        article.download()
+        article.parse()
+        return article.text[:5000]  # 너무 길면 잘라
+    except Exception as e:
+        print(f"Failed to extract full text: {e}")
+        return ""
+
 
 def collect_articles(target_count: int = 500) -> List[Dict]:
-    """
-    Collect articles using NewsAPI everything endpoint.
-    """
     print("Collecting articles from NewsAPI (everything)...")
 
     articles = []
     page = 1
 
     while len(articles) < target_count:
-        print(f"Fetching page {page}...")
-
         batch = fetch_everything(
             query="technology OR AI OR business OR science OR sports",
             language="en",
@@ -36,35 +41,35 @@ def collect_articles(target_count: int = 500) -> List[Dict]:
         articles.extend(batch)
         page += 1
 
-    print(f"Collected {len(articles)} articles.")
     return articles[:target_count]
 
 
 def build_embeddings(articles: List[Dict]) -> List[Dict]:
-    """
-    Generate embeddings for all articles.
-    """
     embedded_data = []
 
     for idx, article in enumerate(articles):
         try:
-            print(f"[{idx+1}/{len(articles)}] Embedding: {article['title'][:60]}")
+            print(f"[{idx+1}/{len(articles)}] Processing: {article['title'][:60]}")
 
-            text = article.get("text") or article.get("description") or article["title"]
+            full_text = extract_full_text(article["url"])
 
-            embedding = get_embedding(text)
+            base_text = full_text if full_text else (
+                article.get("description") or article["title"]
+            )
+
+            embedding = get_embedding(base_text)
 
             embedded_data.append({
                 "title": article["title"],
                 "url": article["url"],
-                "source": article.get("source", ""),
                 "summary": article.get("description", ""),
-                "category": article.get("category", "unknown"),
+                "image": article.get("urlToImage", ""),
+                "full_text": full_text,
                 "embedding": embedding
             })
 
         except Exception as e:
-            print(f"Error embedding article: {e}")
+            print(f"Error: {e}")
             continue
 
     return embedded_data
@@ -75,8 +80,6 @@ def save_embeddings(data: List[Dict]):
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f)
-
-    print(f"Saved embeddings to {OUTPUT_PATH}")
 
 
 def main():
