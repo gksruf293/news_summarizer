@@ -1,77 +1,106 @@
-import requests
 import os
-import time
+import requests
 from typing import List, Dict
-from newspaper import Article
 
 NEWS_API_URL = "https://newsapi.org/v2"
 
-def fetch_everything(query: str, language: str = "en", page_size: int = 50, page: int = 1) -> List[Dict]:
-    """
-    Developer 플랜 제약을 고려한 뉴스 페칭 함수
-    """
+# NewsAPI에서 공식 지원하는 category만 허용
+ALLOWED_CATEGORIES = {
+    "business",
+    "entertainment",
+    "general",
+    "health",
+    "science",
+    "sports",
+    "technology"
+}
+
+def _get_api_key() -> str:
     api_key = os.getenv("NEWS_API_KEY")
-    
-    # 1️⃣ 헤더 설정: 브라우저 차단(CORS)을 피하기 위해 User-Agent를 반드시 설정
+    if not api_key:
+        raise ValueError("NEWS_API_KEY not found in environment variables.")
+    return api_key
+
+def fetch_by_category(
+    category: str,
+    country: str = "us",
+    page_size: int = 30
+) -> List[Dict]:
+    """
+    Fetch articles only from allowed NewsAPI categories.
+    """
+
+    if category not in ALLOWED_CATEGORIES:
+        raise ValueError(
+            f"Invalid category: {category}. Must be one of {ALLOWED_CATEGORIES}"
+        )
+
+    url = f"{NEWS_API_URL}/top-headlines"
+
+    # 1️⃣ CORS 에러 방지를 위한 핵심 설정: User-Agent 헤더 추가
+    # 2️⃣ 보안을 위해 API Key를 URL 파라미터가 아닌 헤더로 전달
     headers = {
-        "User-Agent": "MyNewsApp/1.0 (Python-requests)", # 브라우저가 아님을 명시
-        "X-Api-Key": api_key
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "X-Api-Key": _get_api_key()
     }
-    
-    url = f"{NEWS_API_URL}/everything"
-    
-    # Developer 플랜은 24시간 지연된 데이터만 접근 가능하므로 
-    # 너무 최신 데이터를 요청하면 결과가 적을 수 있음
+
     params = {
-        "q": query,
-        "language": language,
-        "pageSize": page_size,
-        "page": page,
-        "sortBy": "publishedAt"
+        "country": country,
+        "category": category,
+        "pageSize": page_size
     }
 
     try:
-        # API 호출
+        # params에서 apiKey를 제거하고 headers로 전달합니다.
         response = requests.get(url, params=params, headers=headers)
         
-        # 에러 핸들링
-        if response.status_code == 403:
-            print("CORS/Permission Error: API가 요청을 거부했습니다. 헤더 설정을 확인하세요.")
-            return []
-        elif response.status_code == 429:
-            print("Rate Limit: 하루 100회 요청 제한에 도달했습니다.")
-            return []
+        # 에러 메시지가 JSON 형태일 경우 상세히 출력하여 디버깅을 돕습니다.
+        if response.status_code != 200:
+            print(f"Error Response: {response.text}")
             
         response.raise_for_status()
-        articles_meta = response.json().get("articles", [])
-        
-    except Exception as e:
-        print(f"NewsAPI 요청 중 오류 발생: {e}")
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed: {e}")
         return []
 
-    # 2️⃣ 본문 추출 (newspaper3k)
-    articles = []
-    for meta in articles_meta:
-        url = meta.get("url")
-        title = meta.get("title")
-        
-        if not url or "[Removed]" in title:
+    articles = response.json().get("articles", [])
+    return _clean_articles(articles)
+
+
+def _clean_articles(raw_articles: List[Dict]) -> List[Dict]:
+    """
+    - Remove articles without title or url
+    - Deduplicate by URL
+    - Create unified 'text' field for retrieval
+    """
+
+    seen_urls = set()
+    cleaned = []
+
+    for article in raw_articles:
+        title = article.get("title")
+        description = article.get("description")
+        url = article.get("url")
+
+        # [Removed]로 표시된 무효한 기사 제외
+        if not title or not url or "[Removed]" in title:
             continue
 
-        try:
-            article = Article(url)
-            # 타임아웃을 짧게 주어 파이프라인이 멈추는 것을 방지
-            article.download(config={'request_timeout': 5})
-            article.parse()
-            full_text = article.text[:5000]
-        except:
-            full_text = ""
+        if url in seen_urls:
+            continue
 
-        articles.append({
+        seen_urls.add(url)
+
+        # 요약 및 임베딩을 위해 제목과 본문 설명을 합친 텍스트 필드 생성
+        combined_text = f"{title}. {description or ''}"
+
+        cleaned.append({
             "title": title,
+            "description": description,
             "url": url,
-            "description": meta.get("description", ""),
-            "text": full_text
+            "source": article.get("source", {}).get("name"),
+            "publishedAt": article.get("publishedAt"),
+            "text": combined_text
         })
-    
-    return articles
+
+    return cleaned
