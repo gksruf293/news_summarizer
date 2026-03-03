@@ -1,45 +1,54 @@
-# src/pipeline.py
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News: Multi-Level Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>AI News Summarizer</h1>
+            <p>초·중·고 수준별 맞춤형 뉴스 요약 서비스</p>
+            <div class="search-container">
+                <input type="text" id="interestInput" placeholder="관심 있는 주제를 입력하세요 (예: 우주 개발, AI의 미래)">
+                <button onclick="handleSearch()" id="searchBtn">AI 시맨틱 검색</button>
+            </div>
+        </div>
+    </header>
 
-import os
-import json
-from src.fetch_news import fetch_by_category, fetch_everything
-from src.embed_rank import get_embedding
+    <nav class="tabs">
+        <button class="tab-btn active" onclick="loadCategory('general', this)">전체</button>
+        <button class="tab-btn" onclick="loadCategory('technology', this)">테크</button>
+        <button class="tab-btn" onclick="loadCategory('science', this)">과학</button>
+        <button class="tab-btn" onclick="loadCategory('business', this)">비즈니스</button>
+    </nav>
 
-CATEGORY_LIST = [
-    "business", "entertainment", "general",
-    "health", "science", "sports", "technology"
-]
+    <main id="results-container" class="news-grid">
+        </main>
 
-def save_json(path, data):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title">뉴스 제목</h2>
+                <div class="level-selector">
+                    <button id="btn-elementary" class="level-btn" onclick="updateSummaryLevel('elementary')">초등 수준</button>
+                    <button id="btn-middle" class="level-btn" onclick="updateSummaryLevel('middle')">중등 수준</button>
+                    <button id="btn-high" class="level-btn" onclick="updateSummaryLevel('high')">고등 수준</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="summary-text" class="summary-box">
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <a id="modal-link" target="_blank" class="origin-link">원문 기사 보러가기</a>
+            </div>
+        </div>
+    </div>
 
-def run_pipeline():
-    # 1️⃣ Category 뉴스 (top 10, 임베딩 없음)
-    category_data = {}
-    for cat in CATEGORY_LIST:
-        print(f"Fetching category: {cat}")
-        articles = fetch_by_category(category=cat, page_size=10)
-        category_data[cat] = [{"title": a["title"], "description": a["description"], "url": a["url"]} for a in articles]
-
-    save_json("docs/data/category.json", category_data)
-    print("Saved category news!")
-
-    # 2️⃣ Interest 뉴스 (everything 50개 + embedding)
-    query = "Artificial Intelligence and technology innovation"  # 기본 interest
-    print(f"Fetching everything for interest: {query}")
-    articles = fetch_everything(query=query, page_size=50)
-
-    embedding_data = []
-    for art in articles:
-        emb = get_embedding(art["text"])
-        embedding_data.append({
-            "title": art["title"],
-            "description": art["description"],
-            "url": art["url"],
-            "embedding": emb
-        })
-
-    save_json("docs/data/embedding.json", embedding_data)
-    print("Saved interest embeddings!")
+    <script type="module" src="app.js"></script>
+</body>
+</html>
