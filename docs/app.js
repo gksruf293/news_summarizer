@@ -96,3 +96,33 @@ window.loadCategory = (cat, btn) => {
 };
 
 init();
+
+// 날짜 선택 이벤트 리스너 추가
+document.getElementById('datePicker').addEventListener('change', (e) => {
+    loadDataByDate(e.target.value);
+});
+
+async function loadDataByDate(date) {
+    const container = document.getElementById("results-container");
+    container.innerHTML = `<p>${date} 데이터를 불러오는 중...</p>`;
+
+    try {
+        // 날짜별 폴더(docs/data/YYYY-MM-DD/...)에서 파일 가져오기
+        const [catRes, embRes] = await Promise.all([
+            fetch(`data/${date}/category.json`),
+            fetch(`data/${date}/embedding.json`)
+        ]);
+
+        if (!catRes.ok || !embRes.ok) throw new Error("해당 날짜의 데이터가 없습니다.");
+
+        categoryData = await catRes.json();
+        embeddingData = await embRes.json();
+
+        // 현재 선택된 카테고리 탭에 맞춰 다시 렌더링
+        const activeTab = document.querySelector('.tab-btn.active').innerText.toLowerCase();
+        renderCards(categoryData[activeTab] || []);
+        
+    } catch (err) {
+        container.innerHTML = `<p class="error-msg">${date}에 생성된 뉴스 데이터가 아직 없습니다.</p>`;
+    }
+}
