@@ -111,5 +111,39 @@ def run_pipeline():
 
     print(f"\n✅ Pipeline Completed! Data saved in docs/data/{today_str}")
 
+def generate_multi_summaries(text):
+    """영문 요약과 한글 번역을 동시에 생성"""
+    prompts = {
+        "elementary": "Summarize in 2 simple sentences for a child. (A1 level)",
+        "middle": "Summarize in 3 clear sentences with key vocabulary. (B1 level)",
+        "high": "Summarize in a logical and professional manner. (C1 level)"
+    }
+    summaries = {}
+    
+    if not text or len(text.strip()) < 100:
+        return {k: {"en": "Content too short.", "ko": "내용이 너무 짧습니다."} for k in prompts}
+
+    for level, prompt in prompts.items():
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are an English teacher. Summarize the news in English and provide its Korean translation. Format: English text ||| Korean translation"},
+                    {"role": "user", "content": f"{prompt}\n\nContent: {text[:3500]}"}
+                ],
+                temperature=0.3
+            )
+            res_text = response.choices[0].message.content.strip()
+            # '|||' 구분자로 영문과 한글 분리
+            if "|||" in res_text:
+                en, ko = res_text.split("|||")
+                summaries[level] = {"en": en.strip(), "ko": ko.strip()}
+            else:
+                summaries[level] = {"en": res_text, "ko": "(번역 준비 중)"}
+        except Exception as e:
+            summaries[level] = {"en": "Error occurred.", "ko": "오류 발생"}
+            
+    return summaries
+
 if __name__ == "__main__":
     run_pipeline()
