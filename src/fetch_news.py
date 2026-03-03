@@ -121,3 +121,25 @@ def get_full_text(url: str) -> str:
     except Exception as e:
         print(f"본문 추출 실패 ({url}): {e}")
         return ""
+
+from newspaper import Article, Config
+
+def get_full_text(url: str) -> str:
+    """
+    newspaper3k를 사용하여 뉴스 URL로부터 전체 본문을 추출
+    """
+    try:
+        # 설정을 별도 객체로 생성
+        config = Config()
+        config.browser_user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        config.request_timeout = 10
+
+        # Article 생성 시 config 전달
+        article = Article(url, config=config)
+        article.download() # 여기에 config를 넣으면 에러가 발생합니다.
+        article.parse()
+        
+        return article.text.strip()
+    except Exception as e:
+        print(f"본문 추출 실패 ({url}): {e}")
+        return ""
