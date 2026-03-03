@@ -1,5 +1,5 @@
 import os
-import requets
+import requests
 from typing import List, Dict
 
 NEWS_API_URL = "https://newsapi.org/v2"
