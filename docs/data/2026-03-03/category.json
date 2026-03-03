@@ -7,9 +7,18 @@
       "source": "Bloomberg",
       "publishedAt": "2026-03-02T11:27:48Z",
       "summaries": {
-        "elementary": "주식이 떨어지고 달러가 강해졌어요. 중동에서 전쟁이 심해지면서 기름값이 많이 올랐고, 물가가 더 오를까 걱정이에요.",
-        "middle": "주식이 하락하고 달러화가 강세를 보였다는 것은 투자자들이 불안해하고 있다는 뜻이에요. 중동에서 군사 작전이 격화되면서 기름값이 4년 만에 가장 많이 올랐고, 이로 인해 물가 상승이 빨라질까 걱정이 커지고 있어요. 이런 상황은 전 세계 경제에 부정적인 영향을 미칠 수 있습니다.",
-        "high": "최근 중동 지역에서 군사 작전이 격화됨에 따라 주식 시장은 급락하고, 달러화는 강세를 보였습니다. 이러한 상황은 원유 가격을 4년 만에 가장 큰 폭으로 상승시키며, 글로벌 경제에 대한 인플레이션 우려를 증대시켰습니다. \n\n군사적 긴장이 고조됨에 따라 투자자들은 불확실성을 반영하여 주식 시장에서 매도세를 강화하였고, 이는 전반적인 주가 하락으로 이어졌습니다. 반면, 안전 자산으로 여겨지는 달러화는 상대적으로 강세를 나타내며 투자자들이 위험 회피 성향을 보였음을 시사합니다. \n\n원유 가격의 급등은 에너지 시장에 직접적인 영향을 미치며, 이는 소비자 물가 상승으로 이어질 가능성이 높습니다. 이러한 인플레이션 압력은 글로벌 경제 성장에 부정적인 영향을 미칠 수 있으며, 중앙은행의 통화 정책에도 변화를 요구할 수 있는 요인이 됩니다. \n\n결론적으로, 중동의 군사적 긴장은 금융 시장의 변동성을 증가시키고, 세계 경제의 안정성에 대한 우려를 심화시키고 있습니다. 이는 투자자들에게 신중한 접근을 요구하는 상황으로, 향후 경제 전망에 대한 면밀한 분석이 필요합니다."
+        "elementary": {
+          "en": "Stocks went down, and the dollar got stronger because of fighting in the Middle East. This made oil prices go up a lot, and people are worried about money getting more expensive.",
+          "ko": "주식이 떨어지고, 중동에서의 전투 때문에 달러가 강해졌어요. 이것은 기름 가격을 많이 올렸고, 사람들은 돈이 더 비싸질까 걱정하고 있어요."
+        },
+        "middle": {
+          "en": "Stocks fell sharply, and the dollar strengthened as military actions increased in the Middle East. This situation caused oil prices to rise significantly, reaching their highest level in four years. There are worries that rising inflation might negatively impact the global economy.",
+          "ko": "주식이 급락하고 달러가 강세를 보였으며, 중동에서 군사 작전이 증가했습니다. 이로 인해 유가가 4년 만에 최고 수준으로 급등했습니다. 상승하는 인플레이션이 세계 경제에 부정적인 영향을 미칠 수 있다는 우려가 있습니다."
+        },
+        "high": {
+          "en": "Stocks experienced a significant decline while the dollar strengthened as military actions escalated in the Middle East. This situation led to a sharp increase in oil prices, marking the largest surge in four years. The developments have raised concerns that rising inflation may negatively impact the global economy.",
+          "ko": "주식이 크게 하락하고 달러가 강세를 보인 것은 중동에서 군사 작전이 격화되면서 발생했습니다. 이로 인해 유가가 4년 만에 가장 큰 폭으로 상승하였고, 이러한 상황은 빠른 인플레이션이 세계 경제에 부정적인 영향을 미칠 수 있다는 우려를 불러일으켰습니다."
+        }
       }
     },
     {
@@ -19,9 +28,18 @@
       "source": "NPR",
       "publishedAt": "2026-03-02T10:00:00Z",
       "summaries": {
-        "elementary": "전기차 배터리는 시간이 지나면서 에너지를 덜 저장하게 되지만, 최근 연구에 따르면 예상보다 더 오래 사용할 수 있다고 해. 3년 후에도 배터리 성능이 95% 이상 남아있는 경우가 많아서 걱정할 필요가 줄어들었어.",
-        "middle": "전기차 배터리는 시간이 지남에 따라 에너지를 덜 저장하게 되며, 초기에는 빠르게 감소하다가 이후에는 완만하게 감소하는 'S 곡선' 형태로 노화됩니다. 최근 데이터에 따르면, 많은 전기차 배터리가 예상보다 더 오랫동안 건강한 상태를 유지하고 있으며, 3년 후에도 95% 이상의 성능을 유지하는 경우가 많습니다. 따라서 전기차 배터리는 초기 우려보다 더 오래 사용할 수 있다는 긍정적인 소식이 있습니다.",
-        "high": "전기차(EV) 배터리의 수명에 대한 논의는 현대 전기차가 도로에 등장한 15년 전으로 거슬러 올라갑니다. 초기에는 리튬 이온 배터리의 성능과 수명에 대한 예측이 불확실했으며, 2010년에는 \"전기차 배터리 팩의 수명에 대한 추정치는 7년 이상\"이라는 보도가 있었습니다. 이는 평균 자동차의 수명이 12년을 넘는 것과 비교할 때, 전기차 구매자들에게 불안감을 조성했습니다. \n\n전기차 배터리는 보통 5,000달러에서 20,000달러에 달하는 교체 비용이 발생할 수 있으며, 배터리 보증 기간은 차량의 전체 수명보다 짧습니다. 그러나 최근의 데이터에 따르면, 전기차 배터리는 예상보다 더 오래 지속되고 있는 것으로 나타났습니다.\n\n리튬 이온 배터리는 두 가지 종류의 노화 과정을 겪습니다. 첫 번째는 시간에 따른 노화(캘린더 노화)로, 저장 중에도 에너지를 점차 잃어갑니다. 두 번째는 사용에 따른 노화(주기적 노화)로, 충전과 방전을 반복하면서 배터리가 얼마나 저하되는지를 나타냅니다. 결국, 배터리는 사용 여부와 관계없이 언젠가는 에너지 저장 용량이 줄어들게 됩니다.\n\n배터리의 노화 과정은 직선적이지 않으며, 연구 기관 Recurrent는 이를 \"S 곡선\"으로 설명합니다. 초기에는 급격한 감소가 있지만, 이후에는 완만하게 유지되다가 마지막에는 다시 급격한 감소가 나타납니다. Recurrent의 시장 통찰력 담당 이사인 리즈 나이먼은 이를 신발을 신는 과정에 비유하며, 초기에는 뻣뻣하지만 시간이 지나면서 유연해지고, 결국에는 빠르게 저하된다고 설명합니다.\n\n자동차 경매업체인 Cox Automotive의 차량 서비스 이사인 아담 조지는 최근 몇 년 동안 중고 전기차의 수가 급증했음을 언급하며, 2~4년 된 차량의 배터리 건강 점수가 95% 이상인 경우가 많다고 밝혔습니다. Recurrent의 데이터 역시 대부분의 주요 브랜드의 차량이 3년 후에도 예상 범위의 95% 이상을 유지하고 있음을 보여주고 있습니다. 이는 배터리 관리 시스템과 소프트웨어가 초기 노화를 보정하고, 운전자가 일관된 주행 거리를 경험할 수 있도록 돕기 때문입니다.\n\n결론적으로, 전기차 배터리는 초기의 우려와 달리 예상보다 더 오랜 수명을 보이고 있으며, 초기 감소폭도 약 5%로 그리 크지 않다는 점이 확인되었습니다. 이러한 긍정적인 데이터는 전기차 구매자들에게 더 큰 신뢰를 제공할 수 있을 것입니다."
+        "elementary": {
+          "en": "Electric vehicle batteries are lasting longer than people thought, with many still holding over 95% of their energy after three years. This is good news for drivers because it means they won't have to replace their batteries as soon as they feared.",
+          "ko": "전기차 배터리는 사람들이 생각했던 것보다 더 오래 가고 있으며, 많은 배터리가 3년 후에도 95% 이상의 에너지를 유지하고 있습니다. 이는 운전자에게 좋은 소식입니다. 왜냐하면 그들이 걱정했던 것처럼 빨리 배터리를 교체할 필요가 없기 때문입니다."
+        },
+        "middle": {
+          "en": "Electric vehicle (EV) batteries were expected to last longer than traditional batteries, but early predictions suggested a lifespan of around seven years. Recent data shows that EV batteries are lasting longer than anticipated, with many retaining over 95% of their capacity after three years. This improvement is attributed to better battery management systems and software that help maintain battery health.",
+          "ko": "전기차(EV) 배터리는 전통적인 배터리보다 더 오래 지속될 것으로 예상되었지만, 초기 예측에서는 약 7년의 수명을 제시했습니다. 최근 데이터에 따르면 EV 배터리는 예상보다 더 오래 지속되고 있으며, 많은 배터리가 3년 후에도 95% 이상의 용량을 유지하고 있습니다. 이러한 개선은 배터리 건강을 유지하는 데 도움을 주는 더 나은 배터리 관리 시스템과 소프트웨어 덕분입니다."
+        },
+        "high": {
+          "en": "Electric vehicle (EV) batteries, particularly lithium-ion types, were initially thought to last around seven years, raising concerns among potential buyers given that the average car age exceeds 12 years. However, recent data from thousands of EVs indicates that these batteries are lasting longer than expected. Battery aging occurs in two ways: calendar aging, where batteries degrade over time regardless of use, and cyclical aging, which occurs with repeated charging and discharging. Research shows that while there is an initial decline in battery capacity, it is not as severe as previously feared, and the significant decline at the end of the battery's life takes much longer to occur. For instance, used EVs returning to auction have shown battery health scores above 95% after three to four years, aided by advanced battery management systems. This suggests that EV batteries are more durable than earlier predictions indicated.",
+          "ko": "전기차(EV) 배터리, 특히 리튬 이온 배터리는 처음에 약 7년 정도 지속될 것으로 예상되었으며, 이는 평균 자동차 연령이 12년을 초과하는 점에서 잠재 구매자들에게 우려를 불러일으켰습니다. 그러나 최근 수천 대의 EV에서 수집된 데이터에 따르면 이러한 배터리는 예상보다 더 오래 지속되고 있습니다. 배터리 노화는 두 가지 방식으로 발생합니다: 일정 시간 경과에 따른 노화(캘린더 노화)와 반복적인 충전 및 방전으로 인한 노화(주기적 노화)입니다. 연구에 따르면 배터리 용량의 초기 감소는 이전에 우려했던 것만큼 심각하지 않으며, 배터리 수명의 끝에서의 급격한 감소는 훨씬 더 오랜 시간이 걸립니다. 예를 들어, 경매에 돌아오는 중고 EV는 3~4년 후에 배터리 건강 점수가 95% 이상으로 나타났으며, 이는 고급 배터리 관리 시스템 덕분입니다. 이는 EV 배터리가 초기 예측보다 더 내구성이 뛰어난 것을 시사합니다."
+        }
       }
     },
     {
@@ -31,9 +49,18 @@
       "source": "BBC News",
       "publishedAt": "2026-03-02T09:56:32Z",
       "summaries": {
-        "elementary": "유가가 오랫동안 높으면 다른 물건 가격도 같이 오를 거예요. 그러면 우리가 사는 것들이 더 비싸져서 물가가 올라갈 거예요.",
-        "middle": "서브리타 수브라마니암은 사라신 & 파트너스의 수석 경제학자입니다. 그녀는 기름값이 오랫동안 높게 유지되면, 식품, 농업, 산업 자재 등의 가격도 오르게 되어 결국 인플레이션(물가 상승)으로 이어질 것이라고 설명했습니다. 즉, 기름값 상승이 다른 물가에 영향을 미친다는 뜻입니다.",
-        "high": "서브리타 수브라마니암(Subitha Subramaniam)은 사라신 앤 파트너스(Sarasin & Partners)의 수석 경제학자이자 투자 전략 책임자로서, 유가가 지속적으로 높은 수준을 유지할 경우 발생할 수 있는 경제적 영향을 경고했다. 그녀는 유가 상승이 식품, 농업, 산업 원자재 등 다른 가격에 연쇄적으로 영향을 미칠 것이라고 언급하며, 이러한 현상이 결국 인플레이션을 심화시킬 것이라고 주장했다. 이는 유가가 단순히 에너지 비용에 국한되지 않고, 전반적인 경제 생태계에 걸쳐 광범위한 영향을 미칠 수 있음을 시사한다. 따라서, 유가의 변동은 단순한 시장 요인이 아니라, 경제 전반에 걸친 복합적인 문제로 인식되어야 한다."
+        "elementary": {
+          "en": "If oil prices stay high for a long time, other prices like food and things we use every day will also go up. This can make everything more expensive for everyone.",
+          "ko": "만약 기름 가격이 오랫동안 높게 유지되면, 음식과 우리가 매일 사용하는 것들의 가격도 오를 거예요. 이렇게 되면 모든 것이 더 비싸질 수 있어요."
+        },
+        "middle": {
+          "en": "Subitha Subramaniam, the chief economist at Sarasin & Partners, warned that high oil prices could lead to increased costs in other areas. She mentioned that this could affect food, agriculture, and industrial goods. As a result, these changes could contribute to rising inflation.",
+          "ko": "사라신 앤 파트너스의 수석 경제학자인 수비타 수브라마니암은 높은 유가가 다른 분야의 비용 증가로 이어질 수 있다고 경고했습니다. 그녀는 이것이 식품, 농업 및 산업 제품에 영향을 미칠 수 있다고 언급했습니다. 결과적으로 이러한 변화는 인플레이션 상승에 기여할 수 있습니다."
+        },
+        "high": {
+          "en": "Subitha Subramaniam, the chief economist and head of investment strategy at Sarasin & Partners, warned that prolonged high oil prices could lead to increased costs in various sectors, including food, agriculture, and industrial commodities. This situation is likely to contribute significantly to rising inflation.",
+          "ko": "사라신 앤 파트너스의 수석 경제학자이자 투자 전략 책임자인 수비타 수브라마니암은 지속적으로 높은 유가가 식품, 농업 및 산업 원자재와 같은 다양한 분야의 비용 증가로 이어질 수 있다고 경고했습니다. 이러한 상황은 인플레이션 상승에 크게 기여할 가능성이 높습니다."
+        }
       }
     },
     {
@@ -43,9 +70,18 @@
       "source": "Fortune",
       "publishedAt": "2026-03-02T04:49:00Z",
       "summaries": {
-        "elementary": "미국과 이스라엘이 이란을 폭격하면서 주식 시장이 불안해졌어요. 이란이 중요한 기름길을 막으면 기름 가격이 오를 수 있다고 해요.",
-        "middle": "미국 주식 선물 시장은 이란에 대한 미국-이스라엘의 공습 소식에 반응하여 하락세를 보였습니다. 도널드 트럼프 대통령은 이란과의 갈등이 장기화될 수 있다고 경고하며, 이란의 새로운 지도자가 실용적인 파트너가 된다면 제재를 해제할 의향이 있다고 밝혔습니다. 이란이 호르무즈 해협을 차단할 경우, 세계 석유 가격이 급등할 위험이 있으며, 많은 선박들이 안전을 위해 해당 지역에서 대기 중입니다.",
-        "high": "미국 주식 선물 시장은 일요일 저녁, 미국과 이스라엘의 이란 폭격에 대한 투자자들의 반응으로 위험 회피 성향을 보이며 하락세를 나타냈다. 도널드 트럼프 대통령은 '작전 에픽 퓨리'의 첫 번째 피해자 보고에 이어 추가적인 인명 피해가 우려된다고 경고했다. 또한, 텍사스에서 발생한 대규모 총격 사건에 대해 FBI가 테러 가능성을 조사하고 있는 상황이다.\n\n트럼프 대통령은 이란과의 갈등이 장기화될 수 있으며, 정권 교체를 목표로 하고 있다고 언급했다. 그는 토요일 소셜 미디어에서 중동과 전 세계의 평화를 달성하기 위해 폭격이 필요할 것이라고 밝혔다. 그러나 일요일 뉴욕 타임스와의 인터뷰에서는 알리 하메네이 최고 지도자가 공습으로 사망한 후 새로 들어설 지도부가 실용적인 파트너가 된다면 이란에 대한 제재를 해제할 의향이 있다고 말했다.\n\n다우존스 산업평균지수와 관련된 선물은 353포인트(0.72%) 하락했으며, S&P 500 선물은 0.68%, 나스닥 선물은 0.79% 하락했다. 미국 유가는 배럴당 70.77달러로 5.6% 상승했으며, 브렌트유는 77.15달러로 5.9% 상승했다. 브렌트유 가격은 일요일 초에 8% 이상 급등하기도 했다. 이란은 지난해 하루 평균 470만 배럴을 생산하며 세계 석유 공급의 4.4%를 차지하고 있지만, 호르무즈 해협을 차단할 경우 가격이 배럴당 100달러로 상승할 위험이 크다.\n\n이란 혁명수비대는 해협을 통과하는 선박에 대해 통행 금지를 경고했으며, 일요일에는 세 척의 유조선에 미사일 공격을 가했다고 보도되었다. 이러한 공격에 대한 우려로 인해 이미 많은 유조선들이 호르무즈 해협 근처에서 정박하거나 정체된 상태이다. 그 결과, 그리스 해운부는 선박들에게 페르시아만, 오만만 및 호르무즈 해협을 피할 것을 권고했으며, 해운 대기업인 머스크는 해협을 통한 모든 선박 통행을 중단한다고 발표했다.\n\n호르무즈 해협의 폐쇄는 아시아 경제에 가장 큰 타격을 줄 것으로 예상되며, 이 지역의 대부분 경제는 주요 석유 수입국으로서 이 경로에 의존하고 있다. Wood Mackenzie의 정유 및 석유 시장 부문 수석 부사장인 앨런 겔더는 이란이 미국과 협력하는 가장 낙관적인 시나리오에서도 수출 흐름이 정상화되기까지 몇 주가 걸릴 것이라고 추정했다. 그는 가격 전망이 상승 위험이 크다고 경고하며, 2022년 러시아의 우크라이나 침공 직후의 유가 상승과 비교했다.\n\nOPEC+는 4월에 하루 206,000배럴의 생산 증가를 계획하고 있지만, 호르무즈 해협을 통한 흐름이 재개되지 않는다면 이러한 결정이 무의미할 수 있다고 겔더는 덧붙였다. 금 가격은 온스당 5,367달러로 2.3% 상승했다."
+        "elementary": {
+          "en": "U.S. stock prices are going down because of worries about fighting in the Middle East and a recent mass shooting in Texas. Oil prices are going up because there are fears that Iran might stop ships from passing through an important waterway.",
+          "ko": "미국 주식 가격이 중동의 전투와 텍사스의 대량 총격 사건에 대한 걱정으로 하락하고 있습니다. 이란이 중요한 해협에서 배의 통행을 막을까 봐 기름 가격이 오르고 있습니다."
+        },
+        "middle": {
+          "en": "U.S. stock futures fell as investors reacted to the U.S.-Israeli bombardment of Iran, with President Trump warning of more casualties. Oil prices surged due to fears that Iran might close the Strait of Hormuz, which is crucial for global oil supply. Shipping companies are avoiding the Persian Gulf and the strait, leading to a potential increase in oil prices to $100 per barrel if the situation escalates.",
+          "ko": "미국의 주식 선물은 투자자들이 미국-이스라엘의 이란 폭격에 반응하면서 하락했습니다. 이란이 호르무즈 해협을 차단할 수 있다는 우려로 인해 유가가 급등했습니다. 선박 회사들은 페르시아만과 해협을 피하고 있어 상황이 악화될 경우 유가가 배럴당 100달러로 상승할 가능성이 있습니다."
+        },
+        "high": {
+          "en": "U.S. stock futures indicated a risk-off sentiment as investors reacted to the U.S.-Israeli bombardment of Iran over the weekend. This selloff followed President Trump's warning of potential casualties from Operation Epic Fury, coinciding with an FBI investigation into a mass shooting in Texas, which may be linked to terrorism. Trump suggested that the conflict with Iran could be prolonged, emphasizing regime change and stating that bombings would continue until peace is achieved. However, he expressed openness to lifting sanctions on Iran if a new leadership emerges that can cooperate pragmatically.\n\nFutures for the Dow Jones fell by 353 points (0.72%), while S&P 500 and Nasdaq futures also declined. U.S. oil futures surged by 5.6% to $70.77 per barrel, with Brent crude rising by 5.9% to $77.15, amid fears that Iran might close the Strait of Hormuz, a vital passage for global oil supply. The Islamic Revolutionary Guards Corps warned ships against passage and reportedly attacked oil tankers, causing shipping traffic to freeze. Tanker owners and shipping companies have suspended shipments through the strait, which could severely impact oil supplies, especially for Asian economies reliant on these routes.\n\nAnalysts predict that if Iran closes the strait, oil prices could soar to $100 per barrel. While OPEC+ plans to increase oil production, the effectiveness of this decision depends on the resumption of flows through the Strait of Hormuz. Gold prices also rose significantly, reflecting heightened market uncertainty.",
+          "ko": "미국 주식 선물은 투자자들이 주말 동안의 미국-이스라엘의 이란 폭격에 반응하면서 위험 회피 심리를 나타냈습니다. 이 매도세는 트럼프 대통령이 에픽 퓨리 작전으로 인한 잠재적 사상자에 대해 경고한 이후 발생했으며, 텍사스에서의 총기 난사 사건에 대한 FBI의 수사가 테러와 연관될 수 있다는 소식과 겹쳤습니다. 트럼프는 이란과의 갈등이 장기화될 수 있다고 언급하며 정권 교체를 목표로 하고, 평화를 달성할 때까지 폭격이 계속될 것이라고 소셜 미디어에 게시했습니다. 그러나 그는 새로운 지도부가 실용적으로 협력할 수 있다면 이란에 대한 제재를 해제할 용의가 있다고 뉴욕타임스에 밝혔습니다.\n\n다우존스 선물은 353포인트(0.72%) 하락했으며, S&P 500과 나스닥 선물도 하락했습니다. 미국 유가 선물은 5.6% 상승하여 배럴당 70.77달러에 도달했으며, 브렌트유는 5.9% 상승하여 77.15달러에 올랐습니다. 이는 이란이 세계 석유 공급에 중요한 호르무즈 해협을 차단할 수 있다는 우려 때문입니다. 이란 혁명수비대는 선박의 통행을 금지한다고 경고했으며, 석유 탱커에 대한 미사일 공격을 보고했습니다. 이로 인해 선박 교통이 중단되었습니다. 탱커 소유자와 해운 회사들은 예방 조치로 호르무즈 해협을 통한 선적을 중단했습니다. 이 해협의 폐쇄는 아시아 경제에 심각한 영향을 미칠 수 있습니다.\n\n분석가들은 이란이 해협을 차단할 경우 유가가 배럴당 100달러로 치솟을 수 있다고 예측하고 있습니다. OPEC+는 석유 생산을 증가시킬 계획을 세웠지만, 이 결정의 효과는 호르무즈 해협을 통한 유동성이 재개되는 데 달려 있습니다. 금 가격도 시장의 불확실성을 반영하여 크게 상승했습니다."
+        }
       }
     }
   ],
@@ -57,9 +93,18 @@
       "source": "TMZ",
       "publishedAt": "2026-03-02T09:00:40Z",
       "summaries": {
-        "elementary": "김오라 리 시몬스는 이름을 간단하게 바꾸고 싶어해요. 그래서 여러 남편의 성을 떼고 '김오라 리'로 바꾸려 하고 있어요.",
-        "middle": "김오라 리 시몬스는 자신의 성을 간소화하려고 하고 있습니다. 그녀는 법적 문서를 통해 '김오라 리 시몬스-라이스너'에서 '김오라 리'로 이름을 변경하려고 합니다. 이는 다양한 문서에서 사용되는 이름을 통합하기 위한 결정입니다.",
-        "high": "김모라 리 시몬스(Kimora Lee Simmons)가 자신의 삶을 간소화하고자 하는 의도를 드러내며, 몇몇 전 남편의 성을 공식적으로 변경하려고 하고 있다. TMZ가 입수한 법적 문서에 따르면, 그녀는 자신의 이름을 '김모라 리 시몬스-라이스너(Kimora Lee Simmons-Leissner)'에서 '김모라 리(Kimora Lee)'로 변경하기 위한 서류를 제출했다.\n\n그녀가 이름 변경을 원하는 이유는 \"기록과 다양한 문서에서 사용되는 이름의 통합\"이라고 밝혔다. 김모라는 1998년에 러셀 시몬스(Russell Simmons)와 결혼했으나, 2009년에 이혼한 후에도 시몬스라는 성을 유지해왔다. 이후 2014년에 팀 라이스너(Tim Leissner)와 결혼하여 시몬스와 라이스너의 성을 결합한 '김모라 리 시몬스-라이스너'라는 이름을 사용하게 되었다. 그러나 김모라는 2022년에 팀과 별거하게 되었다.\n\n김모라는 세인트루이스에서 김모라 리 퍼킨스(Kimora Lee Perkins)라는 이름으로 태어났으나, 현재 그녀는 그 이름으로 돌아가고 싶지 않으며, 대신 이름을 '김모라 리'로 간소화하려는 것으로 보인다. 이와 관련된 소식통은 김모라가 수십 년간 자신의 재단을 운영해왔다는 점도 언급하고 있다."
+        "elementary": {
+          "en": "Kimora Lee Simmons wants to change her name to make it simpler. She is dropping the last names of her ex-husbands and will just be called Kimora Lee.",
+          "ko": "키모라 리 시몬스는 이름을 더 간단하게 바꾸고 싶어합니다. 그녀는 전 남편들의 성을 없애고 그냥 키모라 리라고 불리기를 원합니다."
+        },
+        "middle": {
+          "en": "Kimora Lee Simmons wants to simplify her name by officially dropping the last names of her ex-husbands, including Russell Simmons. She has filed legal documents to change her name from Kimora Lee Simmons-Leissner to Kimora Lee for easier record-keeping. Kimora was previously married to Russell Simmons and Tim Leissner, but now she prefers to be known simply as Kimora Lee.",
+          "ko": "키모라 리 시몬스는 러셀 시몬스를 포함한 전 남편들의 성을 공식적으로 버리고 이름을 간단하게 하고 싶어합니다. 그녀는 기록 관리를 쉽게 하기 위해 이름을 킴오라 리 시몬스-라이스너에서 킴오라 리로 변경하는 법적 문서를 제출했습니다. 키모라는 이전에 러셀 시몬스와 팀 라이스너와 결혼했지만, 이제는 단순히 킴오라 리로 알려지기를 원합니다."
+        },
+        "high": {
+          "en": "Kimora Lee Simmons is seeking to simplify her name by officially dropping the surnames of her ex-husbands, including Russell Simmons. Legal documents obtained by TMZ reveal that she has filed to change her name from Kimora Lee Simmons-Leissner to Kimora Lee. She cites the need for \"consolidation of records and names used in different documents\" as her reason for the change. Kimora was married to Russell Simmons from 1998 until their divorce in 2009, after which she retained his surname. She later married Tim Leissner in 2014, adopting the hyphenated name Simmons-Leissner, but they separated in 2022. Originally named Kimora Lee Perkins, she now prefers to simplify her name to Kimora Lee. Sources indicate that Kimora has been actively involved in her own foundation for many years.",
+          "ko": "킴오라 리 시몬스는 러셀 시몬스를 포함한 전 남편들의 성을 공식적으로 버리고 이름을 단순화하려고 하고 있습니다. TMZ가 입수한 법적 문서에 따르면, 그녀는 이름을 킴오라 리 시몬스-라이스너에서 킴오라 리로 변경하기 위해 서류를 제출했습니다. 그녀는 \"기록 및 다양한 문서에서 사용되는 이름의 통합\"을 변경 사유로 제시했습니다. 킴오라는 1998년 러셀 시몬스와 결혼했으나 2009년에 이혼했고, 이후 그의 성을 유지했습니다. 2014년 팀 라이스너와 결혼하면서 하이픈이 붙은 이름인 시몬스-라이스너를 채택했으나, 2022년에 이혼했습니다. 본명은 킴오라 리 퍼킨스인 그녀는 이제 이름을 킴오라 리로 단순화하고 싶어하는 것으로 보입니다. 소식통에 따르면, 킴오라는 수년간 자신의 재단에서 활발히 활동해왔습니다."
+        }
       }
     },
     {
@@ -69,9 +114,18 @@
       "source": "Deadline",
       "publishedAt": "2026-03-02T05:04:00Z",
       "summaries": {
-        "elementary": "라이언 쿠글러 감독이 두 번이나 배우 상을 받은 첫 번째 사람이 되었어요. 그의 영화 'Sinners'가 32회 배우 상에서 큰 상을 받았고, 마이클 B. 조던도 출연했어요.",
-        "middle": "라이언 쿠글러 감독이 'Sinners'로 두 번째로 배우 조합이 함께한 작품으로 배우상에서 승리했습니다. 그는 2018년 '블랙 팬서'로 첫 승리를 거둔 바 있습니다. 이번 작품은 16개의 오스카 후보에 올라 있으며, 마일스 캐튼 등 여러 배우들이 수상 소감을 전했습니다.",
-        "high": "라이언 쿠글러 감독이 연출한 영화 'Sinners'가 제32회 배우상(구 SAG 어워드)에서 캐스트 앙상블 부문에서 승리함으로써, 그는 두 개의 캐스트 앙상블을 이끌고 배우상을 수상한 최초의 감독이 되었다. 이번 수상은 2018년 '블랙 팬서'로 거둔 첫 승리에 이어 이루어진 것으로, 두 작품 모두 마이클 B. 조던이 출연하였다.\n\n이번 시상식에서 쿠글러는 수상자들과 함께 무대에 오르지 않았으나, 수상자 중 한 명인 델로이 린도는 수상자들을 대표하여 소감을 밝혔다. 린도는 이 프로젝트를 \"신의 축복을 받은\" 작품으로 묘사하며, \"우리는 이 놀라운 여정의 일원이 되기 위해 우리의 마음과 영혼을 가져왔다. 여러분에게 인정받게 되어 감사하다는 말로는 우리의 감정을 다 표현할 수 없다\"고 전했다. 하일리 스타인펠드는 참석하지 않았고, 캐스트는 캐스팅 디렉터 프랜신 메이슬러와 함께 무대에 올랐다.\n\n'Sinners'는 이번 달에 16개의 오스카 후보에 올라 있으며, 경쟁작으로는 'One Battle After Another', 'Frankenstein', 'Hamnet', 'Marty Supreme' 등이 있다. 과거의 배우상 수상작으로는 'The Birdcage', 'Gosford Park', 'Chicago', 'Sideways', 'Little Miss Sunshine', 'Argo', 'Parasite', 'Everything Everywhere All At Once', 'Oppenheimer', 그리고 지난해 수상작인 'Conclave'가 있다.\n\n마이클 B. 조던은 이날 행사에서 다시 한 번 배우상을 수상하며, 베스트 액터 부문에서의 경쟁이 격화되고 있음을 보여주었다. 팀시 샬라메가 비평가상과 골든 글로브에서 각각 음악 및 코미디 부문과 드라마 부문에서 수상한 것과는 대조적으로, 조던은 이번 시상식에서의 승리로 주목받았다."
+        "elementary": {
+          "en": "Ryan Coogler is a filmmaker who won an award for directing a movie called Sinners. This is special because he is the first person to win this award twice for different movies.",
+          "ko": "라이언 쿠글러는 '신자들'이라는 영화를 감독한 영화 제작자입니다. 그는 두 개의 다른 영화로 이 상을 두 번 받은 첫 번째 사람이라서 특별합니다."
+        },
+        "middle": {
+          "en": "Ryan Coogler, the filmmaker of \"Sinners,\" made history by being the first director to win the Actor Award with two different cast ensembles. His film, which won at the 32nd Annual Actor Awards, follows his previous win for \"Black Panther\" in 2018. The cast, led by Delroy Lindo, expressed deep gratitude for being part of this project, which is nominated for a record 16 Oscars this month.",
+          "ko": "\"Sinners\"의 감독인 라이언 쿠글러는 두 개의 다른 출연진으로 배우상을 수상한 최초의 감독으로 역사에 이름을 남겼습니다. 그의 영화는 제32회 배우상 시상식에서 승리했으며, 이는 2018년 \"블랙 팬서\"에서의 이전 승리에 이어진 것입니다. 델로이 린도가 이끄는 출연진은 이번 프로젝트의 일원이 된 것에 대해 깊은 감사를 표했습니다. 이 영화는 이번 달에 16개의 오스카 후보에 올라 있습니다."
+        },
+        "high": {
+          "en": "Ryan Coogler, the filmmaker behind \"Sinners,\" has made history by becoming the first director to lead two ensemble casts to victory at the Actor Awards, previously known as the SAG Awards. His latest win comes from the vampiric period drama, following his 2018 success with \"Black Panther,\" which also featured Michael B. Jordan. Although Coogler did not join the cast on stage, Delroy Lindo represented the awardees, expressing gratitude for being part of what he called an \"anointed\" project. \"Sinners\" is nominated for a record 16 Oscars this month and faced competition from other films like \"One Battle After Another\" and \"Frankenstein.\" Michael B. Jordan also won an Actor trophy, marking a significant moment in the Best Actor race, which has seen various winners across different awards this season.",
+          "ko": "\"죄인들\"의 감독 라이언 쿠글러는 배우상에서 두 개의 앙상블 캐스트를 승리로 이끈 최초의 감독이 되며 역사적인 순간을 만들었습니다. 그의 최신 승리는 뱀파이어 시대 드라마에서 이루어졌으며, 이는 2018년 \"블랙 팬서\"로 얻은 성공에 이어지는 것입니다. 쿠글러는 무대에 참석하지 않았지만, 델로이 린도가 수상자들을 대표하여 이 프로젝트를 \"신의 축복을 받은\" 작업이라고 표현하며 감사의 마음을 전했습니다. \"죄인들\"은 이번 달에 16개의 오스카 후보에 올라 있으며, \"원 배틀 애프터 애너더\"와 \"프랑켄슈타인\"과 같은 다른 영화들과 경쟁하고 있습니다. 마이클 B. 조던은 배우상에서 또 다른 트로피를 수상하며, 이번 시즌 여러 시상식에서 다양한 수상자가 있었던 남우주연상 경쟁에서 중요한 순간을 기록했습니다."
+        }
       }
     },
     {
@@ -81,9 +135,18 @@
       "source": "The Globe And Mail",
       "publishedAt": "2026-03-02T05:01:00Z",
       "summaries": {
-        "elementary": "오늘 생일인 당신은 새로운 에너지를 느끼고 많은 사람들에게 주목받을 거예요. 하지만 너무 무리하지 말고, 돈과 관계에 조심해야 해요.",
-        "middle": "오늘이 당신의 생일이라면, 새로운 에너지를 발견하고 사회적으로 많은 관심을 받을 것입니다. 하지만 자신의 이익을 우선시하고, 계획을 세워 작은 단계를 밟아야 합니다. 또한, 금전적으로 조심하고, 부정적인 사람들과 거리를 두는 것이 중요합니다.",
-        "high": "오늘이 당신의 생일이라면, 화성이 당신의 별자리로 이동함에 따라 새로운 에너지원이 발견되고, 자신을 증명할 기회가 풍부해질 것입니다. 사회적 및 직업적으로 많은 수요가 있을 것이나, 자신의 이익을 최우선으로 삼는 것이 중요합니다.\n\n오늘은 일상적인 업무를 잘 처리하는 데 집중해야 합니다. 많은 이들이 당신에게 주목하고 있으며, 중요한 인물들에게 긍정적인 인상을 남기기 위해서는 침착함을 유지하고 과도한 요구에 불평하지 않아야 합니다. 상대적으로 짧은 시간 안에 많은 일을 처리할 수 있지만, 무작정 일을 시작하기보다는 계획을 세우고 작은 단계를 꾸준히 밟아 나가는 것이 바람직합니다.\n\n향후 24~48시간 동안은 월식의 영향으로 타인의 요구가 많아질 것입니다. 그 요구를 충족시키기 위해 노력하되, 지나치게 자신을 몰아붙여 부상을 입지 않도록 주의해야 합니다. 상승 기회가 주어질 경우, 그것이 함정이 될 수 있음을 유념해야 하며, 결과적으로 더 많은 일을 하게 되면서 보상이 적을 것이라면 단호히 거절할 준비를 해야 합니다.\n\n다가오는 월식은 금전 관리에 주의할 것을 경고합니다. 현재의 소비 수준을 유지한다면 주말까지 재정적으로 어려움을 겪을 수 있으며, 사랑하는 사람들과의 관계에도 악영향을 미칠 수 있습니다. 또한, 관계 문제도 부각될 것이며, 향후 며칠 간의 상황을 통해 변화가 필요하다는 것을 깨닫게 될 것입니다. 변화는 당신만이 아닌 다른 이들도 필요하다는 점을 분명히 해야 합니다.\n\n부정적인 사고를 가진 사람들과의 거리를 두는 것이 필요할 수 있습니다. 그들의 부정적인 태도는 당신에게 좋지 않은 영향을 미칠 수 있습니다. 타인의 문제는 당신의 책임이 아니며, 감정적으로 얽히지 않도록 주의하는 것이 최선입니다. 당신이 오랜 시간 동안 작업해온 일이 결실을 맺기 시작할 것으로 보이지만, 동료들로부터의 격려나 칭찬은 기대하지 않는 것이 좋습니다. 그들의 노력과 비교되어 당신의 성과가 부각될 수 있기 때문입니다.\n\n오늘은 삶이 던지는 도전에 맞서 경쟁력을 보여줄 필요가 있습니다. 지금까지 많은 발전을 이루어왔으니, 끝까지 최선을 다해 나아가야 합니다. \n\n마지막으로, 새로운 책임을 맡게 된다면 기꺼이 수용하고 100%의 노력을 기울여야 합니다. 심지어 그 일이 지루하더라도 말입니다. 경쟁자들에게 당신의 의지를 의심할 여지를 주지 않도록 해야 합니다. 다가오는 월식은 파트너십과 관계를 다소 힘들게 만들 것이지만, 이제는 다른 사람들의 말과 행동에 과민 반응하지 않고 여유를 가질 수 있는 지혜를 갖추게 되었습니다."
+        "elementary": {
+          "en": "If today is your birthday, you will feel energetic and have many chances to show what you can do. Remember to take care of your own needs and be careful with your money, as others may ask a lot from you in the next few days.",
+          "ko": "오늘이 당신의 생일이라면, 당신은 에너지가 넘치고 자신을 보여줄 기회가 많을 것입니다. 다른 사람들이 당신에게 많은 것을 요구할 수 있으니, 자신의 필요를 잘 챙기고 돈을 조심하세요."
+        },
+        "middle": {
+          "en": "If today is your birthday, Mars will give you new energy and opportunities, making you popular socially and professionally. However, be careful with your money and relationships, as the lunar eclipse may bring challenges that require changes. Stay focused and organized in your tasks, and remember to prioritize your own interests while helping others from a distance.",
+          "ko": "오늘이 당신의 생일이라면, 화성이 새로운 에너지와 기회를 줄 것이며, 당신은 사회적, 직업적으로 인기가 많아질 것입니다. 하지만 금전과 관계에 주의해야 하며, 월식이 도전 과제를 가져올 수 있으므로 변화가 필요할 수 있습니다. 작업에 집중하고 조직적으로 진행하며, 다른 사람을 도우면서도 자신의 이익을 우선시하는 것을 잊지 마세요."
+        },
+        "high": {
+          "en": "If today is your birthday, the movement of Mars into your sign will energize you and present numerous opportunities for self-assertion. You will be in high demand socially and professionally, but prioritize your own interests. Focus on routine tasks, as many will be observing your performance; maintain composure and avoid complaints about workload.\n\nYou can accomplish a significant amount of work efficiently, but it's essential to have a plan. Take small, consistent steps rather than attempting large leaps. Expect increased demands from others in the next 24 to 48 hours due to the lunar eclipse, but be cautious not to overextend yourself.\n\nWhile a chance for advancement may arise, assess whether it will lead to excessive work with minimal rewards, and be prepared to decline if necessary. The upcoming lunar eclipse also signals the need for financial prudence; excessive spending could lead to financial strain and relationship issues.\n\nRelationship dynamics will be highlighted in the coming days, necessitating changes from all parties involved. If you find yourself worrying unnecessarily, consider limiting your exposure to negative individuals, as they may not be beneficial to your well-being.\n\nIt's important to remember that others' problems are not your responsibility; maintaining emotional distance may be the best way to assist them. A project you've been developing is beginning to take shape, but don't expect recognition from colleagues, as your success may overshadow their contributions.\n\nAs challenges arise, rise to the occasion to demonstrate your capabilities. For those born under Aquarius, if offered new responsibilities, embrace them wholeheartedly and prove your commitment. The upcoming lunar eclipse may complicate partnerships, but remember to manage your reactions and maintain perspective.",
+          "ko": "오늘이 당신의 생일이라면, 화성이 당신의 별자리로 이동하면서 새로운 에너지를 발견하고 자신을 증명할 기회가 많아질 것입니다. 사회적으로나 직업적으로 많은 수요가 있을 것이지만, 항상 자신의 이익을 우선시하세요. 오늘은 일상적인 업무에 집중하세요. 많은 사람들이 당신의 성과를 주목하고 있으니, 침착함을 유지하고 과중한 업무에 대한 불만을 피하세요.\n\n상당한 양의 일을 효율적으로 처리할 수 있지만, 계획을 세우는 것이 중요합니다. 큰 도약보다는 작고 일관된 단계를 목표로 하세요. 다음 24~48시간 동안은 월식의 영향으로 타인에게서 많은 요구가 있을 것이니, 과도하게 자신을 소진하지 않도록 주의하세요.\n\n승진의 기회가 생길 수 있지만, 그것이 과도한 노동에 비해 보상이 적을 경우 거절할 준비를 하세요. 다가오는 월식은 재정에 대한 신중함이 필요하다는 신호이기도 하며, 과도한 지출은 재정적 어려움과 관계 문제를 초래할 수 있습니다.\n\n앞으로 며칠 동안 관계의 역학이 강조되며, 모든 당사자가 변화가 필요함을 인식해야 합니다. 불필요하게 걱정하고 있다면 부정적인 사람들과의 거리를 두는 것이 좋습니다. 그들은 당신에게 도움이 되지 않을 수 있습니다.\n\n타인의 문제는 당신의 책임이 아니며, 감정적으로 거리를 두는 것이 그들을 도울 수 있는 최선의 방법일 수 있습니다. 당신이 오랫동안 작업해온 프로젝트가 이제 결실을 맺기 시작하고 있지만, 동료들로부터 인정받기를 기대하지 마세요. 당신의 성공이 그들의 기여를 가릴 수 있습니다.\n\n도전이 생길수록, 당신의 능력을 보여주기 위해 최선을 다하세요. 물병자리(Aquarius) 출생자는 오늘 새로운 책임을 맡게 된다면 기꺼이 받아들이고 헌신을 보여야 합니다. 다가오는 월식은 파트너십을 복잡하게 만들 수 있지만, 반응을 관리하고 관점을 유지하는 것을 잊지 마세요."
+        }
       }
     },
     {
@@ -93,9 +156,18 @@
       "source": "TMZ",
       "publishedAt": "2026-03-02T04:22:56Z",
       "summaries": {
-        "elementary": "린제이 로한과 가족이 이란의 공격에도 안전하다고 합니다. 그녀는 두바이에 살고 있으며, 가족과 함께 평화롭게 지내고 있습니다.",
-        "middle": "린제이 로한과 가족이 이란의 두바이 공격에도 안전하다는 소식입니다. 로한은 2015년부터 두바이에 거주하며, 남편과 아들인 루아이와 함께 평화로운 삶을 즐기고 있습니다. 최근 이란의 보복 공격으로 긴장이 고조되고 있지만, 로한 가족은 무사하다고 전해졌습니다.",
-        "high": "린제이 로한과 그녀의 가족이 이란의 두바이 공격 이후 안전하다는 소식이 전해졌다. TMZ에 따르면, 로한과 그녀의 남편 바더 샤마스, 그리고 그들의 아들 루아이 모두 무사하다고 한다.\n\n린제이 로한은 2015년부터 두바이에 거주해 왔으며, 2020년에 바더와의 관계를 시작했다. 이들은 2021년에 약혼하고, 이듬해 결혼한 후, 그 다음 해에 아들 루아이를 출산했다. 최근에는 아랍에미리트의 '보그 아라비아' 표지 모델로 등장하기도 했다. 로한은 두바이에서의 삶이 파파라치로부터 벗어나 \"평온과 고요함\"을 찾을 수 있어 매우 만족스럽다고 밝혔다.\n\n한편, 이란은 미국과 이스라엘의 핵 시설 및 주요 전략적 목표에 대한 공격에 대한 보복으로 일련의 공습을 단행했다. 이란 국영 언론은 일요일에 아야톨라 알리 하메네이의 사망 소식을 확인했으며, 그는 1981년부터 이란의 최고 지도자로 재직해왔다. 이러한 정치적 긴장 상황 속에서도 로한 가족은 안전하게 지내고 있다는 점에서 긍정적인 소식으로 여겨진다."
+        "elementary": {
+          "en": "Lindsay Lohan and her family are safe in Dubai after some strikes from Iran. She loves living there because it is peaceful and away from cameras.",
+          "ko": "린제이 로한과 그녀의 가족은 이란의 공격 후 두바이에서 안전합니다. 그녀는 카메라에서 멀리 떨어져 평화로운 생활을 할 수 있어 두바이를 좋아합니다."
+        },
+        "middle": {
+          "en": "Lindsay Lohan and her family are safe after recent strikes on Dubai by Iran. She has been living in Dubai since 2015 and enjoys the peace it offers away from the paparazzi. The situation in Iran has escalated due to retaliatory strikes following attacks by the United States and Israel on Iranian facilities.",
+          "ko": "린제이 로한과 그녀의 가족은 이란의 최근 두바이 공격 이후 안전합니다. 그녀는 2015년부터 두바이에 살고 있으며, 파파라치에서 벗어난 평화로운 삶을 즐깁니다. 이란의 상황은 미국과 이스라엘의 시설 공격 이후 보복 공격으로 격화되었습니다."
+        },
+        "high": {
+          "en": "Lindsay Lohan and her family are reported to be safe following recent strikes on Dubai by Iran, according to sources. The actress, her husband Bader Shammas, and their son Luai are unharmed. Lohan has resided in Dubai since 2015 and has expressed her fondness for the city, citing its tranquility away from paparazzi. The strikes come in response to U.S. and Israeli attacks on Iranian nuclear facilities. Additionally, Iranian state media announced the death of Ayatollah Ali Khamenei, the Supreme Leader of Iran since 1981.",
+          "ko": "린제이 로한과 그녀의 가족은 이란의 두바이에 대한 최근 공격 이후 안전하다는 보도가 나왔다. 소식통에 따르면, 여배우와 그녀의 남편 바더 샤마스, 아들 루아이 모두 무사하다. 로한은 2015년부터 두바이에 거주해 왔으며, 파파라치로부터 벗어난 평온함을 언급하며 이 도시를 좋아한다고 밝혔다. 이번 공격은 미국과 이스라엘의 이란 핵 시설 공격에 대한 보복으로 발생했다. 또한 이란 국영 언론은 1981년부터 이란의 최고 지도자로 있었던 아야톨라 알리 하메네이의 사망 소식을 전했다."
+        }
       }
     },
     {
@@ -105,9 +177,18 @@
       "source": "Cageside Seats",
       "publishedAt": "2026-03-02T03:30:00Z",
       "summaries": {
-        "elementary": "저자는 1985년부터 프로 레슬링을 좋아해왔고, 최근에 친구들과 함께 WWE의 엘리미네이션 챔버 경기를 극장에서 관람했습니다. 관객들은 경기에 따라 다양한 반응을 보였고, 마지막에 큰 환호를 보내며 즐거운 시간을 보냈습니다.",
-        "middle": "이 글은 프로 레슬링 팬인 M. Gomez가 WWE의 엘리미네이션 챔버 이벤트를 관람한 경험을 담고 있습니다. 관객들은 다양한 반응을 보였고, 특히 주요 경기에서의 결과에 큰 환호와 실망이 있었습니다. 마지막으로, 팬들과의 교류가 즐거운 경험이었으며, 앞으로의 이벤트에도 참석할 계획을 세우고 있습니다.",
-        "high": "M. Gomez는 1985년부터 프로 레슬링을 관람해온 경력을 가진 전 스포츠 라디오 앵커로, 스포츠 엔터테인먼트에 대한 독특한 시각을 제공한다. 최근 그는 캘리포니아 엘카존의 리갈 시네마에서 WWE의 엘리미네이션 챔버를 관람하기 위해 팬들과 함께했다. \n\n극장 13호는 약 40명의 관객으로 가득 찼고, 초기에는 조용한 분위기가 이어졌다. 그는 혼자서 관람했기 때문에 처음에는 다소 조심스러웠으나, 시간이 지나면서 팬들은 점차 긴장을 풀고 열광적인 반응을 보였다. \n\n여성 엘리미네이션 챔버 경기가 시작되자, 관객들은 라켈 로드리게스를 응원하며 분위기를 띄웠고, 그녀가 키아나 제임스를 파워 슬램으로 쓰러뜨리며 경기가 시작되었다. 이후 리아 리플리가 티파니 스트래튼을 이기고 첫 경기를 승리로 장식하자, 관객들은 박수로 화답했다. \n\n여성 인터콘티넨탈 타이틀 매치는 AJ 리가 챔피언 베키 린치를 이기며 예상치 못한 승리를 거두어 관객들의 큰 박수를 받았다. 반면, CM 펑크가 핀 발러를 이기고 월드 헤비웨이트 타이틀을 방어했을 때는 일부 팬들이 실망감을 표출하며 불만을 토로하기도 했다. \n\n미스터리 크레이트의 내용이 공개될 때는 관객들의 반응이 엇갈렸고, 다한센의 데뷔는 예상과 달리 침묵과 웃음, 야유가 섞인 반응을 이끌어냈다. \n\n메인 이벤트인 남성 챔버 매치에서는 트릭 윌리엄스가 가장 큰 환호를 받았고, 로건 폴은 세 명의 상대를 연속으로 이기며 부정적인 반응을 얻었다. 세스 롤린스가 폴의 레슬매니아 꿈을 무너뜨리며 마스크를 벗었을 때, 극장은 폭발적인 반응을 보였다. 마지막으로 랜디 오턴이 코디 로즈를 RKO로 제압하며 남성 챔버에서 승리하자, 극장은 마치 그들의 사랑하는 샌디에이고 파드리스가 월드 시리즈에서 우승한 것처럼 환호했다.\n\n경기 후, 그는 1월에 만난 친구들과 다시 만나 스토리라인, 티켓 가격 등에 대해 이야기를 나누었고, LA 나이트에 대한 의견이 모아졌다. 첫 관람이었던 한 팬은 반드시 다시 올 것이라고 말했다. \n\n음향 문제는 여전히 아쉬웠지만, 대화와 유대감이 더해져 관람 경험은 더욱 의미 있었다. 많은 팬들이 4월의 레슬매니아를 위해 다시 올 계획을 세우고 있으며, 그는 아내와 함께 로만 레인즈와 CM 펑크의 경기를 관람하기를 희망하고 있다."
+        "elementary": {
+          "en": "A man who loves pro wrestling went to a movie theater to watch a big wrestling show with other fans. Everyone had fun cheering for their favorite wrestlers, and they all talked about it happily after the show.",
+          "ko": "프로 레슬링을 좋아하는 한 남자가 다른 팬들과 함께 큰 레슬링 쇼를 보기 위해 영화관에 갔어요. 모두가 자신이 좋아하는 레슬러를 응원하며 즐거운 시간을 보냈고, 쇼가 끝난 후에도 행복하게 이야기했어요."
+        },
+        "middle": {
+          "en": "The author, a longtime pro wrestling fan, attended WWE's Elimination Chamber event at Regal Cinemas in California, where about 40 fans gathered. The atmosphere changed from quiet to lively as fans cheered for their favorite wrestlers, especially during exciting matches like the Women's Intercontinental title match and the men's Chamber match. After the event, the author enjoyed discussing wrestling with new friends and expressed a desire to return for WrestleMania in April.",
+          "ko": "저자는 오랜 프로 레슬링 팬으로서 캘리포니아의 레갈 시네마에서 WWE의 엘리미네이션 챔버 이벤트에 참석했으며, 약 40명의 팬들이 모였습니다. 팬들은 조용한 분위기에서 좋아하는 레슬러를 응원하며 활기찬 분위기로 변했고, 특히 여성 인터콘티넨탈 타이틀 매치와 남성 챔버 매치에서 흥미진진한 순간들이 있었습니다. 이벤트 후 저자는 새로운 친구들과 레슬링에 대해 이야기하며 4월의 레슬매니아에 다시 가고 싶다는 바람을 표현했습니다."
+        },
+        "high": {
+          "en": "On Saturday, M. Gomez, a longtime pro wrestling fan and former sports radio anchor, attended WWE's Elimination Chamber event at Regal Cinemas in El Cajon, California. The theater was filled with about 40 fans, who gradually became more enthusiastic as the night progressed. The event began with a women's Elimination Chamber match, where Raquel Rodriguez made a strong impression. Rhea Ripley’s victory over Tiffany Stratton was well-received, while AJ Lee's unexpected win against Becky Lynch for the Women’s Intercontinental title garnered applause. However, CM Punk's victory over Finn Bálor was met with mixed reactions, as some fans expressed their frustration with the outcome. The debut of Danhausen received a lukewarm response, and the main event featuring the men's Chamber match energized the crowd, particularly when Trick Williams received a loud cheer. The event concluded dramatically with Randy Orton winning the match, causing an eruption of excitement in the theater. After the show, Gomez reconnected with friends and discussed various wrestling topics, with many expressing their intention to return for WrestleMania in April. Despite some audio issues, Gomez appreciated the communal experience and hopes to return with his wife for future events.",
+          "ko": "토요일, M. 고메즈는 캘리포니아 엘 카혼의 리갈 시네마에서 WWE의 엘리미네이션 챔버 이벤트에 참석했습니다. 극장은 약 40명의 팬들로 가득 차 있었고, 팬들은 밤이 깊어갈수록 점점 더 열광적인 반응을 보였습니다. 이벤트는 여성 엘리미네이션 챔버 경기로 시작되었고, 라켈 로드리게스가 강한 인상을 남겼습니다. 리아 리플리가 티파니 스트래튼을 이긴 승리는 호평을 받았고, AJ 리가 베키 린치를 꺾고 여성 인터콘티넨탈 타이틀을 차지한 것은 예상치 못한 일이었습니다. 그러나 CM 펑크가 핀 발러를 이긴 경기는 일부 팬들의 불만을 샀습니다. 다하우젠의 데뷔는 미온적인 반응을 얻었고, 남성 챔버 경기는 관중을 흥분시켰으며, 특히 트릭 윌리엄스가 큰 환호를 받았습니다. 마지막에 랜디 오턴이 경기를 이기며 극장은 폭발적인 환호로 가득 찼습니다. 쇼가 끝난 후, 고메즈는 친구들과 다시 만나 다양한 레슬링 주제에 대해 이야기했으며, 많은 이들이 4월의 레슬매니아에 다시 올 계획을 세웠습니다. 일부 오디오 문제에도 불구하고, 고메즈는 공동체적인 경험을 소중하게 여겼으며, 앞으로 아내와 함께 다시 참석하기를 희망하고 있습니다."
+        }
       }
     }
   ],
@@ -119,9 +200,18 @@
       "source": "Associated Press",
       "publishedAt": "2026-03-02T12:29:00Z",
       "summaries": {
-        "elementary": "이스라엘과 미국이 이란을 공격하고 있어요. 이 전쟁은 몇 주 동안 계속될 것 같고, 많은 사람들이 영향을 받고 있어요.",
-        "middle": "AP 뉴스는 구글에서 더 많은 이야기를 보려면 선호하는 소스로 추가하라는 내용입니다. 이란과의 전쟁에서 이스라엘과 미국이 공격을 강화하고 있으며, 이란의 최고 지도자가 사망하면서 갈등이 심화되고 있습니다. 이러한 상황은 중동 지역의 안전과 세계 에너지 생산에 큰 영향을 미치고 있습니다.",
-        "high": "최근 AP 뉴스에 따르면, 이스라엘과 미국은 이란에 대한 군사 작전을 강화하고 있으며, 도널드 트럼프 미국 대통령은 이 작전이 몇 주간 지속될 것으로 예상하고 있습니다. 이란과 그 동맹국들은 이스라엘, 걸프 국가들, 그리고 세계 에너지 생산에 중요한 목표들을 반격하고 있습니다.\n\n이번 공격의 강도, 이란 최고 지도자 아야톨라 알리 하메네이가 사망한 사건, 그리고 명확한 퇴로가 없는 상황은 장기적인 갈등의 가능성을 시사하고 있습니다. 중동의 안전지대인 두바이에서도 공격이 발생하였고, 전 세계적으로 수십만 명의 항공 승객이 발이 묶인 상태입니다. 이란의 미사일과 드론을 저지하기 위해 미국의 동맹국들도 지원을 약속했습니다.\n\n트럼프 대통령은 이번 군사 작전이 4주에서 5주간 지속될 가능성이 높지만, 필요하다면 더 오랜 기간 동안 작전을 이어갈 준비가 되어 있다고 밝혔습니다. 이러한 상황은 국제 정세에 중대한 영향을 미칠 것으로 보이며, 에너지 시장에도 큰 변동성을 초래하고 있습니다."
+        "elementary": {
+          "en": "The United States and Israel are fighting against Iran, and this could take a long time. Many people are stuck at airports, and oil prices are going up because of the conflict.",
+          "ko": "미국과 이스라엘이 이란과 싸우고 있으며, 이것은 오랫동안 계속될 수 있습니다. 많은 사람들이 공항에 갇혀 있고, 갈등 때문에 기름 값이 오르고 있습니다."
+        },
+        "middle": {
+          "en": "The United States and Israel launched a strong attack on Iran, which is expected to continue for several weeks. Iran and its allies responded by targeting Israel and important energy sites. The conflict has caused global disruptions, including rising oil prices and stranded airline passengers, with U.S. allies promising support against Iranian threats.",
+          "ko": "미국과 이스라엘이 이란에 대한 강력한 공격을 시작했으며, 이 공격은 몇 주간 계속될 것으로 예상됩니다. 이란과 그 동맹국들은 이스라엘과 중요한 에너지 시설을 겨냥하여 반격했습니다. 이 갈등은 전 세계적으로 혼란을 초래했으며, 유가 상승과 항공편에 발이 묶인 승객들이 생기고, 미국의 동맹국들이 이란의 위협에 대한 지원을 약속했습니다."
+        },
+        "high": {
+          "en": "The United States and Israel launched a significant military campaign against Iran, which U.S. President Donald Trump indicated could extend over several weeks. In retaliation, Iran and its allies targeted Israel, Gulf states, and crucial energy production sites. The situation escalated with the death of Iranian Supreme Leader Ayatollah Ali Khamenei, raising concerns about a prolonged conflict with extensive implications. Key locations in the Middle East, such as Dubai, have experienced attacks, resulting in hundreds of thousands of stranded airline passengers and a surge in oil prices. U.S. allies have committed to countering Iranian missile and drone threats. Trump mentioned that military operations could last four to five weeks, but he is ready for a longer engagement if necessary.",
+          "ko": "미국과 이스라엘은 이란에 대한 대규모 군사 작전을 시작했으며, 도널드 트럼프 미국 대통령은 이 작전이 몇 주 동안 계속될 수 있다고 밝혔습니다. 이에 대한 보복으로 이란과 그 동맹국들은 이스라엘, 걸프 국가들, 그리고 중요한 에너지 생산 시설을 공격했습니다. 이란 최고 지도자 아야톨라 알리 하메네이의 사망으로 상황이 격화되면서 장기적인 갈등에 대한 우려가 커지고 있습니다. 두바이와 같은 중동의 주요 지역에서 공격이 발생했으며, 수십만 명의 항공 승객이 발이 묶이고, 유가가 급등했습니다. 미국의 동맹국들은 이란의 미사일과 드론 위협에 대응하기로 약속했습니다. 트럼프 대통령은 군사 작전이 4주에서 5주 동안 지속될 수 있다고 언급했지만, 필요하다면 더 오랜 기간 동안의 참여도 준비되어 있다고 밝혔습니다."
+        }
       }
     },
     {
@@ -131,9 +221,18 @@
       "source": "New Statesman",
       "publishedAt": "2026-03-02T11:40:35Z",
       "summaries": {
-        "elementary": "Maga 운동은 유럽이 위기 상황에서 제대로 대응하지 못했다고 생각하고, 미국과 유럽의 관계가 나빠졌다고 느끼고 있어요. 특히 우크라이나 전쟁과 국제 법에 대한 의견 차이가 큰 갈등의 원인으로 작용하고 있어요.",
-        "middle": "Maga 운동은 유럽이 국제 무대에서 진지하지 않다는 믿음을 가지고 있으며, 최근 이란에 대한 미사일 공격 후 유럽의 반응에 실망하고 있습니다. 이들은 우크라이나 전쟁과 NATO의 역할에 대한 갈등, 그리고 국제법에 대한 서로 다른 시각이 미국과 유럽 간의 관계 악화에 기여했다고 보고 있습니다. 결국, Maga 운동은 유럽이 위기 상황에서 미국의 동맹으로서 역할을 다하지 못했다고 주장하고 있습니다.",
-        "high": "Maga 운동은 유럽에 대한 우려가 현실로 확인되었다고 주장하고 있다. 미국과 이스라엘이 이란에 대한 미사일 공격을 감행한 직후, 우르줄라 폰 데어 라이엔 EU 집행위원장은 X 플랫폼에 특별 '안전 회의'를 소집하겠다고 발표했다. 이는 Maga 운동 내에서 유럽이 세계 무대에서 근본적으로 진지하지 않은 행위자라는 공식을 확립하게 되었다.\n\n전쟁은 대서양 간 관계의 악화를 가속화하고 있으며, 유럽 수도들의 혼란스러운 반응은 워싱턴에서 진정한 분노를 초래하고 있다. 린지 그레이엄 상원의원은 \"유럽은 우크라이나에 대한 러시아의 침공에 대해 올바르게 분노하고 있지만, 이란의 고통받는 국민들에 대해서는 유럽이 한심하다\"고 비판했다. 트럼프의 전 대변인인 숀 스파이서는 \"영국이 미국 군대의 기지 사용을 거부했다\"며 유럽의 태도를 비난했다. 워싱턴 포스트의 칼럼니스트 마크 티센은 \"특별 관계는 죽었다\"고 선언했다. 이에 대해 마가 상원의원 마이크 리는 미국의 나토 회원 자격이 지속 가능하지 않다고 주장했다.\n\nMaga 운동은 자신들이 가장 가까운 동맹국들이 위기 순간에 나타나지 않았다고 느끼고 있으며, 이는 많은 미국인들이 오랫동안 감지해온 사실의 확인으로 여겨진다. 관계 악화의 주요 원인은 다음과 같다.\n\n첫째, 우크라이나 문제이다. 트럼프 행정부의 많은 인사들은 이를 슬라브 간의 갈등으로 간주하며, 미국의 국가 이익에 영향을 미치지 않는다고 보고 있다. 유럽의 러시아 침공 저지 노력은 그들에게는 부차적인 문제로 여겨지며, 트럼프가 유럽 국가들에게 나토를 통해 미국의 군사 장비를 구매하도록 강요한 것은 큰 비용을 수반하는 분열을 초래했다.\n\n둘째, 미국은 유럽에 대한 존중이 부족했다. 트럼프가 아프가니스탄 전선에서 나토 군대가 후방에 머물러야 한다고 언급했을 때 유럽 수도들에서의 분노를 워싱턴이 제대로 이해하지 못했다고 여겨진다.\n\n셋째, 국제법의 유효성에 대한 의견 차이가 있다. EU는 자국의 거대한 시장을 규제할 수 있는 능력이 세계 무대에서의 힘을 부여한다고 믿고 있다. 반면, 트럼프 행정부는 국제법을 경시하며, 이를 미국의 주권에 대한 모욕으로 간주한다. 이러한 의견 차이는 영국이 미국의 기지 사용을 처음에 차단하게 만든 원인으로 작용했으며, 이는 '특별 관계'의 핵심 목적 중 하나인 군사 협력을 저해했다. 스타머는 전쟁의 법적 근거가 없다고 생각했으며, 전쟁을 부추기는 책임을 지고 싶지 않았던 것으로 보인다. 그는 미국 군대가 방어적 폭격을 위해 영국 기지를 사용할 수 있도록 허용했지만, 이는 집단적 자위권에 의해 법적으로 정당화된 것이라고 강조했다. Maga 운동은 이러한 글로벌리즘에 대한 집착을 불만으로 여기고 있다.\n\n모든 유럽인이 이러한 의견에 동의하는 것은 아니며, 폴란드는 공격 전에 사전 통지를 받았다고 자랑하기도 했다."
+        "elementary": {
+          "en": "The Maga movement in the US is unhappy because they think Europe is not helping during a crisis. They believe that Europe does not take important issues seriously, especially when it comes to conflicts like the one in Ukraine.",
+          "ko": "Maga 운동은 미국에서 유럽이 위기 상황에서 도와주지 않는다고 생각해서 불만이 많습니다. 그들은 유럽이 우크라이나와 같은 갈등에 대해 중요한 문제를 진지하게 받아들이지 않는다고 믿고 있습니다."
+        },
+        "middle": {
+          "en": "The Maga movement in the U.S. feels betrayed by European allies during the crisis with Iran, believing that Europe is not serious about global issues. Tensions have risen due to differing views on the Ukraine conflict, perceived disrespect from the U.S. towards Europe, and disagreements over international law. This situation has led to a breakdown in the transatlantic relationship, with some U.S. politicians expressing frustration at Europe's lack of support.",
+          "ko": "마가 운동은 이란과의 위기 동안 유럽 동맹국들에게 배신감을 느끼고 있으며, 유럽이 세계 문제에 대해 진지하지 않다고 믿고 있습니다. 우크라이나 갈등에 대한 상반된 견해, 미국의 유럽에 대한 경시, 그리고 국제법에 대한 의견 차이로 긴장이 고조되었습니다. 이러한 상황은 대서양 관계의 붕괴로 이어졌으며, 일부 미국 정치인들은 유럽의 지원 부족에 대한 불만을 표명하고 있습니다."
+        },
+        "high": {
+          "en": "The Maga movement in the United States feels validated in its skepticism towards Europe following missile strikes by the US and Israel against Iran. Ursula von der Leyen, the EU Commission president, announced a special security meeting, which has been interpreted by Maga supporters as evidence of Europe's lack of seriousness on global issues. The ongoing war has exacerbated tensions in transatlantic relations, with frustration in Washington over Europe's mixed responses, particularly regarding the conflict in Ukraine. Many in the Trump administration view the war as a distant issue that does not affect US interests, while European leaders feel disrespected by the US's handling of international relations. Additionally, there is a fundamental disagreement over the role of international law, with the EU valuing it highly, while the Trump administration dismisses it. This discord has led to a perceived breakdown in the special relationship between the US and the UK, particularly regarding military cooperation. Despite these tensions, not all European nations share the same views, as evidenced by Poland's proactive stance in the situation.",
+          "ko": "Maga 운동은 미국과 이스라엘의 이란에 대한 미사일 공격 이후 유럽에 대한 회의감이 정당화되었다고 느끼고 있다. 유럽연합 집행위원회 의장인 우르줄라 폰 데어 라이엔은 특별 안보 회의를 발표했으며, 이는 Maga 지지자들에 의해 유럽의 세계 문제에 대한 진지함 부족의 증거로 해석되고 있다. 전쟁은 대서양 관계의 긴장을 악화시켰고, 유럽의 혼합된 반응에 대한 워싱턴의 불만이 커지고 있다. 트럼프 행정부의 많은 이들은 이 전쟁을 미국의 이익에 영향을 미치지 않는 먼 문제로 보고 있으며, 유럽 지도자들은 미국의 국제 관계 처리 방식에 불만을 느끼고 있다. 또한, 국제법의 역할에 대한 근본적인 의견 차이가 존재하는데, 유럽연합은 이를 높이 평가하는 반면, 트럼프 행정부는 이를 경시하고 있다. 이러한 불일치는 미국과 영국 간의 특별 관계의 붕괴로 이어지고 있으며, 특히 군사 협력에 영향을 미치고 있다. 그럼에도 불구하고 모든 유럽 국가가 같은 견해를 공유하는 것은 아니며, 폴란드의 적극적인 입장이 그 예시이다."
+        }
       }
     },
     {
@@ -143,9 +242,18 @@
       "source": "NPR",
       "publishedAt": "2026-03-02T10:00:00Z",
       "summaries": {
-        "elementary": "전기차 배터리는 시간이 지날수록 에너지를 덜 저장하지만, 최근 데이터에 따르면 예상보다 더 오래 사용할 수 있다고 해. 보통 3년 후에도 배터리 성능이 95% 이상 유지된다고 해.",
-        "middle": "전기차(EV) 배터리는 시간이 지남에 따라 에너지를 덜 저장하게 되며, 초기에는 급격히 감소하다가 일정 기간 후에는 완만하게 줄어듭니다. 최근 데이터에 따르면, 많은 전기차 배터리가 예상보다 더 오랫동안 95% 이상의 성능을 유지하고 있어, 초기 우려보다 더 나은 결과를 보이고 있습니다. 배터리 수명은 보통 7년 이상으로 예상되며, 사용에 따라 다르게 노후화됩니다.",
-        "high": "전기차 배터리의 실제 수명에 대한 논의는 전기차(EV)의 발전과 함께 점점 더 중요해지고 있다. 15년 전, 현대 전기차가 도로에 등장했을 때, 리튬 이온 배터리의 수명에 대한 예측은 불확실했다. 초기 예측에 따르면, EV 배터리는 7년 이상 지속될 것으로 예상되었으나, 이는 평균 자동차의 수명인 12년과 큰 차이를 보였다. 이로 인해 많은 소비자들이 전기차 구매에 대해 망설이게 되었다.\n\nEV 배터리는 보통 5,000달러에서 2만 달러에 이르는 교체 비용이 발생할 수 있으며, 배터리 보증 기간은 차량의 전체 수명보다 짧다. 그러나 최근 수만 대의 EV에서 수집된 데이터에 따르면, 배터리의 실제 수명이 예측보다 길어지고 있다는 긍정적인 소식이 전해지고 있다.\n\n리튬 이온 배터리는 두 가지 유형의 노화 과정을 겪는다. 첫 번째는 시간에 따른 노화(캘린더 노화)로, 배터리가 사용되지 않더라도 시간이 지남에 따라 성능이 저하된다. 두 번째는 사용에 따른 노화(주기적 노화)로, 충전과 방전을 반복함에 따라 배터리의 성능이 감소한다. 결국, 사용 여부와 관계없이 배터리는 시간이 지나면서 에너지를 덜 저장하게 된다.\n\n그러나 배터리 노화의 경과는 직선적이지 않다. 리서치 회사 Recurrent에 따르면, 배터리 노화는 'S 곡선' 형태를 띠며, 초기에는 빠른 성능 저하가 나타나고, 이후에는 안정적인 상태를 유지하다가 마지막에 급격한 성능 저하가 발생한다. Recurrent의 시장 통찰 담당 이사인 리즈 나이먼은 이를 신발의 길들이기와 비유하며, 초기에는 경직되다가 점차 유연해지며 결국에는 빠른 성능 저하가 찾아온다고 설명한다.\n\nCox Automotive의 차량 서비스 이사인 아담 조지에 따르면, 최근 몇 년 간 중고 EV의 수가 급증하면서, 이들 차량의 배터리 건강 상태를 평가할 기회가 늘어났다. 그는 2~4년 된 차량의 배터리 건강 점수가 95% 이상인 경우가 많아, 초기 예상과 달리 배터리의 성능 저하가 크지 않음을 확인했다. Recurrent의 데이터 또한 주요 브랜드의 차량들이 3년 후에도 예상 범위의 95% 이상을 유지하고 있음을 보여준다. 이는 배터리 관리 시스템과 소프트웨어가 초기 성능 저하를 보완하고, 운전자가 일관된 주행 범위를 경험할 수 있도록 돕기 때문이다.\n\n결론적으로, 전기차 배터리는 초기 성능 저하가 예상보다 적고, 전체 수명 동안의 성능 유지가 더 나은 것으로 나타나고 있다. 이는 전기차 구매자들에게 긍정적인 신호로 작용할 수 있으며, 전기차의 미래에 대한 신뢰를 높이는 데 기여할 것이다."
+        "elementary": {
+          "en": "Electric vehicle batteries are lasting longer than people thought, with many still holding over 95% of their energy after three years. This is good news for car owners because it means they won't have to replace their batteries as soon as they feared.",
+          "ko": "전기차 배터리는 사람들이 생각했던 것보다 더 오래 가고 있으며, 많은 배터리가 3년 후에도 95% 이상의 에너지를 유지하고 있습니다. 이는 차주들에게 좋은 소식입니다. 왜냐하면 그들이 걱정했던 것처럼 빨리 배터리를 교체할 필요가 없기 때문입니다."
+        },
+        "middle": {
+          "en": "Electric vehicle (EV) batteries were expected to last longer than traditional batteries, but early predictions suggested they might only last around seven years. However, recent data shows that many EV batteries are lasting much longer, often retaining over 95% of their capacity after three years. This improvement is attributed to better battery management systems and software that help maintain battery health over time.",
+          "ko": "전기차(EV) 배터리는 기존 배터리보다 더 오래 지속될 것으로 예상되었지만, 초기 예측에서는 약 7년밖에 가지 않을 것이라고 제안했습니다. 그러나 최근 데이터에 따르면 많은 EV 배터리가 3년 후에도 95% 이상의 용량을 유지하고 있습니다. 이러한 개선은 배터리 건강을 유지하는 데 도움이 되는 더 나은 배터리 관리 시스템과 소프트웨어 덕분입니다."
+        },
+        "high": {
+          "en": "Electric vehicle (EV) batteries, particularly lithium-ion types, were initially expected to last around seven years, raising concerns among potential buyers given that the average car age is over 12 years. However, recent data from tens of thousands of EVs indicates that these batteries are lasting longer than anticipated. Battery aging occurs through calendar aging, where batteries degrade over time, and cyclical aging, which depends on usage patterns. Research shows that while there is an initial rapid decline in battery performance, this drop-off is less severe than previously feared, and the end-of-life decline takes longer to manifest. Used EVs are showing impressive battery health, with many retaining over 95% of their expected range after three years, aided by advanced battery management systems.",
+          "ko": "전기차(EV) 배터리, 특히 리튬 이온 배터리는 처음에 약 7년 정도 지속될 것으로 예상되었으며, 평균 자동차 연령이 12년이 넘는 점에서 잠재 구매자들 사이에 우려를 불러일으켰습니다. 그러나 최근 수만 대의 EV에서 수집된 데이터에 따르면 이러한 배터리는 예상보다 더 오래 지속되고 있습니다. 배터리 노화는 시간에 따라 배터리가 저하되는 '캘린더 노화'와 사용 패턴에 따라 달라지는 '주기적 노화'로 발생합니다. 연구에 따르면 배터리 성능의 초기 급격한 저하는 이전에 우려했던 것보다 덜 심각하며, 수명 종료 시의 저하는 나타나는 데 더 오랜 시간이 걸립니다. 중고 EV는 인상적인 배터리 건강을 보여주며, 많은 차량이 3년 후에도 예상 범위의 95% 이상을 유지하고 있으며, 이는 고급 배터리 관리 시스템 덕분입니다."
+        }
       }
     },
     {
@@ -155,9 +263,18 @@
       "source": "TMZ",
       "publishedAt": "2026-03-02T09:00:40Z",
       "summaries": {
-        "elementary": "김모라 리 시몬스는 이름을 간단하게 바꾸고 싶어해요. 그래서 여러 남편의 성을 빼고 '김모라 리'로 바꾸려는 거예요.",
-        "middle": "김오라 리 시몬스는 자신의 이름에서 전 남편들의 성을 없애고 싶어 합니다. 그녀는 법적 문서를 통해 이름을 '김오라 리 시몬스-라이스너'에서 '김오라 리'로 변경하려고 합니다. 이는 기록과 문서의 통합을 위해서라고 밝혔습니다.",
-        "high": "김모라 리 시몬스(Kimora Lee Simmons)는 자신의 삶을 간소화하고자 하는 의도를 드러내며, 몇몇 전 남편의 성을 공식적으로 변경하려는 절차를 밟고 있다. TMZ가 입수한 법적 문서에 따르면, 그녀는 자신의 이름을 '김모라 리 시몬스-라이스너(Kimora Lee Simmons-Leissner)'에서 '김모라 리(Kimora Lee)'로 변경하기 위한 서류를 제출했다.\n\n변경의 이유로 김모라는 \"기록과 다양한 문서에서 사용되는 이름의 통합\"을 들었다. 김모라는 1998년에 러셀 시몬스(Russell Simmons)와 결혼하였으나 2009년에 이혼하였고, 이후에도 시몬스라는 성을 유지해왔다. 2014년에는 팀 라이스너(Tim Leissner)와 재혼하였고, 이때 시몬스라는 성을 라이스너와 결합하여 '김모라 리 시몬스-라이스너'라는 이름을 사용하게 되었다. 그러나 김모라는 2022년에 팀과 별거하게 되었다.\n\n김모라는 세인트루이스에서 김모라 리 퍼킨스(Kimora Lee Perkins)라는 이름으로 태어났지만, 과거의 이름으로 돌아가기보다는 '김모라 리'라는 간단한 이름으로 축약하고자 하는 것으로 보인다. 상황에 정통한 소식통에 따르면, 김모라는 수십 년 동안 자신의 재단을 운영해왔으며, 이러한 변화는 그녀의 개인적인 정체성과 삶의 방향성을 반영하는 것으로 해석될 수 있다."
+        "elementary": {
+          "en": "Kimora Lee Simmons wants to make her name simpler by dropping the last names of her ex-husbands. She is changing her name to just Kimora Lee.",
+          "ko": "키모라 리 시몬스는 전 남편들의 성을 없애고 이름을 더 간단하게 만들고 싶어합니다. 그녀는 이름을 그냥 키모라 리로 바꾸고 있습니다."
+        },
+        "middle": {
+          "en": "Kimora Lee Simmons wants to simplify her life by changing her name. She has filed legal documents to drop the last names of her ex-husbands, Russell Simmons and Tim Leissner, and will be known as Kimora Lee. Kimora believes this change will help with the organization of her records and documents.",
+          "ko": "키모라 리 시몬스는 자신의 삶을 단순화하고 싶어하며 이름을 변경하려고 합니다. 그녀는 전 남편 러셀 시몬스와 팀 라이스너의 성을 버리고 키모라 리로 알려지게 될 법적 문서를 제출했습니다. 키모라는 이 변화가 자신의 기록과 문서 정리에 도움이 될 것이라고 믿고 있습니다."
+        },
+        "high": {
+          "en": "Kimora Lee Simmons is seeking to simplify her name by officially dropping the surnames of her ex-husbands, including Russell Simmons. Legal documents obtained by TMZ reveal that she has filed to change her name from Kimora Lee Simmons-Leissner to Kimora Lee. Kimora cites the need for \"consolidation of records and names used in different documents\" as her reason for the change. She was married to Russell Simmons from 1998 until their divorce in 2009, after which she retained his surname. In 2014, she married Tim Leissner, adopting his surname to become Kimora Lee Simmons-Leissner, but the couple separated in 2022. Originally named Kimora Lee Perkins, she now prefers to revert to the simpler name of Kimora Lee. Sources indicate that Kimora has been independently managing her own foundation for many years.",
+          "ko": "키모라 리 시몬스는 러셀 시몬스를 포함한 전 남편들의 성을 공식적으로 버리고 이름을 간소화하려고 하고 있습니다. TMZ가 입수한 법적 문서에 따르면, 그녀는 이름을 킴오라 리 시몬스-라이스너에서 킴오라 리로 변경하기 위한 서류를 제출했습니다. 그녀는 \"기록과 다양한 문서에서 사용된 이름의 통합\"을 변경 사유로 언급했습니다. 키모라는 1998년에 러셀 시몬스와 결혼했으나 2009년에 이혼한 후 그의 성을 유지했습니다. 2014년에는 팀 라이스너와 결혼하여 그의 성을 추가해 킴오라 리 시몬스-라이스너가 되었지만, 두 사람은 2022년에 이혼했습니다. 본래 이름은 킴오라 리 퍼킨스였던 그녀는 이제 킴오라 리라는 간단한 이름으로 돌아가고 싶어하는 것으로 보입니다. 소식통에 따르면, 키모라는 수년간 자신의 재단을 독립적으로 운영해 왔다고 합니다."
+        }
       }
     }
   ],
@@ -169,9 +286,18 @@
       "source": "The Washington Post",
       "publishedAt": "2026-03-02T10:07:21Z",
       "summaries": {
-        "elementary": "음식을 냉동실에 비닐봉지에 넣어도 괜찮아요. 하지만 어떤 음식에는 작은 플라스틱이 많이 들어 있을 수 있어요.",
-        "middle": "냉동실에 음식을 플라스틱 봉지에 보관하는 것은 일반적으로 괜찮지만, 일부 플라스틱은 온도 변화로 인해 화학물질이 나올 수 있어 주의가 필요해요. 미세플라스틱이 많이 포함된 음식으로는 가공식품, 해산물 등이 있어요. 따라서 신선한 식품을 선택하고, 안전한 포장재를 사용하는 것이 중요해요.",
-        "high": "식품을 냉동고에 보관할 때 플라스틱 봉지를 사용하는 것이 적절한지에 대한 논의는 최근 들어 많은 관심을 받고 있다. 일반적으로 플라스틱 봉지는 식품을 보관하는 데 편리하지만, 특정 조건에서 이들이 미세플라스틱을 방출할 수 있다는 우려가 제기되고 있다. \n\n미세플라스틱은 5mm 이하의 작은 플라스틱 조각으로, 환경과 인체 건강에 부정적인 영향을 미칠 수 있다. 연구에 따르면, 특히 기름기 있는 음식이나 산성이 강한 음식은 플라스틱과의 접촉으로 인해 미세플라스틱을 더 많이 방출할 가능성이 있다. 예를 들어, 기름, 고기, 생선, 그리고 산성 과일이나 채소는 이러한 위험에 노출될 수 있는 대표적인 식품이다.\n\n따라서 환자들에게는 플라스틱 봉지 대신 유리 용기나 스테인리스 스틸 용기와 같은 대체 보관 용기를 사용하는 것을 권장하는 것이 바람직하다. 이러한 대체 용기는 미세플라스틱의 방출을 최소화할 수 있으며, 식품의 신선도와 안전성을 유지하는 데 도움을 줄 수 있다. \n\n결론적으로, 플라스틱 봉지를 냉동고에서 사용하는 것은 식품의 종류에 따라 신중하게 고려해야 하며, 가능한 경우 더 안전한 대체 용기를 사용하는 것이 좋다. 이는 건강을 보호하고 미세플라스틱의 섭취를 줄이는 데 기여할 수 있다."
+        "elementary": {
+          "en": "It is not always safe to store food in plastic bags in the freezer. Some foods can have tiny bits of plastic called microplastics.",
+          "ko": "냉동고에 음식을 비닐봉지에 보관하는 것이 항상 안전하지는 않아요. 어떤 음식은 미세플라스틱이라고 하는 작은 플라스틱 조각이 있을 수 있어요."
+        },
+        "middle": {
+          "en": "Storing food in plastic bags in the freezer can be safe, but it is important to choose the right type of plastic. Some foods, like fish and seafood, may contain more microplastics, which can be harmful. It is best to use glass or freezer-safe containers for better food safety.",
+          "ko": "냉동고에 음식을 플라스틱 봉지에 보관하는 것은 안전할 수 있지만, 올바른 종류의 플라스틱을 선택하는 것이 중요합니다. 생선과 해산물 같은 일부 음식은 미세 플라스틱이 더 많이 포함될 수 있으며, 이는 해로울 수 있습니다. 더 나은 식품 안전을 위해 유리 용기나 냉동 안전 용기를 사용하는 것이 가장 좋습니다."
+        },
+        "high": {
+          "en": "Storing food in plastic bags in the freezer is a common practice, but it raises concerns about the potential leaching of microplastics into food. Certain foods, particularly fatty items like fish and meats, are more likely to absorb microplastics. It is advisable to use freezer-safe containers or bags specifically designed for food storage to minimize risks. Patients should be informed about these considerations to make safer choices regarding food storage.",
+          "ko": "냉동고에 음식을 플라스틱 봉지에 보관하는 것은 일반적인 관행이지만, 음식에 미세플라스틱이 침출될 가능성에 대한 우려가 있습니다. 특히 생선과 고기와 같은 지방이 많은 음식은 미세플라스틱을 흡수할 가능성이 더 높습니다. 위험을 최소화하기 위해서는 음식 저장을 위해 특별히 설계된 냉동 안전 용기나 봉지를 사용하는 것이 좋습니다. 환자들에게 이러한 고려 사항을 알려주어 안전한 음식 저장 선택을 할 수 있도록 해야 합니다."
+        }
       }
     },
     {
@@ -181,9 +307,18 @@
       "source": "ScienceAlert",
       "publishedAt": "2026-03-02T02:28:56Z",
       "summaries": {
-        "elementary": "의료 연구자들이 세마글루타이드라는 약물이 관절염으로 인한 조직 손상을 회복할 수 있다는 것을 발견했어요. 이 약물은 체중 감소와 관계없이 관절 건강을 개선하는 데 도움을 줄 수 있어요.",
-        "middle": "세마글루타이드(semaglutide)는 세계에서 가장 흔한 관절염인 골관절염의 조직 손상을 되돌릴 수 있는 가능성이 있는 약물입니다. 이 약물은 체중 감소와 관계없이 관절 건강을 개선하고, 연골을 유지하는 세포의 에너지 생산을 증가시킵니다. 연구 결과, 세마글루타이드는 통증을 줄이고 연골 퇴화를 감소시키는 효과가 있으며, 이는 새로운 치료 방법으로 주목받고 있습니다.",
-        "high": "의학 연구자들이 발견한 바에 따르면, 세마글루타이드(Semaglutide)는 세계에서 가장 흔한 형태의 관절염인 골관절염(Osteoarthritis)으로 인한 심각한 조직 손상을 되돌릴 수 있는 가능성을 지니고 있다. 세마글루타이드는 당뇨병 2형 치료와 체중 감량에 주로 사용되는 약물로, 최근 연구에서는 체중 감소와는 무관하게 관절을 보호하는 메커니즘을 통해 작용하는 것으로 나타났다.\n\n이 연구는 중국과 미국의 연구팀에 의해 수행되었으며, 세마글루타이드가 연골을 합성하고 유지하는 세포의 대사 과정을 재프로그램하여 에너지를 더 많이 생성하도록 돕는다는 결과를 도출하였다. 연구팀은 \"이 연구는 세마글루타이드가 대사성 골관절염 치료에 효과적인 약물로서의 잠재적인 비타겟 효과를 강조할 뿐만 아니라, 체중 감소와는 무관한 회복 메커니즘을 밝혀낸다\"고 발표하였다.\n\n연구자들은 쥐 실험 외에도 비만과 골관절염을 앓고 있는 사람들을 대상으로 세마글루타이드의 통증, 이동성, 조직 퇴화에 미치는 영향을 평가하는 무작위 인간 시험을 실시하였다. 비만, 당뇨병과 같은 대사 장애, 염증은 골관절염의 진행에 주요한 기여 요인으로 작용하며, 이들 상태는 뼈, 연골, 관절 내막 등 신체의 거의 모든 조직에 영향을 미칠 수 있다.\n\n세마글루타이드 계열의 약물은 인슐린 분비를 자극하여 혈당 수치를 조절하는 자연 호르몬인 글루카곤 유사 펩타이드 1(GLP-1)을 모방하여 작용한다. 이 호르몬은 또한 뇌에 식사가 끝났음을 알리며, 식욕 억제 효과를 촉진한다. 일반적으로 체중 감소가 관절에 가해지는 하중을 줄여 골관절염을 완화하는 것으로 알려져 있으나, 세마글루타이드는 이러한 기전과는 별개로 관절 건강에 근본적인 영향을 미치는 것으로 보인다.\n\n연구 결과, 세마글루타이드 치료를 받은 비만 및 골관절염 쥐에서는 통증이 감소하고 연골 퇴화가 줄어들었다. 또한, 쥐의 경우 뼈 스퍼와 관절 내막의 병변이 덜 심각한 것으로 나타났다. 연구자들은 치료받은 쥐와 치료받지 않은 쥐의 연골을 비교했을 때, 약 8,300개의 단백질 발현 변화가 감지되었다. 특히, \"페어 피딩(pair-feeding)\" 그룹과의 비교에서, 세마글루타이드 치료를 받은 쥐와 비슷한 양의 음식을 섭취했음에도 불구하고, 페어 피딩 그룹은 같은 연골 보호 효과를 보이지 않았다. 이는 세마글루타이드가 체중 감소와는 무관하게 관절에 직접적인 영향을 미친다는 것을 시사한다.\n\n세마글루타이드가 영향을 미치는 가장 중요한 생물학적 경로는 \"GLP-1R-AMPK-PFKFB3 축\"으로, 이는 다양한 세포가 에너지를 생성하는 방식에 영향을 미친다. 이 효소의 연쇄 반응을 시작함으로써, 세마글루타이드는 연골세포인 연골세포(chondrocytes)의 대사 과정을 변화시켜 더 효율적으로 에너지를 생성하고 생존할 수 있도록 한다.\n\n연구자들은 골관절염에 영향을 받은 쥐에서 연골세포의 에너지원으로 주로 해당작용(glycolysis)이 사용된다는 사실을 밝혀냈다. 해당작용은 산소를 필요로 하지 않기 때문에 고강도 운동 중 빠르게 에너지를 공급할 수 있지만, 산소 부족으로 인해 포도당 1분자당 단지 2개의 ATP(에너지 제공 분자)만 생성한다. 그러나 세마글루타이드 치료 후에는 산화적 인산화(oxidative phosphorylation, OXPHOS) 과정이 활성화되어 에너지 생산 방식이 개선되었다. \n\n이러한 연구 결과는 세마글루타이드가 골관절염 치료에 있어 새로운 가능성을 제시하며, 기존의 증상 완화에 그치지 않고 근본적인 원인에 접근할 수 있는 혁신적인 치료법으로 자리 잡을 수 있음을 암시한다."
+        "elementary": {
+          "en": "Medical researchers found that a medicine called semaglutide can help heal damaged joints in people with osteoarthritis. This medicine works by helping the cells in the joints to produce more energy, which makes them healthier.",
+          "ko": "의학 연구자들은 세마글루타이드라는 약이 관절염이 있는 사람들의 손상된 관절을 치유하는 데 도움이 될 수 있다고 발견했습니다. 이 약은 관절의 세포가 더 많은 에너지를 생산하도록 도와주어 세포를 더 건강하게 만듭니다."
+        },
+        "middle": {
+          "en": "Medical researchers have found that semaglutide, a drug used for diabetes and weight loss, may help repair tissue damage caused by osteoarthritis. In studies with mice and humans, semaglutide reduced pain and improved joint health without relying on weight loss. The drug works by changing how cartilage cells produce energy, leading to better joint protection and less degeneration.",
+          "ko": "의료 연구자들은 당뇨병과 체중 감소에 사용되는 약물인 세마글루타이드가 골관절염으로 인한 조직 손상을 회복하는 데 도움이 될 수 있음을 발견했습니다. 쥐와 인간을 대상으로 한 연구에서 세마글루타이드는 체중 감소에 의존하지 않고 통증을 줄이고 관절 건강을 개선했습니다. 이 약물은 연골 세포가 에너지를 생산하는 방식을 변화시켜 관절 보호를 개선하고 퇴화를 줄이는 데 기여합니다."
+        },
+        "high": {
+          "en": "Medical researchers have found that semaglutide, a drug commonly used for treating type 2 diabetes and aiding weight loss, may also reverse tissue damage caused by osteoarthritis, the most prevalent form of arthritis. The study indicates that semaglutide protects joints in mice not by promoting weight loss, but by reprogramming the metabolism of cartilage-producing cells to enhance their energy production. This discovery suggests that semaglutide may have a significant off-target effect, providing a repair mechanism independent of weight loss. \n\nIn addition to animal studies, a randomized human trial was conducted to evaluate semaglutide's impact on pain, mobility, and tissue degradation in obese individuals with osteoarthritis. The findings revealed that semaglutide treatment resulted in reduced pain and cartilage degeneration in both mice and humans, highlighting its potential to address the underlying causes of osteoarthritis rather than merely alleviating symptoms. \n\nThe research identified a critical biological pathway influenced by semaglutide, known as the \"GLP-1R-AMPK-PFKFB3 axis,\" which enhances the energy production processes in cartilage cells. This alteration in metabolism allows these cells to become more efficient and survive better, suggesting a promising avenue for treating osteoarthritis beyond conventional therapies.",
+          "ko": "의학 연구자들은 제2형 당뇨병 치료와 체중 감소에 일반적으로 사용되는 약물인 세마글루타이드가 세계에서 가장 흔한 형태의 관절염인 골관절염으로 인한 조직 손상을 되돌릴 수 있다는 사실을 발견했습니다. 연구에 따르면 세마글루타이드는 체중 감소를 촉진하는 것이 아니라 연골 생성 세포의 대사를 재프로그램하여 에너지 생산을 향상시킴으로써 쥐의 관절을 보호하는 것으로 나타났습니다. 이 발견은 세마글루타이드가 체중 감소와 무관한 수리 메커니즘을 제공할 수 있는 중요한 부작용 효과를 가질 수 있음을 시사합니다.\n\n동물 연구 외에도 비만인 골관절염 환자를 대상으로 세마글루타이드의 통증, 이동성 및 조직 분해에 대한 영향을 평가하기 위한 무작위 인간 시험이 실시되었습니다. 연구 결과, 세마글루타이드 치료는 쥐와 인간 모두에서 통증 감소 및 연골 퇴화를 줄이는 것으로 나타났으며, 이는 골관절염의 근본 원인을 해결할 수 있는 잠재력을 강조합니다.\n\n연구진은 세마글루타이드가 영향을 미치는 중요한 생물학적 경로인 \"GLP-1R-AMPK-PFKFB3 축\"을 확인했으며, 이는 연골 세포의 에너지 생산 과정을 향상시킵니다. 이러한 대사의 변화는 연골 세포가 더 효율적으로 되고 생존할 수 있도록 하여 기존 치료법을 넘어 골관절염 치료의 유망한 경로를 제시합니다."
+        }
       }
     },
     {
@@ -193,9 +328,18 @@
       "source": "The Times of India",
       "publishedAt": "2026-03-01T23:30:00Z",
       "summaries": {
-        "elementary": "저녁에 먹는 음식이 몸에 큰 영향을 미쳐요. 늦게 먹으면 살이 찌고 건강이 나빠질 수 있으니, 규칙적으로 먹고 잘 자는 것이 중요해요.",
-        "middle": "저녁 시간은 체중에 큰 영향을 미칠 수 있습니다. 저녁 7시 이후에도 몸은 계속해서 소화하고 세포를 복구하며 호르몬과 혈당을 조절합니다. 하지만 늦은 저녁 식사와 스트레스는 이러한 과정을 방해할 수 있으며, 이는 비만과 관련이 있습니다.",
-        "high": "저녁 시간은 체중 조절에 중요한 영향을 미치는 요소로, 이는 몇 주 후 체중계에 나타나는 수치에 결정적인 역할을 할 수 있다. 오후 7시 이후에도 신체는 단순히 휴식 상태에 들어가는 것이 아니라, 여전히 소화, 세포 복구, 호르몬 균형 조절, 혈당 관리 등의 생리적 과정을 지속한다. 그러나 이 시점은 종종 무거운 식사, 전자기기 사용, 스트레스, 늦은 취침 등으로 인해 이러한 과정들이 저해되는 경향이 있다.\n\n대사(Metabolism)는 단순히 칼로리 소모 속도를 의미하는 것이 아니라, 신체가 음식을 에너지로 변환하는 효율성, 인슐린 관리, 장내 미생물 지원, 근육 유지 등 다양한 생리적 기능을 반영한다. BMC Public Health에 발표된 연구에 따르면, 인도의 비만 증가와 늦은 식사 패턴, 낮은 활동 수준, 불량한 수면 간에는 밀접한 연관성이 있다. 또한, 미국 국립보건원(NIH)의 글로벌 연구에 따르면, 밤늦게 식사하는 것이 다음 날의 배고픔 호르몬을 증가시키고 칼로리 소모를 감소시킬 수 있음을 보여준다.\n\n이러한 맥락에서, 저녁 시간에 약간의 습관 변화를 주는 것이 신체의 자연 리듬에 부합하여 측정 가능한 긍정적 변화를 가져올 수 있다. 다음은 신체의 자연 리듬과 조화를 이루는 다섯 가지 습관이다."
+        "elementary": {
+          "en": "Eating late at night can make it harder for our bodies to stay healthy. If we eat earlier and take care of ourselves, we can feel better and have more energy.",
+          "ko": "밤늦게 먹는 것은 우리 몸이 건강하게 유지되는 것을 더 어렵게 만들 수 있어요. 더 일찍 먹고 스스로를 잘 돌보면 더 기분이 좋고 에너지가 더 생길 수 있어요."
+        },
+        "middle": {
+          "en": "Eating habits in the evening can greatly affect weight and health over time. Late-night meals, stress, and screen time can slow down the body's metabolism and lead to weight gain. Studies show that changing evening habits can improve health by supporting better digestion and energy use.",
+          "ko": "저녁 식습관은 시간이 지남에 따라 체중과 건강에 큰 영향을 미칠 수 있습니다. 늦은 밤의 식사, 스트레스, 스크린 시간은 신진대사를 늦추고 체중 증가로 이어질 수 있습니다. 연구에 따르면 저녁 습관을 바꾸면 소화와 에너지 사용을 개선하여 건강을 향상시킬 수 있습니다."
+        },
+        "high": {
+          "en": "Evening habits significantly influence weight management over time. After 7 pm, the body remains active in digestion, cell repair, hormone regulation, and blood sugar control. However, this period often coincides with heavy meals, screen time, stress, and late nights, which can hinder these essential processes. Metabolism encompasses more than just calorie burning; it involves the body's efficiency in converting food into energy, managing insulin, supporting gut health, and maintaining muscle mass. Research indicates a strong correlation between late eating patterns, low physical activity, and poor sleep with rising obesity rates in India. Additionally, studies from the National Institutes of Health reveal that late-night eating can elevate hunger hormones and decrease calorie expenditure the following day. Implementing small adjustments to evening routines can lead to significant improvements in health. Here are five habits that align with the body's natural rhythms.",
+          "ko": "저녁 습관은 시간이 지남에 따라 체중 관리에 중요한 영향을 미칩니다. 오후 7시 이후에도 신체는 소화, 세포 복구, 호르몬 조절, 혈당 조절을 계속합니다. 그러나 이 시기는 종종 과식, 화면 사용, 스트레스, 늦은 밤과 겹쳐져 이러한 필수 과정에 방해가 될 수 있습니다. 신진대사는 단순한 칼로리 소모 이상을 포함하며, 음식의 에너지 전환 효율, 인슐린 관리, 장 건강 지원, 근육 유지 등을 포함합니다. 연구에 따르면, 늦은 식사 패턴, 낮은 신체 활동 수준, 수면 부족이 인도의 비만 증가와 밀접한 관련이 있습니다. 또한, 국립 보건원(NIH)의 연구는 늦은 밤 식사가 다음 날의 배고픔 호르몬을 증가시키고 칼로리 소모를 감소시킬 수 있음을 보여줍니다. 저녁 루틴에 작은 조정을 도입하면 건강에 상당한 개선을 가져올 수 있습니다. 신체의 자연 리듬에 맞는 다섯 가지 습관을 소개합니다."
+        }
       }
     },
     {
@@ -205,9 +349,18 @@
       "source": "SciTechDaily",
       "publishedAt": "2026-03-01T23:22:57Z",
       "summaries": {
-        "elementary": "레베티라세탐은 이미 생긴 플라크를 없애는 대신, 나쁜 물질이 생기는 것을 막아요. 그래서 뇌 건강에 도움이 될 수 있어요.",
-        "middle": "레베티라세탐(levetiracetam)은 이미 형성된 플라크를 제거하는 치료법과는 다르게 작용합니다. 이 약물은 유해한 아밀로이드 베타 펩타이드의 생성을 차단하여 뇌에서 문제가 발생하는 것을 예방합니다. 즉, 레베티라세탐은 뇌 질환의 원인을 막는 데 도움을 줍니다.",
-        "high": "레베티라세탐(levetiracetam)은 기존의 치료법과는 다른 방식으로 작용하는 약물로, 주로 아밀로이드 베타 펩타이드(amyloid beta peptides)의 생산을 차단함으로써 알츠하이머병과 같은 신경퇴행성 질환의 진행을 억제하는 데 기여합니다. 기존의 치료법들은 이미 형성된 아밀로이드 플라크(plaque)를 제거하는 데 초점을 맞추고 있는 반면, 레베티라세탐은 이러한 독성 물질이 생성되는 초기 단계에서부터 개입하여, 질병의 발병 및 진행을 예방하는 데 중점을 둡니다. 이로 인해 레베티라세탐은 알츠하이머병 치료에 있어 새로운 가능성을 제시하며, 질병의 근본적인 원인에 대한 접근 방식을 변화시키는 중요한 역할을 할 수 있습니다."
+        "elementary": {
+          "en": "Levetiracetam is a medicine that helps stop bad proteins from being made in the brain. This is different from other treatments that try to clean up the brain after the bad proteins have already formed.",
+          "ko": "레베티라세탐은 뇌에서 나쁜 단백질이 만들어지는 것을 막아주는 약이에요. 이것은 나쁜 단백질이 이미 생긴 후에 청소하려고 하는 다른 치료법과는 달라요."
+        },
+        "middle": {
+          "en": "Levetiracetam is a treatment that prevents the formation of toxic amyloid beta peptides. This is different from other treatments that only remove existing plaques. By blocking these peptides, levetiracetam may help in managing certain diseases.",
+          "ko": "레베티라세탐은 독성 아밀로이드 베타 펩타이드의 형성을 예방하는 치료법입니다. 이는 기존의 플라크를 제거하는 다른 치료법과 다릅니다. 이러한 펩타이드를 차단함으로써 레베티라세탐은 특정 질병 관리에 도움이 될 수 있습니다."
+        },
+        "high": {
+          "en": "Levetiracetam offers a novel approach to treatment by inhibiting the production of toxic amyloid beta peptides, rather than targeting the removal of existing plaques. This mechanism distinguishes it from conventional therapies.",
+          "ko": "레베티라세탐은 기존의 플라크 제거에 초점을 맞춘 치료법과 달리, 독성 아밀로이드 베타 펩타이드의 생성을 차단하는 새로운 접근 방식을 제공합니다. 이러한 메커니즘은 기존 치료법과 차별화됩니다."
+        }
       }
     }
   ],
@@ -219,9 +372,18 @@
       "source": "Space.com",
       "publishedAt": "2026-03-02T09:31:17Z",
       "summaries": {
-        "elementary": "3월 3일에 \"피의 달\"이라는 특별한 달식이 일어납니다. 이 현상을 보지 못하는 사람들은 유튜브로 생중계를 통해 집에서도 쉽게 볼 수 있어요.",
-        "middle": "3월 3일, '블러드 문'이라고 불리는 완전 월식이 발생합니다. 이 현상은 지구의 그림자가 달을 가리면서 달이 붉은색으로 변하는 모습입니다. 만약 직접 볼 수 없다면, 유튜브에서 생중계로 이 장관을 감상할 수 있습니다.",
-        "high": "2026년 3월 3일, 미국을 비롯한 아메리카, 아시아, 오세아니아의 약 33억 인구가 '블러드 문'이라 불리는 총식 월식 현상을 관찰할 수 있는 기회를 갖게 된다. 이 현상은 지구의 그림자가 자연 위성인 달에 드리워지면서 발생하며, 달이 지구의 내부 그림자에 완전히 잠기게 되면 대기 중에서 필터링된 햇빛에 의해 구리빛의 붉은 색조로 변하게 된다.\n\n이러한 천문 현상을 직접 관찰하기 어려운 경우에도 걱정할 필요는 없다. 여러 무료 유튜브 생중계를 통해 집에서도 편리하게 이 모든 과정을 실시간으로 관람할 수 있다. 주요 생중계는 다음과 같다:\n\n1. **Time and Date**: 이 채널은 3월 3일 오전 4시 30분 EST(0930 GMT)부터 생중계를 시작하며, 로스앤젤레스와 서호주 등지에서의 실시간 시청을 제공한다. 저널리스트 앤 벅클과 천체물리학자 그레이엄 존스가 전문 해설을 맡는다.\n\n2. **Virtual Telescope Project**: 이 프로젝트는 오전 3시 30분 EST(0830 GMT)부터 전 세계적인 관점에서 월식을 생중계하며, 호주, 미국, 캐나다의 천체 사진작가들이 제공하는 실시간 영상을 통해 관객들에게 생생한 경험을 선사한다. 이 프로젝트의 창립자인 지안루카 마시는 생중계 동안 해설을 진행한다.\n\n3. **Griffith Observatory**: 로스앤젤레스에 위치한 그리피스 천문대는 오전 3시 37분 EST(0837 GMT)부터 월식의 모든 단계를 생중계하며, 서부 미국에서의 최적의 위치를 활용하여 펜럼브랄 단계부터 총식 단계까지의 과정을 상세히 보여준다.\n\n4. **Auckland Astronomical Society**: 뉴질랜드 북부에서 오전 3시 EST(0800 GMT)부터 생중계를 시작하며, 해가 진 후 북동쪽 수평선 위로 떠오르는 달의 선명한 모습을 제공할 예정이다.\n\n또한, 블러드 문을 촬영하고자 하는 사진가들을 위해 총식 월식을 촬영하는 방법에 대한 전문가의 가이드와 천체 사진에 적합한 카메라 및 렌즈에 대한 정보를 제공하는 자료도 마련되어 있다. 독자들은 자신의 블러드 문 사진을 Space.com에 공유할 수 있는 기회도 제공된다."
+        "elementary": {
+          "en": "A blood moon will happen on March 3, and you can watch it online if you can't see it outside. Many people around the world will see the moon turn red during this special event.",
+          "ko": "3월 3일에 블러드 문이 생길 거예요. 밖에서 볼 수 없으면 온라인으로 볼 수 있어요. 많은 사람들이 이 특별한 사건 동안 빨간 달을 볼 거예요."
+        },
+        "middle": {
+          "en": "A blood moon total lunar eclipse will occur on March 3, 2026, as Earth's shadow covers the moon, turning it a coppery red. Over 3.3 billion people in the Americas, Asia, and Oceania can watch this event, and if the weather is bad, there are several YouTube livestreams available to view it online. The livestreams will feature expert commentary and views from locations like the U.S., Canada, and Australia, making it accessible for everyone to enjoy the eclipse.",
+          "ko": "2026년 3월 3일, 지구의 그림자가 달을 가리면서 혈색 달의 완전 월식이 발생합니다. 아메리카, 아시아, 오세아니아의 33억 명 이상의 사람들이 이 사건을 볼 수 있으며, 날씨가 좋지 않으면 여러 유튜브 생중계를 통해 온라인으로 시청할 수 있습니다. 생중계는 전문가의 해설과 미국, 캐나다, 호주와 같은 장소에서의 시각을 제공하여 모든 사람이 월식을 즐길 수 있도록 합니다."
+        },
+        "high": {
+          "en": "On March 3, a total lunar eclipse, commonly referred to as a \"blood moon,\" will be visible to over 3.3 billion people across the Americas, Asia, and Oceania. During this event, Earth's shadow will completely cover the moon, causing it to appear coppery red due to sunlight filtered through the atmosphere. For those unable to view the eclipse in person due to location or weather conditions, several free YouTube livestreams will provide real-time coverage from various locations, including the U.S., Canada, and Australia. Notable livestreams include coverage from Time and Date, the Virtual Telescope Project, Griffith Observatory, and the Auckland Astronomical Society, each offering expert commentary and unique perspectives on the eclipse. Additionally, photographers interested in capturing the event can refer to guides on astrophotography.",
+          "ko": "3월 3일, \"블러드 문\"이라고 불리는 개기월식이 북미, 아시아, 오세아니아의 33억 명 이상에게 보일 예정이다. 이 사건 동안 지구의 그림자가 달을 완전히 가려, 대기를 통과한 햇빛으로 인해 달이 구리빛의 붉은 색으로 변하게 된다. 위치나 날씨로 인해 직접 관찰할 수 없는 이들을 위해, 미국, 캐나다, 호주 등 여러 지역에서 실시간으로 진행되는 무료 유튜브 생중계가 제공된다. 주요 생중계로는 Time and Date, Virtual Telescope Project, Griffith Observatory, Auckland Astronomical Society의 방송이 있으며, 각 방송은 전문가의 해설과 함께 개기월식에 대한 독특한 시각을 제공한다. 또한, 이 사건을 촬영하고자 하는 사진작가들은 천체 사진 촬영에 관한 가이드를 참조할 수 있다."
+        }
       }
     },
     {
@@ -231,9 +393,18 @@
       "source": "The Times of India",
       "publishedAt": "2026-03-02T06:07:00Z",
       "summaries": {
-        "elementary": "고대 역사는 먼 옛날 이야기처럼 느껴져요. 하지만 가끔 과학자들이 새로운 것을 발견하면 흥미로워져요.",
-        "middle": "고대 역사(Ancient history)는 먼 과거의 사건과 문화를 연구하는 분야로, 주로 화석이나 교과서의 연대기 등을 통해 알려져 있어요. 하지만 가끔씩 새로운 과학적 발견이 이루어져 과거에 대한 이해를 돕기도 합니다. 이러한 발견들은 고대 사람들의 삶을 더 생생하게 보여줄 수 있습니다.",
-        "high": "고대 역사는 종종 먼 과거로 여겨지며, 화석의 조각이나 교과서의 연대표로 축소되는 경향이 있다. 그러나 때때로 과학적 발견이 이러한 고대 역사에 대한 우리의 이해를 새롭게 하고, 그 내용을 보다 생생하게 만들어준다. 이러한 발견들은 단순한 유물이나 연대기적 사실을 넘어서, 고대 인류의 삶과 문화, 사회 구조에 대한 깊은 통찰을 제공한다. 과학적 접근을 통해 우리는 고대 문명과 그들이 남긴 유산을 더욱 명확하게 이해할 수 있으며, 이는 인류의 역사적 맥락을 재조명하는 데 기여한다. 이러한 과정은 고대 역사에 대한 우리의 인식을 변화시키고, 그 중요성을 다시금 일깨워준다."
+        "elementary": {
+          "en": "Scientists find new things that help us understand ancient history better. These discoveries make the past feel closer and more real.",
+          "ko": "과학자들은 고대 역사를 더 잘 이해할 수 있도록 새로운 것들을 발견합니다. 이러한 발견은 과거를 더 가깝고 실제처럼 느끼게 만듭니다."
+        },
+        "middle": {
+          "en": "Ancient history can seem far away and hard to understand, often represented by fossils and dates in books. However, new scientific discoveries can bring this history to life. These findings help us connect with our past in exciting ways.",
+          "ko": "고대 역사는 멀고 이해하기 어려운 것처럼 보일 수 있으며, 종종 화석과 책 속의 날짜로 표현됩니다. 그러나 새로운 과학적 발견은 이 역사를 생생하게 만들어 줍니다. 이러한 발견은 우리가 흥미로운 방식으로 과거와 연결될 수 있도록 도와줍니다."
+        },
+        "high": {
+          "en": "Recent scientific discoveries have the potential to bridge the gap between ancient history and the present, transforming our understanding of the past from mere fossil fragments and textbook timelines into a more tangible and relatable narrative. These findings can illuminate the lives and cultures of ancient civilizations, making history feel more immediate and relevant.",
+          "ko": "최근의 과학적 발견은 고대 역사와 현재 사이의 간극을 좁히고, 과거에 대한 우리의 이해를 단순한 화석 조각과 교과서의 연대표에서 더 구체적이고 관련성 있는 이야기로 변화시킬 수 있는 잠재력을 가지고 있습니다. 이러한 발견은 고대 문명의 삶과 문화를 밝히며 역사를 더 즉각적이고 관련성 있게 느끼게 만듭니다."
+        }
       }
     },
     {
@@ -243,9 +414,18 @@
       "source": "Phys.Org",
       "publishedAt": "2026-03-02T00:30:51Z",
       "summaries": {
-        "elementary": "우주가 얼마나 빨리 팽창하는지 측정하는 방법이 다르면 결과가 다르게 나와요. NASA가 이 문제를 해결하려고 노력하고 있어요.",
-        "middle": "\"Hubble Tension\"은 우주의 팽창 속도를 측정할 때 서로 다른 결과가 나오는 현상을 말해요. 이는 우주론에서 매우 중요한 변수로, 다양한 방법으로 측정했을 때 값이 달라지는 것을 의미해요. 최근 NASA의 연구가 이 문제를 해결하기 위한 새로운 시도를 하고 있다는 내용입니다.",
-        "high": "\"Hubble Tension\"은 우주론에서 중요한 문제로, 우주의 팽창 속도를 측정하는 방법에 따라 서로 다른 값을 나타내는 현상을 지칭합니다. 이는 허블 상수(Hubble constant)와 관련이 있으며, 우주의 팽창을 설명하는 데 있어 일관되지 않은 결과를 초래합니다. \n\n최근 NASA의 연구팀은 이 문제를 해결하기 위한 새로운 접근 방식을 제안했습니다. 이들은 다양한 관측 데이터를 통합하고, 기존의 측정 방법에 대한 재검토를 통해 허블 상수의 값을 보다 정확하게 산출하려고 시도하고 있습니다. 이러한 연구는 우주론의 기초 이론을 검증하고, 우주의 구조와 진화에 대한 우리의 이해를 심화하는 데 기여할 것으로 기대됩니다.\n\nHubble Tension은 우주론의 여러 이론, 특히 암흑 물질과 암흑 에너지의 존재를 포함한 현대 우주론의 틀에 도전하는 중요한 요소로 작용하고 있습니다. 따라서 이 문제를 해결하는 것은 우주에 대한 우리의 이해를 한층 더 발전시키는 데 필수적입니다."
+        "elementary": {
+          "en": "Scientists are trying to understand why the universe is getting bigger at different speeds. A new NASA study is helping them find answers.",
+          "ko": "과학자들은 우주가 왜 다른 속도로 커지는지 이해하려고 하고 있어요. 새로운 NASA 연구가 그들에게 답을 찾는 데 도움을 주고 있어요."
+        },
+        "middle": {
+          "en": "Scientists are trying to solve the \"Hubble Tension,\" which is a problem in cosmology about measuring the universe's expansion. Different methods give different results for how fast the universe is expanding. A new NASA study aims to provide more accurate measurements to help understand this issue.",
+          "ko": "과학자들은 우주 팽창 측정에 관한 문제인 \"허블 긴장(Hubble Tension)\"을 해결하려고 노력하고 있습니다. 다양한 방법이 우주가 얼마나 빠르게 팽창하는지에 대해 서로 다른 결과를 제공합니다. 새로운 NASA 연구는 이 문제를 이해하는 데 도움이 되는 더 정확한 측정을 제공하는 것을 목표로 하고 있습니다."
+        },
+        "high": {
+          "en": "Recent efforts to address the \"Hubble Tension\" in cosmology have highlighted the discrepancies in measuring the universe's expansion rate. This phenomenon occurs when different methods yield varying values for the Hubble constant, a crucial parameter in understanding cosmic expansion. A new NASA initiative aims to further investigate these inconsistencies and enhance our comprehension of the universe's expansion dynamics.",
+          "ko": "최근 \"허블 긴장(Hubble Tension)\"을 해결하기 위한 노력들이 우주론에서 주목받고 있으며, 이는 우주 확장 속도를 측정하는 방법에 따라 서로 다른 값이 나타나는 현상을 강조합니다. 이러한 현상은 다양한 방법이 허블 상수에 대해 상이한 값을 산출할 때 발생하며, 이는 우주 확장을 이해하는 데 있어 중요한 매개변수입니다. 새로운 NASA의 이니셔티브는 이러한 불일치를 추가로 조사하고 우주의 확장 역학에 대한 우리의 이해를 향상시키는 것을 목표로 하고 있습니다."
+        }
       }
     },
     {
@@ -255,9 +435,18 @@
       "source": "Ctinsider.com",
       "publishedAt": "2026-03-01T23:49:30Z",
       "summaries": {
-        "elementary": "스페이스엑스가 플로리다에서 로켓을 쏘아 올립니다. 로켓이 발사된 후 코네티컷에서도 볼 수 있어요.",
-        "middle": "SpaceX는 플로리다에서 팔콘 9 로켓을 발사합니다. 이 로켓은 일요일 밤에 발사되며, 발사 후 곧바로 코네티컷에서도 볼 수 있습니다. 팔콘 9은 우주로 물건을 보내는 데 사용되는 로켓입니다.",
-        "high": "SpaceX는 플로리다에서 일요일 밤에 팔콘 9 로켓을 발사할 예정이다. 이 발사는 미국 동부 시간 기준으로 저녁 시간대에 이루어지며, 발사 직후 로켓의 비행 경로는 코네티컷 주에서도 관측이 가능할 것으로 예상된다. 팔콘 9 로켓은 재사용 가능한 발사체로, 상업적 위성 발사 및 국제 우주 정거장(ISS)으로의 화물 운송 등 다양한 임무를 수행하는 데 사용된다. 이번 발사는 우주 탐사 및 상업적 우주 비행의 발전을 위한 중요한 이정표로, 많은 이들이 발사 장면을 관찰할 수 있는 기회를 제공할 것이다."
+        "elementary": {
+          "en": "SpaceX is sending a Falcon 9 rocket into space on Sunday night. People in Connecticut can see it in the sky after it takes off.",
+          "ko": "스페이스X가 일요일 밤에 팔콘 9 로켓을 우주로 쏘아 올립니다. 코네티컷에 있는 사람들은 로켓이 발사된 후 하늘에서 그것을 볼 수 있습니다."
+        },
+        "middle": {
+          "en": "SpaceX is planning to launch a Falcon 9 rocket from Florida on Sunday night. People in Connecticut will be able to see the rocket shortly after it takes off. This event is exciting for space fans and observers in the area.",
+          "ko": "스페이스X는 일요일 밤 플로리다에서 팔콘 9 로켓을 발사할 계획입니다. 코네티컷에 있는 사람들은 로켓이 이륙한 직후에 그것을 볼 수 있습니다. 이 사건은 우주 팬들과 지역 관찰자들에게 흥미로운 일입니다."
+        },
+        "high": {
+          "en": "SpaceX is scheduled to launch a Falcon 9 rocket from Florida on Sunday night, and the launch will be visible from Connecticut shortly thereafter.",
+          "ko": "스페이스X는 일요일 밤 플로리다에서 팔콘 9 로켓을 발사할 예정이며, 발사 후 곧이어 코네티컷에서도 볼 수 있을 것입니다."
+        }
       }
     }
   ],
@@ -269,9 +458,18 @@
       "source": "On3.com",
       "publishedAt": "2026-03-02T10:31:58Z",
       "summaries": {
-        "elementary": "콜로라도 대학의 쿼터백 도미니크 폰더가 자동차 사고로 세상을 떠났습니다. 그의 코치인 디온 샌더스는 그의 가족과 친구들에게 애도를 표했습니다.",
-        "middle": "도미니크 폰더(Dominiq Ponder)는 콜로라도 대학교의 쿼터백으로, 일요일 아침 교통사고로 사망했습니다. 그는 지난 2년 동안 버팔로스 팀에서 활동했으며, 감독 디온 샌더스는 그의 죽음을 확인하고 애도를 표했습니다. 폰더는 플로리다주에서 고등학교 시절 뛰어난 성적을 거두었고, 대학에서의 경력은 제한적이었습니다.",
-        "high": "콜로라도 대학교의 2학년 쿼터백 도미닉 폰더(23세)가 일요일 새벽 교통사고로 사망했다. 그는 6피트 5인치, 200파운드의 체격을 가진 선수로, 지난 2년간 버팔로스 팀에서 활동해왔다. 그의 사망 소식은 팀의 헤드코치인 디온 샌더스에 의해 확인되었으며, 샌더스는 자신의 트위터를 통해 폰더의 가족에게 애도를 표하고 기도를 올렸다. 그는 \"하나님, 폰더 가족과 친구들, 사랑하는 이들을 위로해 주시길\"이라며 \"도미닉은 내가 가장 좋아하는 선수 중 한 명이었다. 그는 사랑받고 존경받는 타고난 리더였다\"라고 전했다.\n\n폰더는 베투운-쿡맨 대학교에서 대학 경력을 시작했으나, 첫 해에는 경기에 출전하지 못하고 레드셔츠를 받았다. 이후 콜로라도로 전학하여 2024년 시즌에 참가했으나, 첫 해에는 경기에 출전하지 못했다. 2025년에는 두 경기에서 출전했으며, 아리조나와의 홈 경기에서 첫 경기를 치르며 마지막 3번의 스냅에서 0-1의 패스를 기록했다. 또한 두 차례의 러닝 플레이에서 4야드를 잃었다. 이후 웨스트버지니아와의 경기에서는 킥오프 유닛에서 3번의 스냅을 소화했다.\n\n폰더는 플로리다주 오파 로카 출신으로, 고등학교 시절 캐롤 시티 고등학교와 네이플스 고등학교에서 뛰었다. 네이플스 고등학교 2학년 시절에는 511야드를 패스하며 10개의 터치다운을 기록했고, 356야드를 러닝하며 3번의 터치다운을 추가했다. 그는 리바이벌 산업 순위에서 비평가들에 의해 평가되지 않았으나, 247스포츠에서는 3성급 선수로 분류되었고, 플로리다주에서 164번째 쿼터백으로 평가받았다."
+        "elementary": {
+          "en": "A college football player named Dominiq Ponder died in a car accident. His coach, Deion Sanders, said nice things about him and asked everyone to pray for his family.",
+          "ko": "대학 미식축구 선수 도미니크 폰더가 교통사고로 사망했습니다. 그의 코치인 디온 샌더스는 그에 대해 좋은 말을 했고, 모두에게 그의 가족을 위해 기도해 달라고 요청했습니다."
+        },
+        "middle": {
+          "en": "Colorado sophomore quarterback Dominiq Ponder, 23, tragically died in a car accident on Sunday morning. His head coach, Deion Sanders, expressed his condolences on Twitter, remembering Ponder as a loved and respected leader. Ponder had a brief college football career, playing for Colorado after transferring from Bethune-Cookman, where he did not see much game action.",
+          "ko": "콜로라도 2학년 쿼터백 도미니크 폰더(23세)가 일요일 아침 교통사고로 안타깝게 사망했습니다. 그의 감독인 디온 샌더스는 트위터에 애도를 표하며 폰더를 사랑받고 존경받는 리더로 기억했습니다. 폰더는 베투네-쿡맨에서 전학한 후 콜로라도에서 짧은 대학 미식축구 경력을 쌓았지만, 그곳에서도 많은 경기에 출전하지 못했습니다."
+        },
+        "high": {
+          "en": "Colorado sophomore quarterback Dominiq Ponder, aged 23, tragically passed away in a car accident early Sunday morning. Standing at 6 feet 5 inches and weighing 200 pounds, Ponder had been with the Buffaloes for the past two years. Head coach Deion Sanders confirmed the news via Twitter, expressing his condolences and prayers for Ponder's family, describing him as a beloved and respected leader. Ponder transferred to Colorado from Bethune-Cookman, where he did not play in his first year and redshirted before joining the Buffaloes. In 2025, he participated in two games, making his collegiate debut against Arizona, although he had limited impact on the field. Originally from Opa Locka, Florida, Ponder was an unrated recruit but was recognized as a three-star prospect by 247Sports. He had a notable high school career at Carol City High School and Naples High School, where he demonstrated his skills as a quarterback.",
+          "ko": "콜로라도의 2학년 쿼터백 도미니크 폰더(23세)가 일요일 아침 교통사고로 안타깝게 사망했습니다. 6피트 5인치, 200파운드의 체격을 가진 폰더는 지난 2년간 버팔로스에서 활동했습니다. 디온 샌더스 감독은 트위터를 통해 이 소식을 확인하며 폰더의 가족에게 애도와 기도를 전했습니다. 그는 폰더를 사랑받고 존경받는 리더로 묘사했습니다. 폰더는 베튠-쿡맨에서 콜로라도로 전학했으며, 첫 해에는 경기에 출전하지 못하고 레드셔츠를 했습니다. 2025년에는 두 경기에서 출전했으며, 아리조나와의 경기에서 대학 데뷔를 했지만 필드에서의 영향력은 제한적이었습니다. 플로리다 오파 로카 출신인 폰더는 247스포츠에서 3성급 선수로 평가받았으며, 캐롤 시티 고등학교와 네이플스 고등학교에서 쿼터백으로서의 능력을 발휘했습니다."
+        }
       }
     },
     {
@@ -281,9 +479,18 @@
       "source": "Athlon Sports",
       "publishedAt": "2026-03-02T06:19:42Z",
       "summaries": {
-        "elementary": "노트르담의 러닝백 제레미야 러브가 2026년 NFL 드래프트에서 1라운드 상위 5위 안에 들어갔어요. 이는 올해 NFL 컴바인 덕분이에요.",
-        "middle": "노트르담 대학교의 러닝백 제레미야 러브가 2026년 NFL 드래프트의 첫 라운드 예상 순위에서 상위 5위로 올라갔습니다. 이는 올해 NFL 컴바인에서의 뛰어난 성과 덕분입니다. NFL 드래프트는 프로 미식축구 팀들이 대학 선수들을 선발하는 행사입니다.",
-        "high": "2026년 NFL 드래프트를 위한 첫 번째 라운드 예상 순위가 업데이트되면서, 노트르담 대학교의 러닝백 제레미야 러브(Jeremiyah Love)가 상위 5위에 진입한 것으로 나타났다. 이는 최근에 개최된 NFL 컴바인(NFL Combine)에서 그의 뛰어난 신체 능력과 기술적 역량이 주목받았기 때문이다.\n\n러브는 컴바인에서의 퍼포먼스를 통해 NFL 스카우트와 전문가들에게 깊은 인상을 남겼으며, 그의 스피드, 민첩성, 그리고 파워가 결합된 플레이 스타일이 NFL 팀들에게 매력적으로 다가왔다. 이러한 성과는 그가 대학 리그에서 보여준 일관된 성적과 함께, 향후 프로 선수로서의 잠재력을 더욱 확고히 하는 계기가 되었다.\n\n이와 같은 발전은 러브가 NFL 드래프트에서 높은 순위에 오를 가능성을 더욱 높이며, 그가 향후 어떤 팀에 합류할지에 대한 관심을 증대시키고 있다. 따라서, 그의 커리어와 관련된 향후 동향은 NFL 팬들과 전문가들 사이에서 지속적으로 주목받을 것으로 예상된다."
+        "elementary": {
+          "en": "Jeremiyah Love, a running back from Notre Dame, is now one of the top five players for the 2026 NFL Draft. This happened after he did really well at the NFL Combine.",
+          "ko": "노틀담의 러닝백 제레미야 러브가 2026 NFL 드래프트에서 상위 5명의 선수 중 하나가 되었어요. 이는 그가 NFL 컴바인에서 아주 잘했기 때문이에요."
+        },
+        "middle": {
+          "en": "Notre Dame running back Jeremiyah Love has moved into the top five of the first-round projections for the 2026 NFL Draft. This change happened after his impressive performance at this year's NFL Combine. Scouts are excited about his potential and skills on the field.",
+          "ko": "노트르담의 러닝백 제레미야 러브가 2026 NFL 드래프트의 1라운드 예상 순위에서 상위 5위로 올라갔습니다. 이 변화는 올해 NFL 컴바인에서 그의 인상적인 성과 이후에 일어났습니다. 스카우트들은 그의 잠재력과 필드에서의 기술에 대해 기대하고 있습니다."
+        },
+        "high": {
+          "en": "Notre Dame running back Jeremiyah Love has moved into the top five of the updated first-round projections for the 2026 NFL Draft after an impressive performance at this year's NFL Combine.",
+          "ko": "노트르담 대학의 러닝백 제레미야 러브가 올해 NFL 컴바인에서 인상적인 활약을 펼친 후 2026 NFL 드래프트의 첫 라운드 예상 순위에서 상위 5위로 상승했습니다."
+        }
       }
     },
     {
@@ -293,9 +500,18 @@
       "source": "lakingsinsider.com",
       "publishedAt": "2026-03-02T05:27:05Z",
       "summaries": {
-        "elementary": "D.J. 스미스 감독은 과거의 아픔을 잊고 새로운 시작을 해야 한다고 말했어요. 팀이 자신감을 되찾고 좋은 경기를 할 수 있도록 노력해야 한다고 강조했답니다.",
-        "middle": "D.J. Smith는 LA 킹스의 새로운 감독으로서 팀이 과거의 패배에서 벗어나야 한다고 강조합니다. 특히, 지난 시즌 에드먼턴 오일러스와의 시리즈에서의 패배가 팀의 자신감에 부정적인 영향을 미쳤다고 언급하며, 이를 극복하기 위해 선수들이 자신감을 되찾아야 한다고 말합니다. Smith는 팀이 다시 좋은 분위기를 찾고, 긍정적인 에너지를 가지고 경기에 임해야 한다고 강조합니다.",
-        "high": "D.J. 스미스(D.J. Smith)는 로스앤젤레스 킹스(Los Angeles Kings)의 새로운 헤드 코치로서 팀의 과거를 극복하는 것이 앞으로 나아가는 첫 걸음이라고 강조하고 있다. 그는 팀이 이번 시즌에 직면한 어려움이 과거의 패배에서 비롯되었다고 진단하며, 특히 지난 시즌 에드먼턴 오일러스(Edmonton Oilers)와의 플레이오프에서의 패배가 팀의 사기를 저하시켰다고 언급했다. 스미스는 이 패배가 팀원들에게 부정적인 영향을 미쳤으며, 이를 극복하기 위해서는 먼저 이 사실을 인정해야 한다고 주장한다.\n\n스미스는 2024년부터 킹스의 코칭 스태프에 합류하여, 지난해에는 부코치로 승진한 경험이 있다. 따라서 이번 변화는 새로운 인물이 등장한 것이 아니라, 기존의 familiar한 얼굴이 새로운 역할을 맡은 것이라는 점에서 의미가 있다. 그는 팀의 사기를 높이기 위해 긍정적인 에너지와 함께 선수들에게 자신감을 되찾아야 한다고 강조했다.\n\n특히, 포워드 아드리안 켐프(Adrian Kempe)는 현재 팀이 경기에 임할 때 승리를 기대하는 수준에 그치고 있으며, 이는 자신감 부족의 결과라고 지적했다. 스미스는 팀이 다시 자신감을 회복하고, 과거의 긍정적인 분위기를 되찾아야 한다고 강조하며, 선수들이 스스로의 능력을 믿고 책임을 져야 한다고 덧붙였다. 그는 \"우리는 좋은 팀이다. 좋은 선수들이 있고, 젊은 선수들도 많다. 우리는 스스로에 대해 더 나은 기분을 느껴야 한다\"고 말했다.\n\n결론적으로, 스미스는 팀이 과거의 패배를 극복하고 자신감을 회복하는 것이 앞으로 나아가는 데 필수적이라고 강조하며, 이는 팀의 성공을 위한 첫 번째 단계라고 주장한다."
+        "elementary": {
+          "en": "D.J. Smith is the new head coach of the Kings, and he wants the team to forget their past losses and start fresh. He believes that the players need to feel confident and believe in themselves to win games again.",
+          "ko": "D.J. 스미스는 킹스의 새로운 감독이며, 팀이 과거의 패배를 잊고 새롭게 시작하기를 원합니다. 그는 선수들이 자신감을 느끼고 자신을 믿어야 다시 게임에서 이길 수 있다고 믿고 있습니다."
+        },
+        "middle": {
+          "en": "D.J. Smith, the new head coach of the Kings, emphasizes the importance of letting go of past losses to move forward. He believes that the team's confidence has been affected by their previous defeat against the Edmonton Oilers last spring. Smith aims to restore the team's belief in themselves and their abilities, encouraging players to regain their confidence and energy for the current season.",
+          "ko": "D.J. 스미스는 킹스의 새로운 감독으로서 과거의 패배를 잊고 앞으로 나아가는 것이 중요하다고 강조합니다. 그는 팀의 자신감이 지난 봄 에드먼턴 오일러스에 대한 패배로 영향을 받았다고 믿고 있습니다. 스미스는 선수들이 자신과 능력에 대한 믿음을 회복하고 현재 시즌을 위해 에너지와 자신감을 되찾기를 원합니다."
+        },
+        "high": {
+          "en": "D.J. Smith emphasizes the importance of moving on from past failures as he takes on the role of Head Coach for the Kings. He acknowledges that the team's previous loss to the Edmonton Oilers has lingered, affecting their confidence and performance this season. Smith believes that recognizing this issue is the first step towards improvement. He aims to instill a sense of confidence and energy in the team, encouraging players to believe in their abilities and restore the swagger they once had. Forward Adrian Kempe supports this sentiment, noting that the team currently lacks confidence, especially at home. Smith's approach focuses on creating a fresh start and fostering a positive mindset to help the Kings regain their competitive edge.",
+          "ko": "D.J. 스미스는 킹스의 헤드 코치로서 과거의 실패에서 벗어나는 것의 중요성을 강조합니다. 그는 팀이 에드먼턴 오일러스에게 겪은 이전의 패배가 여전히 영향을 미치고 있으며, 이는 이번 시즌의 자신감과 성과에 부정적인 영향을 미쳤다고 인정합니다. 스미스는 이러한 문제를 인식하는 것이 개선을 위한 첫 번째 단계라고 믿습니다. 그는 팀에 자신감과 에너지를 불어넣고, 선수들이 자신의 능력을 믿고 한때 가졌던 자신감을 회복하도록 격려하는 것을 목표로 합니다. 포워드 아드리안 켐페는 현재 팀이 특히 홈 경기에서 자신감이 부족하다고 언급하며 이 같은 생각을 지지합니다. 스미스의 접근 방식은 새로운 시작을 만들고 긍정적인 사고방식을 조성하여 킹스가 경쟁력을 회복하도록 돕는 데 중점을 두고 있습니다."
+        }
       }
     },
     {
@@ -305,9 +521,18 @@
       "source": "MLSsoccer.com",
       "publishedAt": "2026-03-02T04:40:24Z",
       "summaries": {
-        "elementary": "플로리다 더비에서 인터 마이애미가 올랜도 시티를 4-2로 이겼어요. 메시가 두 골을 넣고 팬들 앞에서 멋지게 기뻐했답니다.",
-        "middle": "이번 플로리다 더비에서 인터 마이애미 CF가 올랜도 시티를 4-2로 이겼습니다. 리오넬 메시가 후반에 두 골을 넣으며 팀의 역전 승리를 이끌었고, 특히 마지막 프리킥 골은 올랜도 팬들 앞에서 더욱 의미가 있었습니다. 이 경기는 MLS의 라이벌전의 긴장감과 흥미를 잘 보여주는 사례입니다.",
-        "high": "플로리다 더비에서 오를란도 시티와 인터 마이애미 CF의 경기는 일요일 밤 축구에서 즉각적인 클래식으로 자리매김했다. 이번 경기는 MLS 2라운드에서 나타난 강렬한 경쟁과 긴급한 결과 도출의 필요성을 보여주며, 그 어느 때보다도 치열한 라이벌전의 양상을 드러냈다.\n\n리오넬 메시의 FC 바르셀로나 시절을 기억하는 이들은 그가 엘 클라시코에서 보여준 전설적인 순간들을 떠올릴 것이다. 메시의 이러한 대결에서의 중요성을 잘 알고 있는 그는 플로리다에서의 라이벌인 오를란도 시티를 상대로도 그 역할을 충실히 해냈다. 그는 이전 네 경기에서 여섯 골을 기록한 바 있으며, 이번 경기에서도 후반에 두 골을 추가하며 마이애미가 4-2로 역전승을 거두는 데 기여했다. 오를란도는 전반전에 훌륭한 경기력을 보여주며 2-0으로 앞서 있었으나, 후반에 마이애미가 네 골을 연속으로 터뜨리며 승리를 가져갔다.\n\n특히, 메시의 마지막 프리킥 골은 오를란도 팬들이 가장 열정적으로 응원하는 '더 월' 앞에서 터졌으며, 이는 더욱 고통스러운 순간이 되었다. 그는 골을 넣은 후 두 팔을 들어 올리며 팬들 앞에서 자랑스럽게 서 있었고, 오를란도 시티의 벤치에 대해 '여기 내 사인이다'라는 제스처로 조롱하며 경기를 마무리했다. 이러한 모습은 메시가 단순한 선수 이상의 존재임을 다시 한번 각인시켰다."
+        "elementary": {
+          "en": "Orlando City and Inter Miami played a very exciting soccer game, and Miami won 4-2. Messi scored two goals and celebrated in front of the Orlando fans.",
+          "ko": "올랜도 시티와 인터 마이애미가 아주 흥미로운 축구 경기를 했고, 마이애미가 4-2로 이겼어요. 메시가 두 골을 넣고 올랜도 팬들 앞에서 기뻐했어요."
+        },
+        "middle": {
+          "en": "The Florida Derby featured an exciting match between Orlando City and Inter Miami CF, with Messi shining once again. After trailing 2-0 at halftime, Inter Miami made a strong comeback, scoring four goals, including two from Messi. His late free kick sealed the victory, and he celebrated in front of Orlando's fans, adding to the rivalry's intensity.",
+          "ko": "플로리다 더비에서는 올랜도 시티와 인터 마이애미 CF 간의 흥미진진한 경기가 펼쳐졌고, 메시가 다시 한 번 빛났습니다. 전반전에서 2-0으로 뒤진 인터 마이애미는 강력한 반격을 펼치며 4골을 넣었고, 그 중 2골은 메시가 기록했습니다. 그의 마지막 프리킥은 승리를 확정지었고, 그는 올랜도 팬들 앞에서 기념하며 라이벌 관계의 긴장감을 더했습니다."
+        },
+        "high": {
+          "en": "The Florida Derby showcased an intense rivalry between Orlando City and Inter Miami CF, culminating in a thrilling match on Sunday Night Soccer. Typically, such high-stakes encounters build up over months, but the urgency was palpable on Matchday 2 of MLS. Lionel Messi, known for his remarkable performances in crucial matches, once again proved his prowess by scoring two goals in the second half, leading Miami to a 4-2 comeback victory after trailing 2-0 at halftime. His late free kick, celebrated in front of Orlando's fervent supporters, added to the drama as he playfully taunted the home fans and the opposing bench.",
+          "ko": "플로리다 더비는 올랜도 시티와 인터 마이애미 CF 간의 치열한 라이벌 관계를 보여주며, 일요일 밤 축구에서 스릴 넘치는 경기를 펼쳤습니다. 일반적으로 이러한 고위험 대결은 몇 달에 걸쳐 쌓이지만, MLS의 2라운드에서는 긴박감이 뚜렷했습니다. 리오넬 메시, 중요한 경기에서의 뛰어난 활약으로 유명한 그는 다시 한번 자신의 기량을 입증하며 후반에 두 골을 넣어 마이애미가 2-0으로 뒤진 상황에서 4-2로 역전승을 이끌었습니다. 그의 후반 자유킥은 올랜도의 열렬한 팬들 앞에서 축하받으며 드라마를 더했고, 그는 홈 팬들과 상대 벤치를 장난스럽게 조롱했습니다."
+        }
       }
     },
     {
@@ -317,9 +542,18 @@
       "source": "SFGate",
       "publishedAt": "2026-03-02T03:46:55Z",
       "summaries": {
-        "elementary": "베이 지역에서 올림픽 금메달리스트인 피겨 스케이터 알리사 리우를 축하하는 큰 벽화가 오클랜드에 생겼어요. 많은 사람들이 그녀를 기념하기 위해 이 벽화를 보고 있어요.",
-        "middle": "베이 지역에서는 올림픽 금메달리스트 피겨 스케이터인 알리사 리우를 기념하기 위해 큰 오클랜드 벽화를 만들었습니다. 이 벽화는 그녀의 업적을 축하하고 지역 사회의 자부심을 높이는 역할을 합니다. 알리사 리우는 젊은 선수로서 많은 사람들에게 영감을 주고 있습니다.",
-        "high": "최근 샌프란시스코 베이 지역에서는 올림픽 금메달리스트 피겨 스케이터인 알리사 리우(Alysa Liu)를 기념하기 위한 대규모 벽화가 오클랜드에 제작되었습니다. 이 벽화는 리우의 업적을 기리고, 그녀의 스포츠에 대한 기여를 널리 알리기 위한 목적으로 제작되었습니다. \n\n알리사 리우는 젊은 나이에 올림픽에서 금메달을 획득한 뛰어난 선수로, 그녀의 성취는 많은 이들에게 영감을 주고 있습니다. 벽화는 그녀의 역동적인 스케이팅 자세와 함께, 그녀의 열정과 노력의 상징으로 자리잡고 있습니다. \n\n이와 같은 기념 행사는 지역 사회의 자긍심을 높이고, 젊은 세대에게 꿈과 목표를 향해 나아갈 수 있는 동기를 부여하는 중요한 역할을 합니다. 벽화는 단순한 예술 작품을 넘어, 지역 사회의 문화적 아이콘으로서의 의미를 지니고 있으며, 많은 사람들에게 알리사 리우의 성공 스토리를 상기시키는 계기가 될 것입니다. \n\n이러한 벽화 프로젝트는 지역 예술가들과 커뮤니티의 협력을 통해 이루어졌으며, 이는 지역 사회의 결속력을 강화하고, 스포츠와 예술의 융합을 통해 긍정적인 메시지를 전달하는 데 기여하고 있습니다."
+        "elementary": {
+          "en": "Alysa Liu, a famous figure skater who won a gold medal, is being celebrated in the Bay Area. There is a big mural of her in Oakland to honor her achievement.",
+          "ko": "올림픽 금메달리스트 피겨 스케이터 알리사 리우를 기념하기 위해 베이 지역에서 축하 행사가 열리고 있어요. 그녀의 업적을 기리기 위해 오클랜드에 큰 벽화가 그려졌어요."
+        },
+        "middle": {
+          "en": "The Bay Area is celebrating Olympic gold medalist figure skater Alysa Liu with a large mural in Oakland. This mural honors her achievements and contributions to figure skating. It shows the community's pride in her success and inspires young athletes.",
+          "ko": "베이 지역은 올림픽 금메달리스트 피겨 스케이터 알리사 리우를 기념하기 위해 오클랜드에 큰 벽화를 만들었습니다. 이 벽화는 그녀의 업적과 피겨 스케이팅에 대한 기여를 기립니다. 이는 그녀의 성공에 대한 지역 사회의 자부심을 보여주고 젊은 운동선수들에게 영감을 줍니다."
+        },
+        "high": {
+          "en": "The Bay Area has honored Olympic gold medalist figure skater Alysa Liu with a large mural in Oakland, celebrating her achievements and contributions to the sport.",
+          "ko": "베이 지역은 올림픽 금메달리스트 피겨 스케이터 알리사 리우를 기리기 위해 오클랜드에 대형 벽화를 세웠으며, 그녀의 업적과 스포츠에 대한 기여를 축하하고 있습니다."
+        }
       }
     }
   ],
@@ -331,9 +565,18 @@
       "source": "Mashable",
       "publishedAt": "2026-03-02T11:33:40Z",
       "summaries": {
-        "elementary": "TCL이 새로운 스마트 안경인 RayNeo Air 4 Pro를 출시했어요. 이 안경은 영화와 게임을 즐기기에 좋고, 가격도 299달러로 저렴해요.",
-        "middle": "TCL의 RayNeo Air 4 Pro 스마트 안경은 세계 최초의 HDR 디스플레이를 갖춘 증강 현실(AR) 안경으로, 영화 감상과 게임에 적합합니다. 가격은 기본 모델이 299달러이며, 한정판 배트맨 모델도 출시되었습니다. 이 안경은 뛰어난 밝기와 해상도를 제공하며, USB-C 케이블로 다양한 기기와 연결할 수 있습니다.",
-        "high": "TCL은 최근 RayNeo Air 4 Pro 스마트 안경을 출시하였으며, 이는 세계 최초의 HDR 디스플레이를 갖춘 스마트 안경으로 소개되고 있습니다. 이 제품은 영화 감상과 비디오 게임 플레이를 위해 설계되었으며, 가격은 299달러로, 기존의 스마트 안경 시장에서 500달러 이상의 가격대와 비교했을 때 상당히 경쟁력 있는 가격으로 평가됩니다. 초기 구매자는 TCL 또는 아마존에서 50달러 할인된 249달러에 구매할 수 있는 기회를 제공받습니다.\n\nRayNeo Air 4 Pro는 CES 2026에서 처음 공개되었으며, 그 당시 경쟁사인 Xreal이 우려해야 할 제품으로 언급되었습니다. 이 안경은 초고휘도 OLED 디스플레이를 탑재하고 있으며, HDR10을 지원하여 시각적 경험을 한층 향상시킵니다. TCL은 이 제품을 \"머리에 장착하는 TV\"라고 설명하고 있으며, 실제로 사용해본 결과 그 느낌이 잘 전달됩니다.\n\n이 스마트 안경은 USB-C 케이블을 통해 호환 가능한 노트북, 스마트폰 또는 게임 장치와 연결하여 사용하며, 다양한 기능을 제공합니다. 기본 모델 외에도 한정판 배트맨 테마 모델인 'Limited Justice'와 'Limited Chaos' 에디션이 출시되었으며, 이들 모델은 추가 액세서리와 함께 제공됩니다.\n\nRayNeo Air 4 Pro의 주요 사양은 다음과 같습니다:\n- 스타일: 증강 현실 스마트 안경\n- 디스플레이: 0.6인치 마이크로 OLED 디스플레이\n- 화면 크기: 201인치\n- 밝기: 최대 1,200 니트\n- 해상도: 1920x1080 (3D의 경우 3840x1080)\n- 주사율: 최대 120Hz\n- 색상 정확도: ΔE\n- 사운드: Bang & Olufsen 서라운드 사운드 (4개 스피커)\n\n이러한 사양은 가격대비 높은 성능을 제공하며, 소비자 기술에 대한 관심이 높아지고 있는 현재 시장에서 주목받을 만한 제품으로 평가됩니다."
+        "elementary": {
+          "en": "TCL has released new smart glasses called the RayNeo Air 4 Pro, which are special because they can show movies and games in high quality. They cost $299, but if you buy them early, you can get them for $249!",
+          "ko": "TCL은 영화와 게임을 고화질로 보여줄 수 있는 새로운 스마트 안경인 RayNeo Air 4 Pro를 출시했습니다. 가격은 299달러지만, 미리 구매하면 249달러에 살 수 있습니다!"
+        },
+        "middle": {
+          "en": "TCL has launched its new RayNeo Air 4 Pro smart glasses, which are the first in the world to feature an HDR display. Priced at $299, these glasses are designed for watching movies and playing video games, and early buyers can get them for $249. The glasses have impressive specifications, including a bright OLED display and surround sound, making them a strong competitor in the smart glasses market.",
+          "ko": "TCL은 HDR 디스플레이를 갖춘 세계 최초의 RayNeo Air 4 Pro 스마트 안경을 출시했습니다. 가격은 299달러이며, 영화 감상과 비디오 게임을 위해 설계되었고, 초기 구매자는 249달러에 구입할 수 있습니다. 이 안경은 밝은 OLED 디스플레이와 서라운드 사운드 등 인상적인 사양을 갖추고 있어 스마트 안경 시장에서 강력한 경쟁자가 되고 있습니다."
+        },
+        "high": {
+          "en": "TCL has launched its RayNeo Air 4 Pro smart glasses, which are notable for being the world's first smart glasses with an HDR display, aimed at enhancing movie watching and gaming experiences. Priced at $299, these glasses are significantly more affordable than most competitors, which typically exceed $500. Early buyers can enjoy a discount, bringing the price down to $249. The glasses feature bright OLED displays supporting HDR10, and they connect to devices via USB-C. Additionally, TCL has introduced two limited-edition Batman-themed models, priced at $319 but available for $269 at launch. The RayNeo Air 4 Pro boasts impressive specifications, including a micro-OLED display, high brightness, and Bang & Olufsen surround sound, making them a compelling option in the emerging smart glasses market.",
+          "ko": "TCL이 영화 감상과 게임 경험을 향상시키기 위해 설계된 HDR 디스플레이를 갖춘 세계 최초의 스마트 안경인 RayNeo Air 4 Pro를 출시했습니다. 가격은 299달러로, 대부분의 경쟁 제품이 500달러를 초과하는 것에 비해 상당히 저렴합니다. 초기 구매자는 50달러 할인을 받아 249달러에 구매할 수 있습니다. 이 안경은 HDR10을 지원하는 밝은 OLED 디스플레이를 특징으로 하며, USB-C를 통해 장치에 연결됩니다. 또한 TCL은 한정판 배트맨 테마 모델 두 가지를 출시했으며, 가격은 319달러지만 출시 시 269달러에 제공됩니다. RayNeo Air 4 Pro는 마이크로 OLED 디스플레이, 높은 밝기, Bang & Olufsen 서라운드 사운드 등 인상적인 사양을 갖추고 있어 신흥 스마트 안경 시장에서 매력적인 옵션이 되고 있습니다."
+        }
       }
     },
     {
@@ -343,9 +586,18 @@
       "source": "Ars Technica",
       "publishedAt": "2026-03-02T08:00:29Z",
       "summaries": {
-        "elementary": "AMD는 새로운 \"Ryzen AI\" 데스크탑 칩을 발표했어요. 이 칩은 더 빠르고 똑똑한 컴퓨터 작업을 도와주고, 주로 회사에서 사용될 거예요.",
-        "middle": "AMD는 최근 \"Ryzen AI\"라는 이름의 데스크탑 프로세서를 발표했습니다. 이 프로세서는 최신 CPU와 GPU 아키텍처를 포함하고 있으며, 인공지능 모델을 로컬에서 실행할 수 있는 신경 처리 장치(NPU)를 갖추고 있습니다. 새로운 Ryzen AI 칩은 주로 비즈니스 PC에 사용되며, IT 부서에서 관리하는 데 필요한 기능을 지원합니다.",
-        "high": "AMD는 약 1년 반 전부터 \"Ryzen AI\" 브랜드의 노트북 프로세서를 판매해 왔으며, 이는 현대적인 CPU 및 GPU 아키텍처를 포함하고 있습니다. 이러한 프로세서는 언어 및 이미지 생성 모델을 로컬에서 실행할 수 있는 신경 처리 장치(NPU)를 제공함으로써 생성적 AI 열풍을 활용하고자 합니다. 그러나 그동안 AMD의 데스크탑 칩에는 이러한 고성능 NPU와 Ryzen AI 라벨이 결여되어 있었습니다.\n\n하지만 오늘, AMD는 AM5 CPU 소켓을 사용하는 최초의 Ryzen AI 데스크탑 칩 세 가지를 발표했습니다. 이 Ryzen AI 400 시리즈 CPU는 Ryzen 8000G 프로세서를 대체하는 제품으로, Zen 5 기반의 CPU 코어, RDNA 3.5 GPU 코어, 초당 50 조 연산이 가능한 NPU를 결합하고 있습니다. 이로 인해 AMD의 데스크탑 칩 중 최초로 Microsoft의 Copilot+ PC 라벨을 획득하게 되었으며, 이는 Windows 11의 Recall 및 Click to Do와 같은 몇 가지 독특한 기능을 활성화합니다.\n\nAMD가 오늘 발표한 여섯 개의 칩은 65W의 Ryzen AI 7 Pro 450G, Ryzen AI 5 Pro 440G, Ryzen AI 5 Pro 435G와 저전력 35W \"GE\" 변형을 포함하고 있으며, 모두 AMD의 \"Ryzen Pro\" 브랜드를 가지고 있습니다. 이는 IT 부서에서 관리되는 비즈니스 PC에 중요한 장치 관리 기능을 지원함을 의미합니다. 현재로서는 AMD가 일반 소비자를 위한 박스 버전을 제공할 계획은 없어 보이며, Ryzen AI 데스크탑 칩은 전용 그래픽 카드가 필요하지 않지만 일반 Ryzen 데스크탑 CPU보다 더 강력한 그래픽 성능을 필요로 하는 비즈니스 PC에 주로 사용될 전망입니다."
+        "elementary": {
+          "en": "AMD has made new computer chips called Ryzen AI for desktop computers. These chips are special because they can help run smart programs and are good for business computers.",
+          "ko": "AMD는 데스크탑 컴퓨터를 위한 Ryzen AI라는 새로운 컴퓨터 칩을 만들었습니다. 이 칩은 똑똑한 프로그램을 실행하는 데 도움이 되고, 비즈니스 컴퓨터에 좋습니다."
+        },
+        "middle": {
+          "en": "AMD has introduced its first Ryzen AI desktop processors, which include advanced features like neural processing units (NPUs) for better performance in AI tasks. These new Ryzen AI 400-series CPUs are designed for business PCs and support unique Windows 11 features. However, they will not be available for regular consumers, focusing instead on devices managed by IT departments.",
+          "ko": "AMD는 AI 작업에서 더 나은 성능을 위해 신경 처리 장치(NPU)와 같은 고급 기능을 포함한 첫 번째 Ryzen AI 데스크탑 프로세서를 소개했습니다. 새로운 Ryzen AI 400 시리즈 CPU는 비즈니스 PC를 위해 설계되었으며 독특한 Windows 11 기능을 지원합니다. 그러나 일반 소비자에게는 제공되지 않으며 IT 부서에서 관리하는 장치에 초점을 맞추고 있습니다."
+        },
+        "high": {
+          "en": "AMD has been marketing \"Ryzen AI\" laptop processors for approximately 18 months, featuring modern CPU and GPU architectures designed to leverage the generative AI trend through the inclusion of neural processing units (NPUs). These NPUs allow for local execution of language and image-generation models, as opposed to relying on external servers. However, until now, AMD's desktop processors have not included these advanced NPUs or the Ryzen AI branding.\n\nThis changes with the introduction of AMD's first three Ryzen AI desktop chips, designed for the AM5 CPU socket. The new Ryzen AI 400-series CPUs serve as replacements for the Ryzen 8000G processors and incorporate Zen 5 CPU cores, RDNA 3.5 GPU cores, and an NPU capable of performing 50 trillion operations per second (TOPS). These chips are the first desktop offerings from AMD to receive Microsoft’s Copilot+ PC designation, enabling unique Windows 11 features such as Recall and Click to Do.\n\nThe six new chips announced include the 65 W Ryzen AI 7 Pro 450G, Ryzen AI 5 Pro 440G, and Ryzen AI 5 Pro 435G, along with lower-power 35 W \"GE\" variants. All of these chips carry the \"Ryzen Pro\" branding, indicating support for various device management features essential for business PCs managed by IT departments. Currently, it appears that AMD will not be providing boxed versions for general consumers; instead, these Ryzen AI desktop chips will primarily be integrated into business PCs that do not require dedicated graphics cards but still need enhanced graphics performance compared to standard Ryzen desktop CPUs.",
+          "ko": "AMD는 약 18개월 동안 \"Ryzen AI\" 브랜드의 노트북 프로세서를 판매해 왔으며, 현대 CPU 및 GPU 아키텍처를 포함하여 생성 AI 열풍을 활용하기 위해 신경 처리 장치(NPU)를 탑재한 칩을 제공하고 있습니다. 이러한 NPU는 언어 및 이미지 생성 모델을 외부 서버가 아닌 로컬에서 실행할 수 있게 해줍니다. 그러나 지금까지 AMD의 데스크탑 칩은 이러한 고성능 NPU와 Ryzen AI 라벨이 없었습니다.\n\n이제 AMD는 AM5 CPU 소켓을 위한 첫 번째 Ryzen AI 데스크탑 칩을 발표했습니다. 새로운 Ryzen AI 400 시리즈 CPU는 Ryzen 8000G 프로세서를 대체하며, Zen 5 기반 CPU 코어, RDNA 3.5 GPU 코어, 초당 50조 연산(TOPS)을 수행할 수 있는 NPU를 통합하고 있습니다. 이 칩들은 AMD의 첫 번째 데스크탑 칩으로 Microsoft의 Copilot+ PC 라벨을 획득하여 Recall 및 Click to Do와 같은 독특한 Windows 11 기능을 사용할 수 있게 됩니다.\n\n오늘 발표된 여섯 개의 칩은 65W Ryzen AI 7 Pro 450G, Ryzen AI 5 Pro 440G, Ryzen AI 5 Pro 435G와 저전력 35W \"GE\" 변형을 포함합니다. 이 모든 칩은 \"Ryzen Pro\" 브랜드를 가지고 있어 IT 부서에서 관리하는 비즈니스 PC에 중요한 여러 장치 관리 기능을 지원합니다. 현재로서는 AMD가 일반 소비자를 위한 박스 버전을 제공할 계획이 없어 보이며, Ryzen AI 데스크탑 칩은 전용 그래픽 카드가 필요 없는 비즈니스 PC에 주로 통합될 예정입니다."
+        }
       }
     },
     {
@@ -355,9 +607,18 @@
       "source": "CNN",
       "publishedAt": "2026-03-02T07:00:33Z",
       "summaries": {
-        "elementary": "앞으로 나올 새로운 기술 기기는 화면이 없을 수도 있어요. 이런 기기는 우리가 모르는 사이에 녹음을 하거나, 그냥 장신구처럼 보일 수 있어요.",
-        "middle": "기술 기기들이 화면 없이도 작동할 수 있는 새로운 시대가 다가오고 있습니다. Qualcomm은 스마트 안경과 같은 새로운 웨어러블 기기를 위한 칩을 출시하며, 이러한 기기들이 사용자의 주변을 기록하고 정보를 제공할 수 있도록 설계되었습니다. 그러나 소비자들이 이러한 기기를 받아들이기 위해서는 개인정보 보호 문제를 해결하고, 스마트폰보다 더 유용한 기능을 제공해야 합니다.",
-        "high": "최근 기술 기기들은 화면 없이도 작동할 수 있는 방향으로 발전하고 있으며, 이러한 기기들은 사용자가 인식하지 못하는 사이에 주변을 녹음할 수 있는 가능성을 내포하고 있다. Qualcomm은 이러한 경향에 발맞추어 새로운 칩을 출시했으며, 이는 펜던트, 핀, 안경 등 몸에 착용할 수 있는 형태의 기기를 겨냥하고 있다. Qualcomm의 칩은 삼성, 모토로라, 메타 등 주요 안드로이드 기기 제조사들의 스마트폰에 사용되고 있으며, 이번 새로운 칩의 출시는 소비자 기술 시장의 중요한 지표가 될 것으로 예상된다.\n\n기술 기업들은 인공지능(AI)의 인기가 새로운 히트 제품으로 이어질지를 예측하기 위해 경쟁하고 있으며, 이는 과거 인터넷이 스마트폰의 기초를 마련한 것과 유사한 맥락이다. 그러나 새로운 기기가 스마트폰보다 더 나은 성능을 발휘할 수 있음을 입증하고, 사용자의 프라이버시 우려를 해소하는 것이 필수적이다.\n\nQualcomm의 웨어러블 및 개인 AI 기기 부서를 이끄는 지아드 아스가르는 새로운 칩의 필요성을 느낀 배경으로 여러 기업들이 새로운 기기 개념을 제안했음을 언급했다. 특히 스마트 안경의 초기 성공은 Qualcomm에게 긍정적인 신호로 작용했으며, 2025년 하반기 스마트 안경의 글로벌 출하량이 전년 대비 139% 증가한 것으로 나타났다.\n\n새롭게 출시된 칩, Snapdragon Wear Elite는 스마트워치뿐만 아니라 핀과 펜던트와 같은 새로운 제품에도 적용될 예정이다. 이 칩은 AI 모델을 실행하고, 배터리 소모를 최소화하면서 주변 기기와의 통신을 지원하도록 설계되었다. 구글, 모토로라, 삼성 등이 이 칩을 사용할 예정이다.\n\n하지만 새로운 기기를 소비자에게 수용시키는 것은 쉽지 않은 과제로 남아 있다. 예를 들어, 전 애플 임원들이 설립한 스타트업 Humane은 AI 핀의 소비자 반응이 저조하여 HP에 사업 일부를 매각해야 했다. 그럼에도 불구하고 아스가르는 웨어러블 기기가 즉각적인 번역과 같은 특정 작업을 더 효율적으로 처리할 수 있는 가능성을 강조했다. 스마트 안경과 이어버드 등은 사용자가 스마트폰 화면을 보지 않고도 시각적 및 청각적 번역을 제공할 수 있다.\n\n또한, 몸에 착용하는 기기는 카메라와 마이크로폰 등 센서를 통해 주변 맥락을 이해하고, 이를 바탕으로 맞춤형 정보를 제공할 수 있는 장점이 있다. 아스가르는 이러한 기기가 사용자에게 이전에는 없었던 능력을 부여한다고 주장했다.\n\n현재 메타, 구글, 삼성은 AI를 활용하여 착용자의 주변을 분석하고 질문에 답변하는 스마트 안경에 큰 투자를 하고 있으며, 아마존은 지난해 인수한 음성 녹음 팔찌 Bee가 Alexa의 미래에 중요하다고 밝혔다. 애플 역시 스마트 안경과 펜던트를 개발 중인 것으로 알려져 있으며, OpenAI는 첫 번째 하드웨어 제품을 출시할 예정인 상황이다. 이러한 경쟁은 차세대 기술 기기의 방향성을 결정짓는 중요한 요소로 작용할 것으로 보인다."
+        "elementary": {
+          "en": "New tech devices might not have screens and can record what you say without you knowing. Qualcomm has made a new chip for these devices, like smart glasses and pins, that can help them work better than phones.",
+          "ko": "새로운 기술 장치는 화면이 없을 수도 있고, 당신이 모르는 사이에 당신의 말을 녹음할 수 있습니다. Qualcomm은 스마트 안경과 핀 같은 이러한 장치를 위해 더 나은 성능을 제공하는 새로운 칩을 만들었습니다."
+        },
+        "middle": {
+          "en": "The next generation of tech devices may not have screens and could be worn as accessories like pins or glasses. Qualcomm has introduced a new chip called Snapdragon Wear Elite, designed for these discreet gadgets, which can run AI models and communicate without draining battery life. However, tech companies must prove these new devices offer unique benefits over smartphones and address privacy concerns related to recording capabilities.",
+          "ko": "차세대 기술 장치는 화면이 없고 핀이나 안경과 같은 액세서리로 착용될 수 있습니다. Qualcomm은 이러한 눈에 띄지 않는 기기를 위해 AI 모델을 실행하고 배터리 수명을 소모하지 않고 통신할 수 있도록 설계된 Snapdragon Wear Elite라는 새로운 칩을 소개했습니다. 그러나 기술 회사들은 이러한 새로운 장치가 스마트폰보다 독특한 이점을 제공하고 녹음 기능과 관련된 개인 정보 보호 문제를 해결해야 합니다."
+        },
+        "high": {
+          "en": "The next generation of technology devices may not feature screens and could operate discreetly, potentially recording users without their awareness. Qualcomm has introduced a new chip aimed at powering such devices, which may include wearable items like pendants and smart glasses. The company has noted a rising interest from tech firms in these types of gadgets, reflecting a shift similar to the impact of the internet on smartphones.\n\nDespite the excitement, companies must demonstrate that these new devices offer unique functionalities compared to smartphones and address privacy concerns regarding their recording capabilities. Qualcomm's new Snapdragon Wear Elite chip is designed to support various wearables, including smartwatches, and can efficiently run AI models while conserving battery life.\n\nHowever, the challenge remains for tech companies to persuade consumers to adopt these innovations. Past attempts, such as the AI Pin from the startup Humane, have struggled to gain traction. Nevertheless, Qualcomm's Ziad Asghar believes that wearables could outperform smartphones in specific tasks, like providing instant translations during conversations.\n\nMajor tech players like Meta, Google, and Samsung are investing heavily in AI-enabled smart glasses, while Apple is also exploring similar products. As the industry races to identify the next breakthrough, the potential for devices that enhance user experience and understanding of their environment is significant.",
+          "ko": "다음 세대 기술 장치들은 화면이 없을 수 있으며, 사용자가 인식하지 못하는 사이에 녹음을 할 수 있습니다. Qualcomm은 이러한 장치를 지원하기 위해 새로운 칩을 출시했으며, 이는 펜던트 및 스마트 안경과 같은 착용 가능한 아이템을 포함할 수 있습니다. 이 회사는 이러한 유형의 기기에 대한 기술 기업들의 관심이 증가하고 있음을 언급하며, 이는 스마트폰에 대한 인터넷의 영향을 반영하는 변화입니다.\n\n그러나 기업들은 이러한 새로운 장치가 스마트폰과 비교해 독특한 기능을 제공하고, 녹음 기능에 대한 개인 정보 보호 문제를 해결해야 합니다. Qualcomm의 새로운 Snapdragon Wear Elite 칩은 다양한 웨어러블 장치, 스마트워치 등을 지원하도록 설계되었으며, 배터리 수명을 절약하면서 AI 모델을 효율적으로 실행할 수 있습니다.\n\n그럼에도 불구하고 기술 기업들은 소비자들이 이러한 혁신을 받아들이도록 설득하는 데 어려움을 겪고 있습니다. 과거의 시도들, 예를 들어 스타트업 Humane의 AI Pin은 시장에서 성공을 거두지 못했습니다. 그럼에도 불구하고 Qualcomm의 Ziad Asghar는 웨어러블 장치가 특정 작업에서 스마트폰보다 더 나은 성능을 발휘할 수 있다고 믿고 있습니다. 예를 들어 대화 중 즉각적인 번역을 제공하는 기능이 있습니다.\n\nMeta, Google, Samsung과 같은 주요 기술 기업들은 AI가 탑재된 스마트 안경에 대규모로 투자하고 있으며, Apple도 유사한 제품을 개발하고 있습니다. 산업이 다음 혁신을 찾기 위해 경쟁하는 가운데, 사용자 경험과 주변 환경에 대한 이해를 향상시킬 수 있는 장치의 잠재력은 상당합니다."
+        }
       }
     },
     {
@@ -367,9 +628,18 @@
       "source": "Tom's Guide",
       "publishedAt": "2026-03-02T06:21:15Z",
       "summaries": {
-        "elementary": "ChatGPT와 Claude는 사용하기 쉽고 빠른 AI 도구로, 사람들이 일상에서 필요로 하는 작업을 도와줍니다. 두 모델을 비교해보니, Claude가 더 명확하고 유용한 답변을 제공하는 데 더 잘하는 것으로 나타났습니다.",
-        "middle": "이 내용은 최신 AI 모델인 ChatGPT-5.2와 Claude Sonnet 4.6의 성능을 비교하는 것입니다. 두 모델은 사용자가 쉽게 접근할 수 있도록 설계되었으며, 실제 업무에서의 유용성을 평가하기 위해 다양한 테스트를 수행했습니다. Claude가 여러 과제에서 더 나은 성과를 보이며, 특히 명확한 설명과 의사결정 지원에서 우수성을 나타냈습니다.",
-        "high": "최근 OpenAI의 ChatGPT-5.2 모델과 Anthropic의 Claude Sonnet 4.6 모델이 기본 경험을 통해 사용자가 손쉽게 접근할 수 있도록 설계되었습니다. 이 두 모델은 빠르고 유용하며, 기술적 지식 없이도 간단한 이메일 작성부터 복잡한 설명까지 다양한 작업을 수행할 수 있도록 개발되었습니다. 특히 Claude는 App Store에서 ChatGPT를 제치고 1위 챗봇 앱으로 자리잡았습니다.\n\n이 두 모델의 실제 성능을 비교하기 위해, 사용자가 AI를 활용하는 방식에 맞춘 여러 과제를 설정하여 테스트를 진행했습니다. 테스트는 명확한 글쓰기, 실용적인 문제 해결, 복잡한 아이디어의 간단한 설명 등 일상적인 업무에서 중요한 순간에 어떤 모델이 더 나은 성과를 내는지를 평가하는 데 중점을 두었습니다. 두 모델 모두 더 스마트한 지원, 적은 오류, 그리고 적은 프롬프트로 더 유용한 응답을 제공한다고 약속하지만, 실제로는 어떤 모델이 더 명확하고 신뢰할 수 있는 결과를 제공하는지가 관건입니다.\n\n### 1. 글쓰기 품질 및 가독성\n**과제:** AI 어시스턴트가 일상적인 생산성 도구로 자리 잡고 있는 이유를 설명하는 250단어의 기술 기사 서문 작성\n\n- **ChatGPT-5.2:** 논리적으로 구조화된 개요를 제공하며, 특정 사용 사례와 접근성, 생산성의 재정의 등 핵심 요소를 체계적으로 설명했습니다.\n- **Claude Sonnet 4.6:** 생생하고 영화 같은 장면으로 시작하여 AI 어시스턴트의 등장을 \"조용한 혁명\"으로 묘사하며, 인간의 시간 회복과 창의력 확장의 이야기를 통해 기술적 변화를 뒷받침했습니다.\n\n**승자:** Claude는 핵심 요소를 체계적으로 분석하여 개념을 쉽게 이해할 수 있도록 했습니다.\n\n### 2. 구조적 추론 및 의사결정\n**과제:** 소규모 사업자가 고객 이메일에 주당 12시간을 소비하고 AI 자동화를 고려하는 상황\n\n- **ChatGPT-5.2:** 12시간의 주간 작업을 성장의 숨겨진 부담으로 설정하고, AI의 전략적 이점을 제시하여 설득력 있는 주장을 펼쳤습니다.\n- **Claude Sonnet 4.6:** 소유자의 시간에 대한 비용-편익 분석으로 시작하여, AI의 장점과 잠재적 실패 지점을 균형 있게 설명하고 안전하고 실용적인 시작 경로를 제시했습니다.\n\n**승자:** Claude는 비용-편익 분석과 위험 및 보상에 대한 균형 잡힌 시각을 제공하며 실용적인 다음 단계를 제시했습니다.\n\n이와 같은 방식으로 두 모델은 다양한 과제를 통해 비교되었으며, 각 모델이 어떤 상황에서 더 뛰어난 성능을 발휘하는지를 평가하는 데 중점을 두었습니다. 이러한 비교는 사용자가 자신의 업무 흐름에 적합한 AI 어시스턴트를 선택하는 데 유용한 정보를 제공합니다."
+        "elementary": {
+          "en": "ChatGPT and Claude are two AI helpers that you can use easily without any special skills. They are both good at helping with tasks like writing emails and explaining things, but Claude is currently the most popular one.",
+          "ko": "ChatGPT와 Claude는 특별한 기술 없이 쉽게 사용할 수 있는 두 가지 AI 도우미입니다. 둘 다 이메일 작성과 설명 같은 일에 잘 도움을 주지만, 현재 Claude가 가장 인기 있는 도우미입니다."
+        },
+        "middle": {
+          "en": "OpenAI's ChatGPT-5.2 and Anthropic's Claude Sonnet 4.6 are two advanced AI models designed for everyday use without needing technical skills. In a recent comparison, Claude outperformed ChatGPT in tasks like writing quality, structured reasoning, and explaining complex ideas, making it the top choice for productivity. The tests focused on real-world applications, showing that while both models aim to provide smart assistance, Claude offers clearer and more reliable responses.\n\nOpenAI의 ChatGPT-5.2와 Anthropic의 Claude Sonnet 4.6는 기술적 지식 없이도 일상적으로 사용할 수 있도록 설계된 두 가지 고급 AI 모델입니다. 최근 비교에서 Claude는 글쓰기 품질, 구조적 추론 및 복잡한 아이디어 설명과 같은 작업에서 ChatGPT를 능가하여 생산성에 더 적합한 선택으로 평가되었습니다. 테스트는 실제 응용 프로그램에 초점을 맞추어 두 모델 모두 스마트한 지원을 제공하려고 하지만, Claude가 더 명확하고 신뢰할 수 있는 응답을 제공함을 보여주었습니다.",
+          "ko": "(번역 준비 중)"
+        },
+        "high": {
+          "en": "OpenAI's ChatGPT-5.2 and Anthropic's Claude Sonnet 4.6 are two advanced AI models designed for everyday use without requiring technical expertise. They aim to assist users in various tasks, from writing emails to explaining complex concepts. Recently, Claude has surpassed ChatGPT as the top chatbot in the Apple Store, prompting a comparison of their performance in real-world scenarios.\n\nIn a series of tests focusing on practical applications, both models were evaluated on their ability to write clearly under pressure, reason through problems, and explain intricate ideas in simple terms. The tests aimed to determine which AI assistant provides better clarity and reliability in enhancing productivity.\n\n1. **Writing Quality & Readability**: Claude Sonnet 4.6 excelled by presenting a compelling narrative that framed AI assistants as a \"quiet revolution,\" while ChatGPT-5.2 provided a structured overview of key factors. Winner: Claude.\n\n2. **Structured Reasoning & Decision-Making**: Claude Sonnet 4.6 offered a thorough cost-benefit analysis and a balanced view of risks, making it a more effective consultant for decision-making. Winner: Claude.\n\nOverall, this comparison highlights the strengths of each AI model in practical tasks, helping users decide which assistant may best fit their workflow.",
+          "ko": "OpenAI의 ChatGPT-5.2와 Anthropic의 Claude Sonnet 4.6는 기술적 전문 지식 없이도 일상적인 사용을 위해 설계된 두 가지 고급 AI 모델입니다. 이들은 이메일 작성에서 복잡한 개념 설명에 이르기까지 다양한 작업에서 사용자에게 도움을 주는 것을 목표로 하고 있습니다. 최근 Claude는 Apple Store에서 ChatGPT를 제치고 최고의 챗봇으로 자리 잡아, 두 모델의 성능을 비교하게 되었습니다.\n\n실제 시나리오에서 두 모델의 성능을 평가하기 위해 일련의 테스트가 진행되었으며, 이들은 압박 속에서 명확하게 글을 쓰고, 문제를 해결하며, 복잡한 아이디어를 간단히 설명하는 능력을 중점적으로 평가했습니다. 이 테스트의 목표는 어떤 AI 어시스턴트가 생산성을 높이는 데 더 나은 명확성과 신뢰성을 제공하는지를 판단하는 것이었습니다.\n\n1. **글쓰기 품질 및 가독성**: Claude Sonnet 4.6는 AI 어시스턴트를 \"조용한 혁명\"으로 묘사하는 매력적인 내러티브를 제시하여 우수성을 보였고, ChatGPT-5.2는 주요 요소에 대한 구조적인 개요를 제공했습니다. 승자: Claude.\n\n2. **구조적 추론 및 의사결정**: Claude Sonnet 4.6는 철저한 비용-편익 분석과 위험에 대한 균형 잡힌 관점을 제공하여 의사결정에 있어 더 효과적인 컨설턴트 역할을 했습니다. 승자: Claude.\n\n전반적으로 이 비교는 각 AI 모델의 강점을 실제 작업에서 강조하며, 사용자가 어떤 어시스턴트가 자신의 작업 흐름에 가장 적합할지를 결정하는 데 도움을 줍니다."
+        }
       }
     },
     {
@@ -379,9 +649,18 @@
       "source": "Motorolanews.com",
       "publishedAt": "2026-03-02T05:01:14Z",
       "summaries": {
-        "elementary": "모토로라는 새로운 스마트폰 보안 기능과 기업 솔루션을 발표했어요. 그래핀OS 재단과 협력해 사용자들의 개인정보를 더 안전하게 보호하고, 기업들이 기기를 잘 관리할 수 있도록 도와주는 도구도 만들었답니다.",
-        "middle": "모토로라는 오늘 모바일 월드 콩그레스에서 새로운 소비자 및 기업 솔루션을 발표했습니다. 특히, GrapheneOS 재단과의 파트너십을 통해 스마트폰 보안을 강화하고, Moto Secure와 Moto Analytics 기능을 도입하여 기업의 보안 및 운영 통찰력을 향상시켰습니다. 이러한 발표는 모토로라가 전 세계 고객에게 지능적이고 안전한 기술을 제공하겠다는 의지를 보여줍니다.",
-        "high": "모토로라(Motorola), 레노버(Lenovo) 소속의 기업은 오늘 모바일 월드 콩그레스(Mobile World Congress)에서 소비자 및 기업 솔루션의 새로운 추가 사항을 발표했다. 이 회사는 그래핀OS 재단(GrapheneOS Foundation)과의 파트너십을 통해 전 세계 사용자들에게 첨단 보안을 제공하겠다고 밝혔다. 또한, 모토 시큐어(Moto Secure) 기능과 모토 애널리틱스(Moto Analytics)를 도입하여 다양한 산업의 조직을 위한 고급 보안 및 심층 운영 통찰력을 제공하는 모토로라의 B2B 생태계를 확장할 계획이다. 이러한 발표는 고객들에게 지능적이고 강력한 기술을 제공하겠다는 모토로라의 의지를 강화하는 내용이다.\n\n### 그래핀OS 재단과의 파트너십\n\n모토로라는 그래핀OS 재단과의 장기 파트너십을 통해 스마트폰 보안의 새로운 시대를 열겠다고 밝혔다. 그래핀OS 재단은 고급 모바일 보안 분야의 선두 비영리 기관으로, 안드로이드 오픈 소스 프로젝트를 기반으로 한 강화된 운영 체제를 개발하고 있다. 모토로라와 그래핀OS 재단은 스마트폰 보안을 강화하고, 그래핀OS와 호환되는 차세대 기기를 공동 개발하기 위해 협력할 예정이다.\n\n그래핀OS의 대표자는 “모토로라와 협력하여 그래핀OS의 업계 최고 수준의 프라이버시 및 보안 중심 모바일 운영 체제를 그들의 차세대 스마트폰에 도입하게 되어 매우 기쁘다”고 전했다. 이 협력은 그래핀OS의 범위를 확장하는 중요한 이정표가 될 것이며, 모토로라가 모바일 보안을 발전시키기 위한 의미 있는 조치를 취한 것에 대해 찬사를 보냈다.\n\n그래핀OS의 혁신적인 기술과 모토로라의 수십 년간의 보안 전문성, 그리고 레노버의 씽크쉴드(ThinkShield) 솔루션을 결합함으로써, 이 협력은 새로운 세대의 프라이버시 및 보안 기술을 발전시킬 것이다. 향후 몇 달 동안 모토로라와 그래핀OS 재단은 공동 연구, 소프트웨어 개선 및 새로운 보안 기능에 대한 협력을 지속할 예정이다.\n\n### 모토 애널리틱스\n\n모토로라는 또한 IT 관리자들이 장치 성능을 실시간으로 파악할 수 있도록 설계된 기업용 분석 플랫폼인 모토 애널리틱스(Moto Analytics)를 소개했다. 전통적인 EMM(Enterprise Mobility Management) 도구가 주로 접근 제어에 초점을 맞추는 것과 달리, 모토 애널리틱스는 앱 안정성, 배터리 건강, 연결 성능 등 심층적인 운영 통찰력을 제공한다.\n\n이 데이터를 통해 IT 팀은 문제를 보다 효율적으로 해결하고, 문제가 확대되기 전에 예방하며, 직원의 생산성을 유지할 수 있다. 씽크쉴드 생태계의 일환으로, 모토 애널리틱스는 기존 기업 환경과 원활하게 통합되며 조직의 성장에 따라 쉽게 확장될 수 있다.\n\n### 개인 이미지 데이터\n\n모토로라는 또한 모토 시큐어 플랫폼을 확장하여 새로운 기능인 개인 이미지 데이터(Private Image Data)를 도입했다. 이 도구는 사용자가 사진에 저장된 숨겨진 데이터에 대한 제어력을 강화해준다. 활성화되면, 새로운 카메라 이미지에서 민감한 메타데이터를 자동으로 제거하여 위치 및 장치 정보와 같은 세부 정보를 보호한다. 이 보호 기능은 백그라운드에서 조용히 작동하며, 이미지 자체는 유지하면서도 관련된 일부 개인 데이터를 삭제한다.\n\n개인 이미지 데이터는 모토 시큐어 앱 내에서 점점 더 늘어나는 보호 기능 중 하나로, 씽크쉴드에 의해 지원되는 필수 프라이버시 및 보안 도구의 중심 허브 역할을 한다. 앱 권한 관리, 민감한 파일 보호, 장치 무결성 모니터링 등 다양한 기능을 통합하여, 모토 시큐어는 사용자에게 중요한 안드로이드 및 모토로라의 안전 장치를 한 곳에서 제공한다."
+        "elementary": {
+          "en": "Motorola has announced new features to make smartphones safer and help businesses understand how their devices are working better. They are working with the GrapheneOS Foundation to create stronger security for users and have introduced tools to protect private information in photos.",
+          "ko": "모토로라는 스마트폰을 더 안전하게 만들고 기업들이 장치의 성능을 더 잘 이해할 수 있도록 하는 새로운 기능을 발표했습니다. 그들은 사용자들을 위한 더 강력한 보안을 만들기 위해 GrapheneOS 재단과 협력하고 있으며, 사진에서 개인 정보를 보호하는 도구를 도입했습니다."
+        },
+        "middle": {
+          "en": "Motorola has announced new consumer and enterprise solutions at the Mobile World Congress, including a partnership with the GrapheneOS Foundation to enhance smartphone security. The company introduced Moto Secure and Moto Analytics, which provide advanced security features and real-time device performance insights for businesses. These innovations demonstrate Motorola's commitment to delivering intelligent technology with improved security for users worldwide.",
+          "ko": "모토로라는 모바일 월드 콩그레스에서 소비자 및 기업 솔루션을 포함한 새로운 제품을 발표했으며, 스마트폰 보안을 강화하기 위해 GrapheneOS 재단과 파트너십을 체결했습니다. 이 회사는 기업을 위한 고급 보안 기능과 실시간 장치 성능 통찰력을 제공하는 Moto Secure 및 Moto Analytics를 소개했습니다. 이러한 혁신은 전 세계 사용자에게 향상된 보안을 갖춘 지능형 기술을 제공하겠다는 모토로라의 의지를 보여줍니다."
+        },
+        "high": {
+          "en": "Motorola, a subsidiary of Lenovo, announced new consumer and enterprise solutions at the Mobile World Congress. The company has partnered with the GrapheneOS Foundation to enhance smartphone security for users globally. This collaboration aims to integrate advanced security features into future Motorola devices. Additionally, Motorola launched Moto Analytics, an enterprise analytics platform that provides IT administrators with real-time insights into device performance, enabling efficient troubleshooting and maintaining productivity. The Moto Secure platform has also been expanded with a feature called Private Image Data, which helps users manage sensitive metadata in their photos. These developments underscore Motorola's commitment to delivering advanced technology with enhanced security for customers worldwide.",
+          "ko": "모토로라는 레노버의 자회사로서 모바일 월드 콩그레스에서 새로운 소비자 및 기업 솔루션을 발표했습니다. 이 회사는 그래핀OS 재단과 파트너십을 체결하여 전 세계 사용자들을 위한 스마트폰 보안을 강화할 계획입니다. 이 협력은 향후 모토로라 기기에 고급 보안 기능을 통합하는 것을 목표로 하고 있습니다. 또한 모토로라는 IT 관리자에게 장치 성능에 대한 실시간 통찰력을 제공하는 기업 분석 플랫폼인 모토 애널리틱스를 출시했습니다. 이를 통해 효율적인 문제 해결과 생산성 유지를 지원합니다. 모토 시큐어 플랫폼은 사진의 민감한 메타데이터를 관리하는 데 도움을 주는 개인 이미지 데이터라는 기능으로 확장되었습니다. 이러한 발전은 전 세계 고객에게 향상된 보안을 갖춘 첨단 기술을 제공하겠다는 모토로라의 의지를 강조합니다."
+        }
       }
     }
   ]
