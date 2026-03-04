@@ -4,9 +4,8 @@ import time
 from datetime import datetime
 from huggingface_hub import InferenceClient
 from openai import OpenAI
-from fetch_news import fetch_top_headlines
+from src.fetch_news import fetch_top_headlines
 
-# API 설정
 client_openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 hf_client = InferenceClient(api_key=os.getenv("HF_TOKEN"))
 
@@ -14,7 +13,6 @@ MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
 CATEGORY_LIST = ["business", "entertainment", "general", "health", "science", "sports", "technology"]
 
 def get_embedding(text):
-    """문장 임베딩 생성"""
     try:
         embedding = hf_client.feature_extraction(text[:1000], model=MODEL_ID)
         return embedding.tolist() if hasattr(embedding, "tolist") else embedding
@@ -35,14 +33,14 @@ def generate_multi_summaries(title, description):
             model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": """You are a professional English teacher. 
-                Create three distinct levels of summaries:
+                Summarize the given news into 3 distinct levels:
                 
-                1. Level 1 (Elementary): Exactly 3 short sentences. Use basic vocabulary (CEFR A1).
-                2. Level 2 (Middle): Exactly 5 sentences. Use intermediate vocabulary and compound sentences (CEFR B1-B2).
-                3. Level 3 (High): Exactly 7 sentences. Use advanced academic vocabulary, complex structures, and idioms (CEFR C1).
+                - Level 1 (Elementary): Exactly 3 short sentences. Use very simple words (A1 level).
+                - Level 2 (Middle): Exactly 5 sentences. Use intermediate vocabulary (B1-B2 level).
+                - Level 3 (High): Exactly 7 sentences. Use advanced academic vocabulary and complex structures (C1 level).
                 
-                Output format for each level:
-                Level X: [English sentences] ||| [Korean translation]"""},
+                Format each level exactly as:
+                Level X: [English Summary] ||| [Korean Translation]"""},
                 {"role": "user", "content": source_text[:1200]}
             ],
             temperature=0.4
@@ -57,7 +55,7 @@ def generate_multi_summaries(title, description):
         for i, line in enumerate(lines[:3]):
             clean_line = line.split(":", 1)[-1] if ":" in line else line
             en, ko = clean_line.split("|||")
-            # 문장 간 줄바꿈이 필요한 경우 브라우저 표시를 위해 처리
+            # <br> 태그를 넣어 웹에서 줄바꿈이 보이도록 처리
             summaries[levels[i]] = {
                 "en": en.strip().replace(". ", ".<br>"), 
                 "ko": ko.strip().replace(". ", ".<br>")
@@ -77,30 +75,25 @@ def run_pipeline():
     all_collected_articles = []
     category_results = {}
 
-    # 1. 카테고리별 20개씩 수집 (총 140개 중 중복제외 100개 목표)
     for cat in CATEGORY_LIST:
         print(f"--- {cat} 카테고리 수집 중 ---")
         articles = fetch_top_headlines(category=cat, page_size=20)
         processed = []
-        
         for art in articles:
             summaries = generate_multi_summaries(art['title'], art.get('description'))
             entry = {
                 "title": art["title"],
                 "url": art["url"],
-                "image": art.get("urlToImage"),
+                "image": art.get("urlToImage"), # null일 수 있음
                 "summaries": summaries,
                 "description": art.get('description', '')
             }
             processed.append(entry)
             all_collected_articles.append(entry)
             print("✅", end="", flush=True)
-        
         category_results[cat] = processed
         print(f"\n{cat} 완료 ({len(processed)}개)")
 
-    # 2. 시맨틱 검색용 임베딩 생성 (중복 제거 후 100개)
-    print("\n--- 임베딩 생성 시작 (Top 100) ---")
     unique_articles = {a['url']: a for a in all_collected_articles}.values()
     target_articles = list(unique_articles)[:100]
     embedding_results = []
@@ -113,7 +106,6 @@ def run_pipeline():
             embedding_results.append(art)
             print("💎", end="", flush=True)
 
-    # 3. 저장 (날짜별 폴더 및 최신 폴더)
     for p in [f"docs/data/{today_str}", "docs/data/latest"]:
         os.makedirs(p, exist_ok=True)
         with open(f"{p}/category.json", "w", encoding="utf-8") as f:
@@ -121,7 +113,7 @@ def run_pipeline():
         with open(f"{p}/embedding.json", "w", encoding="utf-8") as f:
             json.dump(embedding_results, f, ensure_ascii=False)
             
-    print(f"\n✨ 완료! 소요시간: {int(time.time() - start_time)}초 | 데이터: {len(embedding_results)}개")
+    print(f"\n✨ 완료! 총 데이터: {len(embedding_results)}개")
 
 if __name__ == "__main__":
     run_pipeline()
