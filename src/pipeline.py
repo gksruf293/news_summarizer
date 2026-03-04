@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 import requests
 from openai import OpenAI
-from src.fetch_news import fetch_top_headlines
+from fetch_news import fetch_top_headlines
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 HF_TOKEN = os.getenv("HF_TOKEN")
