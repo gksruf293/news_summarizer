@@ -38,8 +38,8 @@ window.loadDataByDate = async function(date) {
         
         // 경로 앞에 ./ 를 붙여 상대 경로를 명확히 합니다.
         const [catRes, embRes] = await Promise.all([
-            fetch(`./data/${date}/category.json${cacheBust}`),
-            fetch(`./data/${date}/embedding.json${cacheBust}`)
+            fetch(`./docs/data/${date}/category.json${cacheBust}`),
+            fetch(`./docs/data/${date}/embedding.json${cacheBust}`)
         ]);
 
         if (!catRes.ok || !embRes.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
