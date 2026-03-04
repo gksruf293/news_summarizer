@@ -6,34 +6,37 @@ let extractor = null;
 let currentSelectedArticle = null;
 
 /**
- * [1] 초기화: AI 모델 로드 및 이벤트 바인딩
+ * 초기화: 모델 로드, 날짜 자동 설정, 이벤트 바인딩
  */
 async function init() {
     const container = document.getElementById("results-container");
     const searchBtn = document.getElementById("searchBtn");
     const datePicker = document.getElementById("datePicker");
     
+    // [해결] 달력 날짜를 오늘 날짜로 자동 설정
+    const today = new Date();
+    const todayStr = today.toISOString().split('T')[0];
+    if (datePicker) {
+        datePicker.value = todayStr;
+        
+        // 날짜 변경 리스너 등록
+        datePicker.addEventListener('change', (e) => {
+            if (e.target.value) {
+                console.log("📅 날짜 변경 호출:", e.target.value);
+                loadDataByDate(e.target.value);
+            }
+        });
+    }
+
     if (searchBtn) searchBtn.disabled = true;
-    container.innerHTML = `<div class="status-msg">AI 모델 로딩 중...</div>`;
+    container.innerHTML = `<div class="status-msg">AI 모델 및 데이터를 로딩 중입니다...</div>`;
 
     try {
-        // AI 모델 로드
         extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
         console.log("✅ AI Model Loaded");
 
-        // 초기 데이터 로드 (기본값: latest)
+        // 초기 데이터 로드 (latest)
         await loadDataByDate('latest');
-
-        // [날짜 변경 버그 해결] 리스너 등록
-        if (datePicker) {
-            datePicker.addEventListener('change', (e) => {
-                const selectedDate = e.target.value; 
-                if (selectedDate) {
-                    console.log("📅 날짜 변경 감지:", selectedDate);
-                    loadDataByDate(selectedDate);
-                }
-            });
-        }
 
         if (searchBtn) { 
             searchBtn.disabled = false; 
@@ -46,7 +49,7 @@ async function init() {
 }
 
 /**
- * [2] 데이터 로드 함수 (window에 등록하여 HTML 호출 허용)
+ * 날짜별 데이터 로드
  */
 window.loadDataByDate = async function(date) {
     const container = document.getElementById("results-container");
@@ -57,15 +60,13 @@ window.loadDataByDate = async function(date) {
             fetch(`./data/${date}/embedding.json${cacheBust}`)
         ]);
 
-        if (!catRes.ok) throw new Error(`${date} 데이터를 찾을 수 없습니다.`);
+        if (!catRes.ok) throw new Error(`${date}의 데이터가 없습니다.`);
 
         categoryData = await catRes.json();
         const embJson = await embRes.json();
         embeddingData = Array.isArray(embJson) ? embJson : [];
         
-        console.log(`📊 ${date} 로드 완료 | 임베딩: ${embeddingData.length}개`);
-
-        // 화면 탭 초기화 (전체/General)
+        // 초기 탭 'general' 로드
         const firstCat = categoryData['general'] ? 'general' : Object.keys(categoryData)[0];
         renderCards(categoryData[firstCat] || []);
 
@@ -76,13 +77,10 @@ window.loadDataByDate = async function(date) {
 };
 
 /**
- * [3] 레벨별 요약 업데이트 (Level 1, 2, 3 버튼 클릭 시 호출)
+ * 레벨별 요약 변환 (Level 1, 2, 3 버튼 클릭 시 호출)
  */
 window.updateSummaryLevel = function(level) {
-    if (!currentSelectedArticle || !currentSelectedArticle.summaries) {
-        console.error("데이터가 없습니다.");
-        return;
-    }
+    if (!currentSelectedArticle || !currentSelectedArticle.summaries) return;
 
     const data = currentSelectedArticle.summaries[level];
     if (!data) return;
@@ -90,45 +88,18 @@ window.updateSummaryLevel = function(level) {
     const summaryBox = document.getElementById("summary-text");
     summaryBox.innerHTML = `
         <div class="english-box" onclick="toggleTranslation()">
-            <p class="en-text" style="font-size: 1.1rem; line-height: 1.6;">${data.en}</p>
-            <p class="ko-text" id="ko-translation" style="display:none; color: #666; margin-top: 10px; border-top: 1px dashed #ccc; pt-2;">🔍 ${data.ko}</p>
-            <small style="color: #3b82f6; display:block; margin-top:15px; cursor:pointer;">
+            <p class="en-text" style="font-size: 1.15rem; line-height: 1.6;">${data.en}</p>
+            <p class="ko-text" id="ko-translation" style="display:none; color: #555; background: #f4f4f4; padding: 12px; border-radius: 8px; margin-top: 15px;">🔍 ${data.ko}</p>
+            <small style="color: #3b82f6; display:block; margin-top:15px; cursor:pointer; font-weight:bold;">
                 💡 문장을 클릭하면 한국어 해석이 나타납니다.
             </small>
         </div>
     `;
 
-    // 버튼 활성화 상태 표시 (btn-elementary, btn-middle, btn-high)
+    // 버튼 활성화 스타일 업데이트
     document.querySelectorAll(".level-btn").forEach(btn => btn.classList.remove("active"));
     const activeBtn = document.getElementById(`btn-${level}`);
     if (activeBtn) activeBtn.classList.add("active");
-};
-
-/**
- * [4] 시맨틱 검색 함수
- */
-window.handleSearch = async function() {
-    const input = document.getElementById("interestInput");
-    const query = input.value.trim();
-    
-    if (!query || !extractor) return;
-
-    const container = document.getElementById("results-container");
-    container.innerHTML = `<div class="status-msg">'${query}' 관련 뉴스 분석 중...</div>`;
-
-    try {
-        const output = await extractor(query, { pooling: 'mean', normalize: true });
-        const userVector = Array.from(output.data);
-
-        const scored = embeddingData.map(art => ({
-            ...art,
-            score: cosineSimilarity(userVector, art.embedding)
-        })).sort((a, b) => b.score - a.score);
-
-        renderCards(scored.slice(0, 15));
-    } catch (err) {
-        container.innerHTML = `<div class="error-msg">검색 중 오류가 발생했습니다.</div>`;
-    }
 };
 
 /**
@@ -155,18 +126,40 @@ function renderCards(articles) {
     });
 }
 
+/**
+ * 시맨틱 검색
+ */
+window.handleSearch = async function() {
+    const input = document.getElementById("interestInput");
+    const query = input.value.trim();
+    if (!query || !extractor) return;
+
+    const container = document.getElementById("results-container");
+    container.innerHTML = `<div class="status-msg">관련 뉴스 검색 중...</div>`;
+
+    const output = await extractor(query, { pooling: 'mean', normalize: true });
+    const userVector = Array.from(output.data);
+
+    const scored = embeddingData.map(art => ({
+        ...art,
+        score: cosineSimilarity(userVector, art.embedding)
+    })).sort((a, b) => b.score - a.score);
+
+    renderCards(scored.slice(0, 15));
+};
+
+/**
+ * 모달 및 기타 유틸리티
+ */
 window.openModal = (article) => {
     currentSelectedArticle = article;
     document.getElementById("modal-title").innerText = article.title;
     document.getElementById("modal-link").href = article.url;
     document.getElementById("modal").style.display = "block";
-    // 기본 레벨 1 표시
     window.updateSummaryLevel('elementary');
 };
 
-window.closeModal = () => {
-    document.getElementById("modal").style.display = "none";
-};
+window.closeModal = () => document.getElementById("modal").style.display = "none";
 
 window.toggleTranslation = () => {
     const ko = document.getElementById("ko-translation");
