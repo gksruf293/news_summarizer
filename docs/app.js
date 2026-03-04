@@ -107,3 +107,4 @@ function renderCards(articles) {
 
 // 초기화 실행
 init();
+
