@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 from huggingface_hub import InferenceClient
 from openai import OpenAI
-from src.fetch_news import fetch_top_headlines
+from fetch_news import fetch_top_headlines
 
 client_openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 hf_client = InferenceClient(api_key=os.getenv("HF_TOKEN"))
