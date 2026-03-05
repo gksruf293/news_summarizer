@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 from huggingface_hub import InferenceClient
 from openai import OpenAI
-from fetch_news import fetch_top_headlines
+from src.fetch_news import fetch_top_headlines
 
 client_openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 hf_client = InferenceClient(api_key=os.getenv("HF_TOKEN"))
@@ -20,52 +20,56 @@ def get_embedding(text):
         print(f"⚠️ HF API 에러: {e}")
         return None
 
-def generate_multi_summaries(title, description):
-    """레벨별(3, 5, 7줄) 확실한 차이를 둔 요약 생성"""
+def generate_multi_summaries(title, description, retries=3):
+    """레벨별 요약 생성 (서버 에러 시 최대 3번 재시도)"""
     source_text = description if description and len(description) > 50 else title
     
     if not source_text or len(source_text) < 10:
         msg = {"en": title, "ko": "내용 요약이 제공되지 않는 기사입니다."}
         return {k: msg for k in ["elementary", "middle", "high"]}
 
-    try:
-        resp = client_openai.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": """You are a professional English teacher. 
-                Summarize the given news into 3 distinct levels:
-                
-                - Level 1 (Elementary): Exactly 3 short sentences. Use very simple words (A1 level).
-                - Level 2 (Middle): Exactly 5 sentences. Use intermediate vocabulary (B1-B2 level).
-                - Level 3 (High): Exactly 7 sentences. Use advanced academic vocabulary and complex structures (C1 level).
-                
-                Format each level exactly as:
-                Level X: [English Summary] ||| [Korean Translation]"""},
-                {"role": "user", "content": source_text[:1200]}
-            ],
-            temperature=0.4
-        )
-        
-        content = resp.choices[0].message.content.strip()
-        lines = [line for line in content.split('\n') if "|||" in line]
-        
-        levels = ["elementary", "middle", "high"]
-        summaries = {}
-        
-        for i, line in enumerate(lines[:3]):
-            clean_line = line.split(":", 1)[-1] if ":" in line else line
-            en, ko = clean_line.split("|||")
-            # <br> 태그를 넣어 웹에서 줄바꿈이 보이도록 처리
-            summaries[levels[i]] = {
-                "en": en.strip().replace(". ", ".<br>"), 
-                "ko": ko.strip().replace(". ", ".<br>")
-            }
+    for i in range(retries):
+        try:
+            resp = client_openai.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": """You are a professional English teacher. 
+                    Summarize the given news into 3 distinct levels:
+                    - Level 1 (Elementary): Exactly 3 short sentences. Basic vocabulary (A1).
+                    - Level 2 (Middle): Exactly 5 sentences. Intermediate vocabulary (B1-B2).
+                    - Level 3 (High): Exactly 7 sentences. Advanced vocabulary (C1).
+                    Format: Level X: [English] ||| [Korean]"""},
+                    {"role": "user", "content": source_text[:1200]}
+                ],
+                temperature=0.4
+            )
             
-        return summaries
-    except Exception as e:
-        print(f"⚠️ 요약 생성 에러: {e}")
-        fallback = {"en": title, "ko": "요약 생성 중 오류가 발생했습니다."}
-        return {k: fallback for k in ["elementary", "middle", "high"]}
+            content = resp.choices[0].message.content.strip()
+            lines = [line for line in content.split('\n') if "|||" in line]
+            
+            levels = ["elementary", "middle", "high"]
+            summaries = {}
+            
+            for idx, line in enumerate(lines[:3]):
+                clean_line = line.split(":", 1)[-1] if ":" in line else line
+                en, ko = clean_line.split("|||")
+                summaries[levels[idx]] = {
+                    "en": en.strip().replace(". ", ".<br>"), 
+                    "ko": ko.strip().replace(". ", ".<br>")
+                }
+            return summaries
+
+        except Exception as e:
+            # 500 에러 등이 발생했을 때 잠시 대기 후 재시도
+            print(f"\n⚠️ 요약 생성 에러 (시도 {i+1}/{retries}): {e}")
+            if i < retries - 1:
+                time.sleep(2) # 2초 대기 후 재시도
+            else:
+                print(f"❌ {retries}번 시도 후 결국 실패: {title[:30]}...")
+    
+    # 모든 재시도 실패 시 fallback
+    fallback = {"en": title, "ko": "현재 요약을 생성할 수 없습니다. 원문 링크를 확인해 주세요."}
+    return {k: fallback for k in ["elementary", "middle", "high"]}
 
 def run_pipeline():
     start_time = time.time()
@@ -76,7 +80,7 @@ def run_pipeline():
     category_results = {}
 
     for cat in CATEGORY_LIST:
-        print(f"--- {cat} 카테고리 수집 중 ---")
+        print(f"\n--- {cat} 카테고리 수집 중 ---")
         articles = fetch_top_headlines(category=cat, page_size=20)
         processed = []
         for art in articles:
@@ -84,7 +88,7 @@ def run_pipeline():
             entry = {
                 "title": art["title"],
                 "url": art["url"],
-                "image": art.get("urlToImage"), # null일 수 있음
+                "image": art.get("urlToImage"),
                 "summaries": summaries,
                 "description": art.get('description', '')
             }
@@ -92,8 +96,8 @@ def run_pipeline():
             all_collected_articles.append(entry)
             print("✅", end="", flush=True)
         category_results[cat] = processed
-        print(f"\n{cat} 완료 ({len(processed)}개)")
 
+    print("\n\n--- 시맨틱 임베딩 생성 시작 ---")
     unique_articles = {a['url']: a for a in all_collected_articles}.values()
     target_articles = list(unique_articles)[:100]
     embedding_results = []
@@ -113,7 +117,7 @@ def run_pipeline():
         with open(f"{p}/embedding.json", "w", encoding="utf-8") as f:
             json.dump(embedding_results, f, ensure_ascii=False)
             
-    print(f"\n✨ 완료! 총 데이터: {len(embedding_results)}개")
+    print(f"\n✨ 완료! 소요시간: {int(time.time() - start_time)}초")
 
 if __name__ == "__main__":
     run_pipeline()
